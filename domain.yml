@@ -5,29 +5,82 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - add_element
+  - remove_element
+  - get_element_quantity
+  - look_list
+
+entities:
+  - element
+  - quantity
+  - list
+
+actions:
+  - action_submit
+  - utter_greet
+  - utter_goodbye
+  - utter_noworries
+  - utter_add_element
+  - utter_set_element_quantity
+  - utter_remove_element
+  - utter_look_list
+  - utter_thanks
+
+
+slots:
+  element:
+    type: text
+    influence_conversation: true
+  quantity:
+    type: float
+    influence_conversation: true
+  list_entry:
+    type: text
+    influence_conversation: false
+  list:
+    type: text
+    influence_conversation: false
+
+forms:
+  element_form:
+    required_slots:
+      element:
+        - type: from_entity
+          entity: element
+      quantity:
+        - type: from_entity
+          entity: quantity
+
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  - text: "Hi. What do you need?"
+  - text: "Hello! What can I add or remove from your list?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Talk to you later!"
+  - text: "Have a good day."
+  - text: "Until next time!"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_noworries:
+  - text: "My pleasure."
+  - text: "You are welcome!"
+
+  utter_thanks:
+  - text: "Ok. Thank you!"
+
+  utter_add_element:
+  - text: "Ok, how many of it do you want to add?"
+  - text: "How many do you want?"
+
+  utter_set_element_quantity:
+  - text: "Ok, I added it to the list"
+
+  utter_remove_element:
+  - text: "Ok, I remove it from the list"
+
+
+
 
 session_config:
   session_expiration_time: 60

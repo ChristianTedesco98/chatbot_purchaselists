@@ -1,5 +1,31 @@
 version: "2.0"
 
+
+#
+#egg, eggs, 
+#book, books, 
+#sausage, sausages, 
+#tomato, tomatoes,
+#potato, potatoes,
+#pen, pens,
+#newspaper, newspapers,
+#shirt, shirts,
+#candy, candies,
+#pizza, pizzas,
+#pair of shoes,
+#pair of jeans,
+#pair of sunglasses,
+#bracelet, bracelets,
+#headphone, headphones,
+#water bootle, water bottles,
+#wine bottle, wine bottles,
+#beer, beers,
+#pack of flour
+#
+
+
+
+
 nlu:
 - intent: greet
   examples: |
@@ -50,43 +76,327 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
 
-- intent: mood_unhappy
+- intent: add_element
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    -I would like to add 11 (element)
+    -i would like to add 12 (element) 
+    -I would like to add 21 (element)
+    -i would like to add 22 (element)
+    -I would like to add 31 (element)
+    -i would like to add 32 (element) 
+    -I would like to add 41 (element)
+    -i would like to add 42 (element)
+    -I'd like to add 11 (element)
+    -I'd like to add 21 (element)
+    -I'd like to add 31 (element)
+    -I'd like to add 41 (element)
+    -If you please add 12 (element)
+    -If you please add 22 (element)
+    -If you please add 32 (element)
+    -If you please add 42 (element)
+    -If you would please add 11 (element)
+    -If you would please add 21 (element)
+    -If you would please add 31 (element)
+    -If you would please add 41 (element)
+    -If you'd like to add 12 (element)
+    -If you'd like to add 22 (element)
+    -If you'd like to add 32 (element)
+    -If you'd like to add 42 (element)
+    -If you could please add 11 (element)
+    -If you could please add 21 (element)
+    -If you could please add 31 (element)
+    -If you could please add 41 (element)
+    -Put on the list 11 (element)
+    -Put on the list 21 (element)
+    -Put on the list 31 (element)
+    -Put on the list 41 (element)
+    -Please put on the list 12(element)
+    -Please put on the list 22(element)
+    -Please put on the list 32(element)
+    -Please put on the list 22(element)
+    -Put 11 (element)in the list
+    -Put 21 (element)in the list
+    -Put 31 (element)in the list
+    -Put 41 (element)in the list
+    -Could you put 12 (element) in the list?
+    -Could you put 22 (element) in the list?
+    -Could you put 32 (element) in the list?
+    -Could you put 42 (element) in the list?
+    -Could you add 11 (element) to the list?
+    -Could you add 21 (element) to the list?
+    -Could you add 31 (element) to the list?
+    -Could you add 41 (element) to the list?
+    -I would like to include 11 (element)
+    -I would like to include 21 (element)
+    -I would like to include 31 (element)
+    -I would like to include 41 (element)
+    -I would like to include 12 (element) in the list
+    -I would like to include 22 (element) in the list
+    -I would like to include 32 (element) in the list
+    -I would like to include 42 (element) in the list
+    -I'd like to include 11 (element)
+    -I'd like to include 21 (element)
+    -I'd like to include 31 (element)
+    -I'd like to include 41 (element)
+    -I'd like to include 12 (element) in the list
+    -I'd like to include 22 (element) in the list
+    -I'd like to include 32 (element) in the list
+    -I'd like to include 42 (element) in the list
+    -i'd like to add 11 (element)
+    -i'd like to add 21 (element)
+    -i'd like to add 31 (element)
+    -i'd like to add 41 (element)
+    -if you please add 12 (element)
+    -if you please add 22 (element)
+    -if you please add 32 (element)
+    -if you please add 42 (element)
+    -if you would please add 11 (element)
+    -if you would please add 21 (element)
+    -if you would please add 31 (element)
+    -if you would please add 41 (element)
+    -if you'd like to add 12 (element)
+    -if you'd like to add 22 (element)
+    -if you'd like to add 32 (element)
+    -if you'd like to add 42 (element)
+    -if you could please add 11 (element)
+    -if you could please add 21 (element)
+    -if you could please add 31 (element)
+    -if you could please add 41 (element)
+    -put on the list 12 (element)
+    -put on the list 22 (element)
+    -put on the list 32 (element)
+    -put on the list 42 (element)
+    -please put on the list 11 (element)
+    -please put on the list 21 (element)
+    -please put on the list 31 (element)
+    -please put on the list 41 (element)
+    -put 11 (element) in the list
+    -put 21 (element) in the list
+    -put 31 (element) in the list  
+    -put 41 (element) in the list 
+    -could you put 12 (element) in the list?
+    -could you put 22 (element) in the list?
+    -could you put 32 (element) in the list?
+    -could you put 42 (element) in the list?
+    -could you add 11 (element) to the list?
+    -could you add 21 (element) to the list?
+    -could you add 31 (element) to the list?
+    -could you add 41 (element) to the list?
+    -i would like to include 11(element)
+    -i would like to include 21(element)
+    -i would like to include 31(element)
+    -i would like to include 41(element)
+    -i would like to include 12 (element) in the list
+    -i would like to include 22 (element) in the list
+    -i would like to include 32 (element) in the list
+    -i would like to include 42 (element) in the list
+    -i'd like to include 11(element)
+    -i'd like to include 21(element)
+    -i'd like to include 31(element)
+    -i'd like to include 41(element)
+    -i'd like to include 12 (element) in the list
+    -i'd like to include 22 (element) in the list
+    -i'd like to include 42 (element) in the list
+    -Add 11 (element) to the list
+    -Add 21 (element) to the list
+    -Add 41 (element) to the list
+    -add 12 (element) to the list  
+    -add 22 (element) to the list  
+    -add 42 (element) to the list
+    -I would like to buy 11 (element)
+    -I would like to buy 21 (element)
+    -I would like to buy 41 (element)
+    -I need so 12 (element)
+    -I need so 22 (element)
+    -I need so 42 (element)
+    -I'd like to buy 11 (element)
+    -I'd like to buy 21 (element)
+    -I'd like to buy 41 (element)
+    -i would like to buy 12 (element)
+    -i would like to buy 22 (element)
+    -i would like to buy 42 (element)
+    -i need so 11 (element)
+    -i need so 21 (element)
+    -i need so 41 (element)
+    -i'd like to buy 12(element)
+    -i'd like to buy 22(element)
+    -i'd like to buy 42(element)
+    -Add 11 (element)
+    -Add 21 (element)
+    -Add 41 (element)
+    -add 12(element)
+    -add 42(element)
+    -I want to buy 11(element)
+    -I want to buy 21(element)
+    -I want to buy 41(element)
+    -I need 12 (element)
+    -I need 22 (element)
+    -I need 42 (element)
+    -i want to buy 11 (element)
+    -i want to buy 21 (element)
+    -i want to buy 41 (element)
+    -i need 12 (element)
+    -i need 22 (element)
+    -i need 42 (element)
+    -Insert 11 (element)
+    -Insert 21 (element)
+    -insert 12 (element)
+    -insert 22 (element)
+    -I have finished 12(element)
+    -I have finished 22(element)
+    -I need to add 11 (element)
+    -I need to add 21 (element)
+    -i have finished 12(element)
+    -i have finished 22(element)
+    -i need to add 11 (element)
+    -i need to add 21 (element)
+    -Can you add 12(element), please?
+    -Can you add 22(element), please?
+    -I want to add 11(element)
+    -I want to add 21(element)
+    -I have to add 12 (element)
+    -I have to add 22 (element)
+    -I need to insert 11 (element)
+    -I need to insert 21 (element)
+    -i want to add 12(element)
+    -i want to add 22(element)
+    -i have to add 11 (element)
+    -i have to add 21 (element)
+    -i need to insert 12(element)
+    -i need to insert 22(element)
+    -Can you insert 11 (element), please?
+    -Can you insert 21 (element), please?
+    -I'd like to insert 12 (element)
+    -I'd like to insert 22 (element)
+    -I want to insert 11 (element)
+    -I want to insert 21 (element)
+    -I have to insert 12 (element)
+    -I have to insert 22 (element)
+    -i'd like to insert 11(element)
+    -i'd like to insert 21(element)
+    -i want to insert 11(element)
+    -i want to insert 21(element)
+    -i have to insert 12 (element)
+    -i have to insert 22 (element)
+    -Buy 11 (element)
+    -Buy 21 (element)
+    -buy 12 (element)
+    -buy 22 (element)
+    -I would like to put 11 (element) in the list
+    -I would like to put 21 (element) in the list
+    -I would like to buy 12 (element)
+    -I would like to buy 22 (element)
+    -I'd like to put 11 (element) in the list
+    -I'd like to put 21 (element) in the list
+    -Can you put 12 (element) in the list?
+    -Can you put 22 (element) in the list?
+    -I have to put 11 (element) in the list
+    -I have to put 21 (element) in the list
+    -i want to put 12 (element) in the list
+    -i want to put 22 (element) in the list
+    -i would like to insert 12 (element)
+    -i would like to insert 22 (element)
+    
+  
+  
+- intent: remove_element
+  examples: |
+    -Can you remove 11 (element)?
+    -Can you take off 12 (element)?
+    -You can take off 11 (element)
+    -Could you please remove 12 (element)?
+    -Could you take off 11 (element)?
+    -Could you take away 12 (element)?
+    -Can you remove 11 (element) from the list?
+    -Can you take off 12 (element) from the list?
+    -Could you please remove 11 (element) from the list?
+    -Could you take off 11 (element) from the list?
+    -Could you take away 12 (element) from the list?
+    -Remove 11 (element) from the list
+    -remove 12 (element)
+    -I don't want to buy 11(element)
+    -I don't want 12 (element)
+    -I don't need 11 (element) anymore
+    -Cancel 11(element)
+    -cancel 12 (element)
+    -Remove 11 (element)
+    -remove 12 (element)
+    -Delete 11 (element)
+    -delete 12 (element)
+    -Pull out 11(element) from the list
+    -pull out 12 (element) from the the list
+    -I want to remove 11(element)
+    -I want to delete 12 (element)
+    -I want to pull out 11 (element) from the list
+    -I would like to add 12(element)
+    -I would like to insert 11 (element)
+    -I would like to pull out 12 (element) from the list
+    -I'd like to remove 11 (element)
+    -I'd like to delete 12 (element)
+    -I'd like to pull out 11 (element) from the list
+    -I need to remove 12 (element)
+    -I need to delete 11 (element)
+    -Can you remove 11 (element), please?
+    -Can you delete 12 (element), please?
+    -Can you pull out 11 (element) from the list?
+    -I have to pull out 12 (element) from the list
+    -i want to remove 11 (element)
+    -i want to delete 12 (element)
+    -i want to pull out 11 (element) from the list
+    -i would like to remove 11 (element)
+    -i would like to delete 12 (element)
+    -i would like to pull out 11 (element) from the list
+    -i'd like to delete 11 (element)
+    -i'd like to remove 12 (element)
+    -i'd like to pull out 11 (element) from the list
+    -i need to remove 12 (element)
+    -i need to delete 11 (element)
+    -can you remove 12 (element), please?
+    -can you delete 11 (element) from the list?
+    -can you pull out 11 (element) from the list?
+    -i have to pull out 12 (element) from the list
+    -I need to take off 11 (element)
+    -Can you take off 12 (element), please?
+    -I'd like to take off 11 (element)
+    -I want to take off 12 (element) 
+    -I have to take off 11 (element)
+      
 
-- intent: bot_challenge
+
+
+- intent: get_element_quantity
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    -I need(quantity)
+    -I want(quantity)
+    -I would like(quantity) of it
+    -I'd like(quantity)
+    -i need(quantity)
+    -i want(quantity)
+    -i would like(quantity) of it
+    -i'd like(quantity)
+    -Add(quantity)
+    -add(quantity)
+    -put(quantity)
+    -Put(quantity)
+    -Insert(quantity)
+    -insert(quantity)
+    -(quantity) of it
+    -(quantity)
+    -Can you add(quantity), please?
+    -I need to add(quantity)
+    -I'd like to add(quantity)
+    -I want to add(quantity)
+    -I have to add(quantity)
+    -I need to insert(quantity)
+    -Can you insert(quantity), please?
+    -I'd like to insert(quantity)
+    -I want to insert(quantity)
+    -I have to insert(quantity)
+    -I want(quantity) of it
+    -I would like(quantity)
+    -(quantity), please
+    -(quantity), thanks
+
+
+
