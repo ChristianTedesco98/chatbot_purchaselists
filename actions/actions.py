@@ -5,23 +5,47 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-# This is a simple example for a custom action which utters "Hello World!"
+from typing import Any, Text, Dict, List
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
+
+DATA = {
+    'List1' : {
+    }
+}
+
+class AddElement(Action):
+
+    def name(self) -> Text:
+        return "utter_add_element"
+    
+    def write_file():
+        f = open("test.txt", "w")
+        f.write("Something saved")
+        f.close()
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        element = tracker.get_slot("element")
+        quantity = tracker.get_slot("quantity")
+
+        print("\nElement:",element)
+        print("Quantity:",quantity)
+
+        for list in DATA:
+            if element in list:
+                old_quantity = list[element]
+                new_quantity = old_quantity + quantity
+                list[element] = new_quantity
+            else:
+                list[element] = quantity
+        
+        self.write_file()
+        
+        dispatcher.utter_message(text="List updated.") 
+
+        return []

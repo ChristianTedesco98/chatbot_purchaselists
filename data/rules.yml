@@ -7,7 +7,19 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Activate add element form
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: add_element
+  - action: utter_get_element_quantity
+  - action: add_element_form
+  - active_loop: add_element_form
+
+- rule: Add element
+  condition:
+  - active_loop: add_element_form
+  steps:
+  - action: add_element_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_add_element

@@ -41,7 +41,6 @@ nlu:
     - hey dude
     - goodmorning
     - goodevening
-    - good afternoon
 
 - intent: goodbye
   examples: |
@@ -79,1302 +78,1302 @@ nlu:
 
 - intent: add_element
   examples: |
-    -I would like to add 11 (element)
-    -I would like to add 21 (element)
-    -I would like to add 31 (element)
-    -I would like to add 41 (element)
-    -I would like to add 12 (element)
-    -I would like to add 22 (element)
-    -I would like to add 32 (element)
-    -I would like to add 42 (element)
-    -i would like to add 11 (element) 
-    -i would like to add 21 (element)
-    -i would like to add 31 (element)
-    -i would like to add 41 (element)
-    -i would like to add 12 (element) 
-    -i would like to add 22 (element)
-    -i would like to add 32 (element)
-    -i would like to add 42 (element)
-    -I'd like to add 11 (element)
-    -I'd like to add 21 (element)
-    -I'd like to add 31 (element)
-    -I'd like to add 41 (element)
-    -I'd like to add 12 (element)
-    -I'd like to add 22 (element)
-    -I'd like to add 32 (element)
-    -I'd like to add 42 (element)
-    -If you please add 11 (element)
-    -If you please add 21 (element)
-    -If you please add 31 (element)
-    -If you please add 41 (element)
-    -If you please add 12 (element)
-    -If you please add 22 (element)
-    -If you please add 32 (element)
-    -If you please add 42 (element)
-    -If you would please add 11 (element)
-    -If you would please add 21 (element)
-    -If you would please add 31 (element)
-    -If you would please add 41 (element)
-    -If you would please add 12 (element)
-    -If you would please add 22 (element)
-    -If you would please add 32 (element)
-    -If you would please add 42 (element)
-    -If you'd like to add 11 (element)
-    -If you'd like to add 21 (element)
-    -If you'd like to add 31 (element)
-    -If you'd like to add 41 (element)
-    -If you'd like to add 12 (element)
-    -If you'd like to add 22 (element)
-    -If you'd like to add 32 (element)
-    -If you'd like to add 42 (element)
-    -If you could please add 11 (element)
-    -If you could please add 21 (element)
-    -If you could please add 31 (element)
-    -If you could please add 41 (element)
-    -If you could please add 12 (element)
-    -If you could please add 22 (element)
-    -If you could please add 32 (element)
-    -If you could please add 42 (element)
-    -Put on the list 11 (element)
-    -Put on the list 21 (element)
-    -Put on the list 31 (element)
-    -Put on the list 41 (element)
-    -Put on the list 12 (element)
-    -Put on the list 22 (element)
-    -Put on the list 32 (element)
-    -Put on the list 42 (element)
-    -Please put on the list 11(element)
-    -Please put on the list 21(element)
-    -Please put on the list 31(element)
-    -Please put on the list 21(element)
-    -Please put on the list 12(element)
-    -Please put on the list 22(element)
-    -Please put on the list 32(element)
-    -Please put on the list 22(element)
-    -Put 11 (element)in the list
-    -Put 21 (element)in the list
-    -Put 31 (element)in the list
-    -Put 41 (element)in the list
-    -Put 12 (element)in the list
-    -Put 22 (element)in the list
-    -Put 32 (element)in the list
-    -Put 42 (element)in the list
-    -Could you put 11 (element) in the list?
-    -Could you put 21 (element) in the list?
-    -Could you put 31 (element) in the list?
-    -Could you put 41 (element) in the list?
-    -Could you put 12 (element) in the list?
-    -Could you put 22 (element) in the list?
-    -Could you put 32 (element) in the list?
-    -Could you put 42 (element) in the list?
-    -Could you add 11 (element) to the list?
-    -Could you add 21 (element) to the list?
-    -Could you add 31 (element) to the list?
-    -Could you add 41 (element) to the list?
-    -Could you add 12 (element) to the list?
-    -Could you add 22 (element) to the list?
-    -Could you add 32 (element) to the list?
-    -Could you add 42 (element) to the list?
-    -I would like to include 11 (element)
-    -I would like to include 21 (element)
-    -I would like to include 31 (element)
-    -I would like to include 41 (element)
-    -I would like to include 12 (element)
-    -I would like to include 22 (element)
-    -I would like to include 32 (element)
-    -I would like to include 42 (element)
-    -I would like to include 11 (element) in the list
-    -I would like to include 21 (element) in the list
-    -I would like to include 31 (element) in the list
-    -I would like to include 41 (element) in the list
-    -I would like to include 12 (element) in the list
-    -I would like to include 22 (element) in the list
-    -I would like to include 32 (element) in the list
-    -I would like to include 42 (element) in the list
-    -I'd like to include 11 (element)
-    -I'd like to include 21 (element)
-    -I'd like to include 31 (element)
-    -I'd like to include 41 (element)
-    -I'd like to include 12 (element)
-    -I'd like to include 22 (element)
-    -I'd like to include 32 (element)
-    -I'd like to include 42 (element)
-    -I'd like to include 11 (element) in the list
-    -I'd like to include 21 (element) in the list
-    -I'd like to include 31 (element) in the list
-    -I'd like to include 41 (element) in the list
-    -I'd like to include 12 (element) in the list
-    -I'd like to include 22 (element) in the list
-    -I'd like to include 32 (element) in the list
-    -I'd like to include 42 (element) in the list
-    -i'd like to add 11 (element)
-    -i'd like to add 21 (element)
-    -i'd like to add 31 (element)
-    -i'd like to add 41 (element)
-    -i'd like to add 12 (element)
-    -i'd like to add 22 (element)
-    -i'd like to add 32 (element)
-    -i'd like to add 42 (element)
-    -if you please add 11 (element)
-    -if you please add 21 (element)
-    -if you please add 31 (element)
-    -if you please add 41 (element)
-    -if you please add 12 (element)
-    -if you please add 22 (element)
-    -if you please add 32 (element)
-    -if you please add 42 (element)
-    -if you would please add 11 (element)
-    -if you would please add 21 (element)
-    -if you would please add 31 (element)
-    -if you would please add 41 (element)
-    -if you would please add 12 (element)
-    -if you would please add 22 (element)
-    -if you would please add 32 (element)
-    -if you would please add 42 (element)
-    -if you'd like to add 11 (element)
-    -if you'd like to add 21 (element)
-    -if you'd like to add 31 (element)
-    -if you'd like to add 41 (element)
-    -if you'd like to add 12 (element)
-    -if you'd like to add 22 (element)
-    -if you'd like to add 32 (element)
-    -if you'd like to add 42 (element)
-    -if you could please add 11 (element)
-    -if you could please add 21 (element)
-    -if you could please add 31 (element)
-    -if you could please add 41 (element)
-    -if you could please add 12 (element)
-    -if you could please add 22 (element)
-    -if you could please add 32 (element)
-    -if you could please add 42 (element)
-    -put on the list 11 (element)
-    -put on the list 21 (element)
-    -put on the list 31 (element)
-    -put on the list 41 (element)
-    -put on the list 12 (element)
-    -put on the list 22 (element)
-    -put on the list 32 (element)
-    -put on the list 42 (element)
-    -please put on the list 11 (element)
-    -please put on the list 21 (element)
-    -please put on the list 31 (element)
-    -please put on the list 41 (element)
-    -please put on the list 12 (element)
-    -please put on the list 22 (element)
-    -please put on the list 32 (element)
-    -please put on the list 42 (element)
-    -put 11 (element) in the list
-    -put 21 (element) in the list
-    -put 31 (element) in the list  
-    -put 41 (element) in the list 
-    -put 12 (element) in the list
-    -put 22 (element) in the list
-    -put 32 (element) in the list  
-    -put 42 (element) in the list 
-    -could you put 11 (element) in the list?
-    -could you put 21 (element) in the list?
-    -could you put 31 (element) in the list?
-    -could you put 41 (element) in the list?
-    -could you put 12 (element) in the list?
-    -could you put 22 (element) in the list?
-    -could you put 32 (element) in the list?
-    -could you put 42 (element) in the list?
-    -could you add 11 (element) to the list?
-    -could you add 21 (element) to the list?
-    -could you add 31 (element) to the list?
-    -could you add 41 (element) to the list?
-    -could you add 12 (element) to the list?
-    -could you add 22 (element) to the list?
-    -could you add 32 (element) to the list?
-    -could you add 42 (element) to the list?
-    -i would like to include 11(element)
-    -i would like to include 21(element)
-    -i would like to include 31(element)
-    -i would like to include 41(element)
-    -i would like to include 12(element)
-    -i would like to include 22(element)
-    -i would like to include 32(element)
-    -i would like to include 42(element)
-    -i would like to include 11 (element) in the list
-    -i would like to include 21 (element) in the list
-    -i would like to include 31 (element) in the list
-    -i would like to include 41 (element) in the list
-    -i would like to include 12 (element) in the list
-    -i would like to include 22 (element) in the list
-    -i would like to include 32 (element) in the list
-    -i would like to include 42 (element) in the list
-    -i'd like to include 11(element)
-    -i'd like to include 21(element)
-    -i'd like to include 31(element)
-    -i'd like to include 41(element)
-    -i'd like to include 12(element)
-    -i'd like to include 22(element)
-    -i'd like to include 32(element)
-    -i'd like to include 42(element)
-    -i'd like to include 11 (element) in the list
-    -i'd like to include 21 (element) in the list
-    -i'd like to include 31 (element) in the list
-    -i'd like to include 41 (element) in the list
-    -i'd like to include 12 (element) in the list
-    -i'd like to include 22 (element) in the list
-    -i'd like to include 32 (element) in the list
-    -i'd like to include 42 (element) in the list
-    -Add 11 (element) to the list
-    -Add 21 (element) to the list
-    -Add 31 (element) to the list
-    -Add 41 (element) to the list
-    -Add 12 (element) to the list
-    -Add 22 (element) to the list
-    -Add 32 (element) to the list
-    -Add 42 (element) to the list
-    -add 11 (element) to the list  
-    -add 21 (element) to the list
-    -add 31 (element) to the list 
-    -add 41 (element) to the list
-    -add 12 (element) to the list  
-    -add 22 (element) to the list
-    -add 32 (element) to the list 
-    -add 42 (element) to the list
-    -I would like to buy 11 (element)
-    -I would like to buy 21 (element)
-    -I would like to buy 31 (element)
-    -I would like to buy 41 (element)
-    -I would like to buy 12 (element)
-    -I would like to buy 22 (element)
-    -I would like to buy 32 (element)
-    -I would like to buy 42 (element)
-    -I need so 11 (element)
-    -I need so 21 (element)
-    -I need so 31 (element)
-    -I need so 41 (element)
-    -I need so 12 (element)
-    -I need so 22 (element)
-    -I need so 32 (element)
-    -I need so 42 (element)
-    -I'd like to buy 11 (element)
-    -I'd like to buy 21 (element)
-    -I'd like to buy 31 (element)
-    -I'd like to buy 41 (element)
-    -I'd like to buy 12 (element)
-    -I'd like to buy 22 (element)
-    -I'd like to buy 32 (element)
-    -I'd like to buy 42 (element)
-    -i would like to buy 12 (element)
-    -i would like to buy 22 (element)
-    -i would like to buy 32 (element)
-    -i would like to buy 42 (element)
-    -i would like to buy 12 (element)
-    -i would like to buy 22 (element)
-    -i would like to buy 32 (element)
-    -i would like to buy 42 (element)
-    -i need so 11 (element)
-    -i need so 21 (element)
-    -i need so 31 (element)
-    -i need so 41 (element)
-    -i need so 12 (element)
-    -i need so 22 (element)
-    -i need so 32 (element)
-    -i need so 42 (element)
-    -i'd like to buy 11(element)
-    -i'd like to buy 21(element)
-    -i'd like to buy 31(element)
-    -i'd like to buy 41(element)
-    -i'd like to buy 12(element)
-    -i'd like to buy 22(element)
-    -i'd like to buy 32(element)
-    -i'd like to buy 42(element)
-    -Add 11 (element)
-    -Add 21 (element)
-    -Add 31 (element)
-    -Add 41 (element)
-    -Add 12 (element)
-    -Add 22 (element)
-    -Add 32 (element)
-    -Add 42 (element)
-    -add 11(element)
-    -add 21(element)
-    -add 31(element)
-    -add 41(element)
-    -add 12(element)
-    -add 22(element)
-    -add 32(element)
-    -add 42(element)
-    -I want to buy 11(element)
-    -I want to buy 21(element)
-    -I want to buy 31(element)
-    -I want to buy 41(element)
-    -I want to buy 12(element)
-    -I want to buy 22(element)
-    -I want to buy 32(element)
-    -I want to buy 42(element)
-    -I need 11 (element)
-    -I need 21 (element)
-    -I need 31 (element)
-    -I need 41 (element)
-    -I need 12 (element)
-    -I need 22 (element)
-    -I need 32 (element)
-    -I need 42 (element)
-    -i want to buy 11 (element)
-    -i want to buy 21 (element)
-    -i want to buy 31 (element)
-    -i want to buy 41 (element)
-    -i want to buy 12 (element)
-    -i want to buy 22 (element)
-    -i want to buy 32 (element)
-    -i want to buy 42 (element)
-    -i need 11 (element)
-    -i need 21 (element)
-    -i need 31 (element)
-    -i need 41 (element)
-    -i need 12 (element)
-    -i need 22 (element)
-    -i need 32 (element)
-    -i need 42 (element)
-    -Insert 11 (element)
-    -Insert 21 (element)
-    -Insert 31 (element)
-    -Insert 41 (element)
-    -Insert 12 (element)
-    -Insert 22 (element)
-    -Insert 32 (element)
-    -Insert 42 (element)
-    -insert 11 (element)
-    -insert 21 (element)
-    -insert 31 (element)
-    -insert 41 (element)
-    -insert 12 (element)
-    -insert 22 (element)
-    -insert 32 (element)
-    -insert 42 (element)
-    -I have finished 11(element)
-    -I have finished 21(element)
-    -I have finished 31(element)
-    -I have finished 41(element)
-    -I have finished 12(element)
-    -I have finished 22(element)
-    -I have finished 32(element)
-    -I have finished 42(element)
-    -I need to add 11 (element)
-    -I need to add 21 (element)
-    -I need to add 31 (element)
-    -I need to add 41 (element)
-    -I need to add 12 (element)
-    -I need to add 22 (element)
-    -I need to add 32 (element)
-    -I need to add 42 (element)
-    -i have finished 11(element)
-    -i have finished 21(element)
-    -i have finished 31(element)
-    -i have finished 41(element)
-    -i have finished 12(element)
-    -i have finished 22(element)
-    -i have finished 32(element)
-    -i have finished 42(element)
-    -i need to add 11 (element)
-    -i need to add 21 (element)
-    -i need to add 31 (element)
-    -i need to add 41 (element)
-    -i need to add 12 (element)
-    -i need to add 22 (element)
-    -i need to add 32 (element)
-    -i need to add 42 (element)
-    -Can you add 11(element), please?
-    -Can you add 21(element), please?
-    -Can you add 31(element), please?
-    -Can you add 41(element), please?
-    -Can you add 12(element), please?
-    -Can you add 22(element), please?
-    -Can you add 32(element), please?
-    -Can you add 42(element), please?
-    -I want to add 11(element)
-    -I want to add 21(element)
-    -I want to add 31(element)
-    -I want to add 41(element)
-    -I want to add 12(element)
-    -I want to add 22(element)
-    -I want to add 32(element)
-    -I want to add 42(element)
-    -I have to add 11(element)
-    -I have to add 21(element)
-    -I have to add 31(element)
-    -I have to add 41(element)
-    -I have to add 12(element)
-    -I have to add 22(element)
-    -I have to add 32(element)
-    -I have to add 42(element)
-    -I need to insert 11(element)
-    -I need to insert 21(element)
-    -I need to insert 31(element)
-    -I need to insert 41(element)
-    -I need to insert 12(element)
-    -I need to insert 22(element)
-    -I need to insert 32(element)
-    -I need to insert 42(element)
-    -i want to add 11(element)
-    -i want to add 21(element)
-    -i want to add 31(element)
-    -i want to add 41(element)
-    -i want to add 12(element)
-    -i want to add 22(element)
-    -i want to add 32(element)
-    -i want to add 42(element)
-    -i have to add 11(element)
-    -i have to add 21(element)
-    -i have to add 31(element)
-    -i have to add 41(element)
-    -i have to add 12(element)
-    -i have to add 22(element)
-    -i have to add 32(element)
-    -i have to add 42(element)
-    -i need to insert 11(element)
-    -i need to insert 21(element)
-    -i need to insert 31(element)
-    -i need to insert 41(element)
-    -i need to insert 12(element)
-    -i need to insert 22(element)
-    -i need to insert 32(element)
-    -i need to insert 42(element)
-    -Can you insert 11(element), please?
-    -Can you insert 21(element), please?
-    -Can you insert 31(element), please?
-    -Can you insert 41(element), please?
-    -Can you insert 12(element), please?
-    -Can you insert 22(element), please?
-    -Can you insert 32(element), please?
-    -Can you insert 42(element), please?
-    -I'd like to insert 11(element)
-    -I'd like to insert 21(element)
-    -I'd like to insert 31(element)
-    -I'd like to insert 41(element)
-    -I'd like to insert 12(element)
-    -I'd like to insert 22(element)
-    -I'd like to insert 32(element)
-    -I'd like to insert 42(element)
-    -I want to insert 11(element)
-    -I want to insert 21(element)
-    -I want to insert 31(element)
-    -I want to insert 41(element)
-    -I want to insert 12(element)
-    -I want to insert 22(element)
-    -I want to insert 32(element)
-    -I want to insert 42(element)
-    -I have to insert 11(element)
-    -I have to insert 21(element)
-    -I have to insert 31(element)
-    -I have to insert 41(element)
-    -I have to insert 12(element)
-    -I have to insert 22(element)
-    -I have to insert 32(element)
-    -I have to insert 42(element)
-    -i'd like to insert 11(element)
-    -i'd like to insert 21(element)
-    -i'd like to insert 31(element)
-    -i'd like to insert 41(element)
-    -i'd like to insert 12(element)
-    -i'd like to insert 22(element)
-    -i'd like to insert 32(element)
-    -i'd like to insert 42(element)
-    -i want to insert 11(element)
-    -i want to insert 21(element)
-    -i want to insert 31(element)
-    -i want to insert 41(element)
-    -i have to insert 12(element)
-    -i have to insert 22(element)
-    -i have to insert 32(element)
-    -i have to insert 42(element)
-    -Buy 11(element)
-    -Buy 21(element)
-    -Buy 31(element)
-    -Buy 41(element)
-    -Buy 12(element)
-    -Buy 22(element)
-    -Buy 32(element)
-    -Buy 42(element)
-    -buy 11(element)
-    -buy 21(element)
-    -buy 31(element)
-    -buy 41(element)
-    -buy 12(element)
-    -buy 22(element)
-    -buy 32(element)
-    -buy 42(element)
-    -I would like to put 11(element) in the list
-    -I would like to put 21(element) in the list
-    -I would like to put 31(element) in the list
-    -I would like to put 41(element) in the list
-    -I would like to put 12(element) in the list
-    -I would like to put 22(element) in the list
-    -I would like to put 32(element) in the list
-    -I would like to put 42(element) in the list
-    -I would like to buy 11(element)
-    -I would like to buy 21(element)
-    -I would like to buy 31(element)
-    -I would like to buy 41(element)
-    -I would like to buy 12(element)
-    -I would like to buy 22(element)
-    -I would like to buy 32(element)
-    -I would like to buy 42(element)
-    -I'd like to put 11(element) in the list
-    -I'd like to put 21(element) in the list
-    -I'd like to put 31(element) in the list
-    -I'd like to put 41(element) in the list
-    -I'd like to put 12(element) in the list
-    -I'd like to put 22(element) in the list
-    -I'd like to put 32(element) in the list
-    -I'd like to put 42(element) in the list
-    -Can you put 11(element) in the list?
-    -Can you put 21(element) in the list?
-    -Can you put 31(element) in the list?
-    -Can you put 41(element) in the list?
-    -Can you put 12(element) in the list?
-    -Can you put 22(element) in the list?
-    -Can you put 32(element) in the list?
-    -Can you put 42(element) in the list?
-    -I have to put 11(element) in the list
-    -I have to put 21(element) in the list
-    -I have to put 31(element) in the list
-    -I have to put 41(element) in the list
-    -I have to put 12(element) in the list
-    -I have to put 22(element) in the list
-    -I have to put 32(element) in the list
-    -I have to put 42(element) in the list
-    -i want to put 11(element) in the list
-    -i want to put 21(element) in the list
-    -i want to put 31(element) in the list
-    -i want to put 41(element) in the list
-    -i want to put 12(element) in the list
-    -i want to put 22(element) in the list
-    -i want to put 32(element) in the list
-    -i want to put 42(element) in the list
-    -i would like to insert 11(element)
-    -i would like to insert 21(element)
-    -i would like to insert 31(element)
-    -i would like to insert 41(element)
-    -i would like to insert 12(element)
-    -i would like to insert 22(element)
-    -i would like to insert 32(element)
-    -i would like to insert 42(element)
+    -I would like to add [egg] (element)
+    -I would like to add [book] (element)
+    -I would like to add [sausage] (element)
+    -I would like to add [tomato] (element)
+    -I would like to add [eggs] (element)
+    -I would like to add [books] (element)
+    -I would like to add [sausages] (element)
+    -I would like to add [tomatoes] (element)
+    -i would like to add [egg] (element) 
+    -i would like to add [book] (element)
+    -i would like to add [sausage] (element)
+    -i would like to add [tomato] (element)
+    -i would like to add [eggs] (element) 
+    -i would like to add [books] (element)
+    -i would like to add [sausages] (element)
+    -i would like to add [tomatoes] (element)
+    -I'd like to add [egg] (element)
+    -I'd like to add [book] (element)
+    -I'd like to add [sausage] (element)
+    -I'd like to add [tomato] (element)
+    -I'd like to add [eggs] (element)
+    -I'd like to add [books] (element)
+    -I'd like to add [sausages] (element)
+    -I'd like to add [tomatoes] (element)
+    -If you please add [egg] (element)
+    -If you please add [book] (element)
+    -If you please add [sausage] (element)
+    -If you please add [tomato] (element)
+    -If you please add [eggs] (element)
+    -If you please add [books] (element)
+    -If you please add [sausages] (element)
+    -If you please add [tomatoes] (element)
+    -If you would please add [egg] (element)
+    -If you would please add [book] (element)
+    -If you would please add [sausage] (element)
+    -If you would please add [tomato] (element)
+    -If you would please add [eggs] (element)
+    -If you would please add [books] (element)
+    -If you would please add [sausages] (element)
+    -If you would please add [tomatoes] (element)
+    -If you'd like to add [egg] (element)
+    -If you'd like to add [book] (element)
+    -If you'd like to add [sausage] (element)
+    -If you'd like to add [tomato] (element)
+    -If you'd like to add [eggs] (element)
+    -If you'd like to add [books] (element)
+    -If you'd like to add [sausages] (element)
+    -If you'd like to add [tomatoes] (element)
+    -If you could please add [egg] (element)
+    -If you could please add [book] (element)
+    -If you could please add [sausage] (element)
+    -If you could please add [tomato] (element)
+    -If you could please add [eggs] (element)
+    -If you could please add [books] (element)
+    -If you could please add [sausages] (element)
+    -If you could please add [tomatoes] (element)
+    -Put on the list [egg] (element)
+    -Put on the list [book] (element)
+    -Put on the list [sausage] (element)
+    -Put on the list [tomato] (element)
+    -Put on the list [eggs] (element)
+    -Put on the list [books] (element)
+    -Put on the list [sausages] (element)
+    -Put on the list [tomatoes] (element)
+    -Please put on the list [egg](element)
+    -Please put on the list [book](element)
+    -Please put on the list [sausage](element)
+    -Please put on the list [book](element)
+    -Please put on the list [eggs](element)
+    -Please put on the list [books](element)
+    -Please put on the list [sausages](element)
+    -Please put on the list [books](element)
+    -Put [egg] (element)in the list
+    -Put [book] (element)in the list
+    -Put [sausage] (element)in the list
+    -Put [tomato] (element)in the list
+    -Put [eggs] (element)in the list
+    -Put [books] (element)in the list
+    -Put [sausages] (element)in the list
+    -Put [tomatoes] (element)in the list
+    -Could you put [egg] (element) in the list?
+    -Could you put [book] (element) in the list?
+    -Could you put [sausage] (element) in the list?
+    -Could you put [tomato] (element) in the list?
+    -Could you put [eggs] (element) in the list?
+    -Could you put [books] (element) in the list?
+    -Could you put [sausages] (element) in the list?
+    -Could you put [tomatoes] (element) in the list?
+    -Could you add [egg] (element) to the list?
+    -Could you add [book] (element) to the list?
+    -Could you add [sausage] (element) to the list?
+    -Could you add [tomato] (element) to the list?
+    -Could you add [eggs] (element) to the list?
+    -Could you add [books] (element) to the list?
+    -Could you add [sausages] (element) to the list?
+    -Could you add [tomatoes] (element) to the list?
+    -I would like to include [egg] (element)
+    -I would like to include [book] (element)
+    -I would like to include [sausage] (element)
+    -I would like to include [tomato] (element)
+    -I would like to include [eggs] (element)
+    -I would like to include [books] (element)
+    -I would like to include [sausages] (element)
+    -I would like to include [tomatoes] (element)
+    -I would like to include [egg] (element) in the list
+    -I would like to include [book] (element) in the list
+    -I would like to include [sausage] (element) in the list
+    -I would like to include [tomato] (element) in the list
+    -I would like to include [eggs] (element) in the list
+    -I would like to include [books] (element) in the list
+    -I would like to include [sausages] (element) in the list
+    -I would like to include [tomatoes] (element) in the list
+    -I'd like to include [egg] (element)
+    -I'd like to include [book] (element)
+    -I'd like to include [sausage] (element)
+    -I'd like to include [tomato] (element)
+    -I'd like to include [eggs] (element)
+    -I'd like to include [books] (element)
+    -I'd like to include [sausages] (element)
+    -I'd like to include [tomatoes] (element)
+    -I'd like to include [egg] (element) in the list
+    -I'd like to include [book] (element) in the list
+    -I'd like to include [sausage] (element) in the list
+    -I'd like to include [tomato] (element) in the list
+    -I'd like to include [eggs] (element) in the list
+    -I'd like to include [books] (element) in the list
+    -I'd like to include [sausages] (element) in the list
+    -I'd like to include [tomatoes] (element) in the list
+    -i'd like to add [egg] (element)
+    -i'd like to add [book] (element)
+    -i'd like to add [sausage] (element)
+    -i'd like to add [tomato] (element)
+    -i'd like to add [eggs] (element)
+    -i'd like to add [books] (element)
+    -i'd like to add [sausages] (element)
+    -i'd like to add [tomatoes] (element)
+    -if you please add [egg] (element)
+    -if you please add [book] (element)
+    -if you please add [sausage] (element)
+    -if you please add [tomato] (element)
+    -if you please add [eggs] (element)
+    -if you please add [books] (element)
+    -if you please add [sausages] (element)
+    -if you please add [tomatoes] (element)
+    -if you would please add [egg] (element)
+    -if you would please add [book] (element)
+    -if you would please add [sausage] (element)
+    -if you would please add [tomato] (element)
+    -if you would please add [eggs] (element)
+    -if you would please add [books] (element)
+    -if you would please add [sausages] (element)
+    -if you would please add [tomatoes] (element)
+    -if you'd like to add [egg] (element)
+    -if you'd like to add [book] (element)
+    -if you'd like to add [sausage] (element)
+    -if you'd like to add [tomato] (element)
+    -if you'd like to add [eggs] (element)
+    -if you'd like to add [books] (element)
+    -if you'd like to add [sausages] (element)
+    -if you'd like to add [tomatoes] (element)
+    -if you could please add [egg] (element)
+    -if you could please add [book] (element)
+    -if you could please add [sausage] (element)
+    -if you could please add [tomato] (element)
+    -if you could please add [eggs] (element)
+    -if you could please add [books] (element)
+    -if you could please add [sausages] (element)
+    -if you could please add [tomatoes] (element)
+    -put on the list [egg] (element)
+    -put on the list [book] (element)
+    -put on the list [sausage] (element)
+    -put on the list [tomato] (element)
+    -put on the list [eggs] (element)
+    -put on the list [books] (element)
+    -put on the list [sausages] (element)
+    -put on the list [tomatoes] (element)
+    -please put on the list [egg] (element)
+    -please put on the list [book] (element)
+    -please put on the list [sausage] (element)
+    -please put on the list [tomato] (element)
+    -please put on the list [eggs] (element)
+    -please put on the list [books] (element)
+    -please put on the list [sausages] (element)
+    -please put on the list [tomatoes] (element)
+    -put [egg] (element) in the list
+    -put [book] (element) in the list
+    -put [sausage] (element) in the list  
+    -put [tomato] (element) in the list 
+    -put [eggs] (element) in the list
+    -put [books] (element) in the list
+    -put [sausages] (element) in the list  
+    -put [tomatoes] (element) in the list 
+    -could you put [egg] (element) in the list?
+    -could you put [book] (element) in the list?
+    -could you put [sausage] (element) in the list?
+    -could you put [tomato] (element) in the list?
+    -could you put [eggs] (element) in the list?
+    -could you put [books] (element) in the list?
+    -could you put [sausages] (element) in the list?
+    -could you put [tomatoes] (element) in the list?
+    -could you add [egg] (element) to the list?
+    -could you add [book] (element) to the list?
+    -could you add [sausage] (element) to the list?
+    -could you add [tomato] (element) to the list?
+    -could you add [eggs] (element) to the list?
+    -could you add [books] (element) to the list?
+    -could you add [sausages] (element) to the list?
+    -could you add [tomatoes] (element) to the list?
+    -i would like to include [egg](element)
+    -i would like to include [book](element)
+    -i would like to include [sausage](element)
+    -i would like to include [tomato](element)
+    -i would like to include [eggs](element)
+    -i would like to include [books](element)
+    -i would like to include [sausages](element)
+    -i would like to include [tomatoes](element)
+    -i would like to include [egg] (element) in the list
+    -i would like to include [book] (element) in the list
+    -i would like to include [sausage] (element) in the list
+    -i would like to include [tomato] (element) in the list
+    -i would like to include [eggs] (element) in the list
+    -i would like to include [books] (element) in the list
+    -i would like to include [sausages] (element) in the list
+    -i would like to include [tomatoes] (element) in the list
+    -i'd like to include [egg](element)
+    -i'd like to include [book](element)
+    -i'd like to include [sausage](element)
+    -i'd like to include [tomato](element)
+    -i'd like to include [eggs](element)
+    -i'd like to include [books](element)
+    -i'd like to include [sausages](element)
+    -i'd like to include [tomatoes](element)
+    -i'd like to include [egg] (element) in the list
+    -i'd like to include [book] (element) in the list
+    -i'd like to include [sausage] (element) in the list
+    -i'd like to include [tomato] (element) in the list
+    -i'd like to include [eggs] (element) in the list
+    -i'd like to include [books] (element) in the list
+    -i'd like to include [sausages] (element) in the list
+    -i'd like to include [tomatoes] (element) in the list
+    -Add [egg] (element) to the list
+    -Add [book] (element) to the list
+    -Add [sausage] (element) to the list
+    -Add [tomato] (element) to the list
+    -Add [eggs] (element) to the list
+    -Add [books] (element) to the list
+    -Add [sausages] (element) to the list
+    -Add [tomatoes] (element) to the list
+    -add [egg] (element) to the list  
+    -add [book] (element) to the list
+    -add [sausage] (element) to the list 
+    -add [tomato] (element) to the list
+    -add [eggs] (element) to the list  
+    -add [books] (element) to the list
+    -add [sausages] (element) to the list 
+    -add [tomatoes] (element) to the list
+    -I would like to buy [egg] (element)
+    -I would like to buy [book] (element)
+    -I would like to buy [sausage] (element)
+    -I would like to buy [tomato] (element)
+    -I would like to buy [eggs] (element)
+    -I would like to buy [books] (element)
+    -I would like to buy [sausages] (element)
+    -I would like to buy [tomatoes] (element)
+    -I need so [egg] (element)
+    -I need so [book] (element)
+    -I need so [sausage] (element)
+    -I need so [tomato] (element)
+    -I need so [eggs] (element)
+    -I need so [books] (element)
+    -I need so [sausages] (element)
+    -I need so [tomatoes] (element)
+    -I'd like to buy [egg] (element)
+    -I'd like to buy [book] (element)
+    -I'd like to buy [sausage] (element)
+    -I'd like to buy [tomato] (element)
+    -I'd like to buy [eggs] (element)
+    -I'd like to buy [books] (element)
+    -I'd like to buy [sausages] (element)
+    -I'd like to buy [tomatoes] (element)
+    -i would like to buy [eggs] (element)
+    -i would like to buy [books] (element)
+    -i would like to buy [sausages] (element)
+    -i would like to buy [tomatoes] (element)
+    -i would like to buy [eggs] (element)
+    -i would like to buy [books] (element)
+    -i would like to buy [sausages] (element)
+    -i would like to buy [tomatoes] (element)
+    -i need so [egg] (element)
+    -i need so [book] (element)
+    -i need so [sausage] (element)
+    -i need so [tomato] (element)
+    -i need so [eggs] (element)
+    -i need so [books] (element)
+    -i need so [sausages] (element)
+    -i need so [tomatoes] (element)
+    -i'd like to buy [egg](element)
+    -i'd like to buy [book](element)
+    -i'd like to buy [sausage](element)
+    -i'd like to buy [tomato](element)
+    -i'd like to buy [eggs](element)
+    -i'd like to buy [books](element)
+    -i'd like to buy [sausages](element)
+    -i'd like to buy [tomatoes](element)
+    -Add [egg] (element)
+    -Add [book] (element)
+    -Add [sausage] (element)
+    -Add [tomato] (element)
+    -Add [eggs] (element)
+    -Add [books] (element)
+    -Add [sausages] (element)
+    -Add [tomatoes] (element)
+    -add [egg](element)
+    -add [book](element)
+    -add [sausage](element)
+    -add [tomato](element)
+    -add [eggs](element)
+    -add [books](element)
+    -add [sausages](element)
+    -add [tomatoes](element)
+    -I want to buy [egg](element)
+    -I want to buy [book](element)
+    -I want to buy [sausage](element)
+    -I want to buy [tomato](element)
+    -I want to buy [eggs](element)
+    -I want to buy [books](element)
+    -I want to buy [sausages](element)
+    -I want to buy [tomatoes](element)
+    -I need [egg] (element)
+    -I need [book] (element)
+    -I need [sausage] (element)
+    -I need [tomato] (element)
+    -I need [eggs] (element)
+    -I need [books] (element)
+    -I need [sausages] (element)
+    -I need [tomatoes] (element)
+    -i want to buy [egg] (element)
+    -i want to buy [book] (element)
+    -i want to buy [sausage] (element)
+    -i want to buy [tomato] (element)
+    -i want to buy [eggs] (element)
+    -i want to buy [books] (element)
+    -i want to buy [sausages] (element)
+    -i want to buy [tomatoes] (element)
+    -i need [egg] (element)
+    -i need [book] (element)
+    -i need [sausage] (element)
+    -i need [tomato] (element)
+    -i need [eggs] (element)
+    -i need [books] (element)
+    -i need [sausages] (element)
+    -i need [tomatoes] (element)
+    -Insert [egg] (element)
+    -Insert [book] (element)
+    -Insert [sausage] (element)
+    -Insert [tomato] (element)
+    -Insert [eggs] (element)
+    -Insert [books] (element)
+    -Insert [sausages] (element)
+    -Insert [tomatoes] (element)
+    -insert [egg] (element)
+    -insert [book] (element)
+    -insert [sausage] (element)
+    -insert [tomato] (element)
+    -insert [eggs] (element)
+    -insert [books] (element)
+    -insert [sausages] (element)
+    -insert [tomatoes] (element)
+    -I have finished [egg](element)
+    -I have finished [book](element)
+    -I have finished [sausage](element)
+    -I have finished [tomato](element)
+    -I have finished [eggs](element)
+    -I have finished [books](element)
+    -I have finished [sausages](element)
+    -I have finished [tomatoes](element)
+    -I need to add [egg] (element)
+    -I need to add [book] (element)
+    -I need to add [sausage] (element)
+    -I need to add [tomato] (element)
+    -I need to add [eggs] (element)
+    -I need to add [books] (element)
+    -I need to add [sausages] (element)
+    -I need to add [tomatoes] (element)
+    -i have finished [egg](element)
+    -i have finished [book](element)
+    -i have finished [sausage](element)
+    -i have finished [tomato](element)
+    -i have finished [eggs](element)
+    -i have finished [books](element)
+    -i have finished [sausages](element)
+    -i have finished [tomatoes](element)
+    -i need to add [egg] (element)
+    -i need to add [book] (element)
+    -i need to add [sausage] (element)
+    -i need to add [tomato] (element)
+    -i need to add [eggs] (element)
+    -i need to add [books] (element)
+    -i need to add [sausages] (element)
+    -i need to add [tomatoes] (element)
+    -Can you add [egg](element), please?
+    -Can you add [book](element), please?
+    -Can you add [sausage](element), please?
+    -Can you add [tomato](element), please?
+    -Can you add [eggs](element), please?
+    -Can you add [books](element), please?
+    -Can you add [sausages](element), please?
+    -Can you add [tomatoes](element), please?
+    -I want to add [egg](element)
+    -I want to add [book](element)
+    -I want to add [sausage](element)
+    -I want to add [tomato](element)
+    -I want to add [eggs](element)
+    -I want to add [books](element)
+    -I want to add [sausages](element)
+    -I want to add [tomatoes](element)
+    -I have to add [egg](element)
+    -I have to add [book](element)
+    -I have to add [sausage](element)
+    -I have to add [tomato](element)
+    -I have to add [eggs](element)
+    -I have to add [books](element)
+    -I have to add [sausages](element)
+    -I have to add [tomatoes](element)
+    -I need to insert [egg](element)
+    -I need to insert [book](element)
+    -I need to insert [sausage](element)
+    -I need to insert [tomato](element)
+    -I need to insert [eggs](element)
+    -I need to insert [books](element)
+    -I need to insert [sausages](element)
+    -I need to insert [tomatoes](element)
+    -i want to add [egg](element)
+    -i want to add [book](element)
+    -i want to add [sausage](element)
+    -i want to add [tomato](element)
+    -i want to add [eggs](element)
+    -i want to add [books](element)
+    -i want to add [sausages](element)
+    -i want to add [tomatoes](element)
+    -i have to add [egg](element)
+    -i have to add [book](element)
+    -i have to add [sausage](element)
+    -i have to add [tomato](element)
+    -i have to add [eggs](element)
+    -i have to add [books](element)
+    -i have to add [sausages](element)
+    -i have to add [tomatoes](element)
+    -i need to insert [egg](element)
+    -i need to insert [book](element)
+    -i need to insert [sausage](element)
+    -i need to insert [tomato](element)
+    -i need to insert [eggs](element)
+    -i need to insert [books](element)
+    -i need to insert [sausages](element)
+    -i need to insert [tomatoes](element)
+    -Can you insert [egg](element), please?
+    -Can you insert [book](element), please?
+    -Can you insert [sausage](element), please?
+    -Can you insert [tomato](element), please?
+    -Can you insert [eggs](element), please?
+    -Can you insert [books](element), please?
+    -Can you insert [sausages](element), please?
+    -Can you insert [tomatoes](element), please?
+    -I'd like to insert [egg](element)
+    -I'd like to insert [book](element)
+    -I'd like to insert [sausage](element)
+    -I'd like to insert [tomato](element)
+    -I'd like to insert [eggs](element)
+    -I'd like to insert [books](element)
+    -I'd like to insert [sausages](element)
+    -I'd like to insert [tomatoes](element)
+    -I want to insert [egg](element)
+    -I want to insert [book](element)
+    -I want to insert [sausage](element)
+    -I want to insert [tomato](element)
+    -I want to insert [eggs](element)
+    -I want to insert [books](element)
+    -I want to insert [sausages](element)
+    -I want to insert [tomatoes](element)
+    -I have to insert [egg](element)
+    -I have to insert [book](element)
+    -I have to insert [sausage](element)
+    -I have to insert [tomato](element)
+    -I have to insert [eggs](element)
+    -I have to insert [books](element)
+    -I have to insert [sausages](element)
+    -I have to insert [tomatoes](element)
+    -i'd like to insert [egg](element)
+    -i'd like to insert [book](element)
+    -i'd like to insert [sausage](element)
+    -i'd like to insert [tomato](element)
+    -i'd like to insert [eggs](element)
+    -i'd like to insert [books](element)
+    -i'd like to insert [sausages](element)
+    -i'd like to insert [tomatoes](element)
+    -i want to insert [egg](element)
+    -i want to insert [book](element)
+    -i want to insert [sausage](element)
+    -i want to insert [tomato](element)
+    -i have to insert [eggs](element)
+    -i have to insert [books](element)
+    -i have to insert [sausages](element)
+    -i have to insert [tomatoes](element)
+    -Buy [egg](element)
+    -Buy [book](element)
+    -Buy [sausage](element)
+    -Buy [tomato](element)
+    -Buy [eggs](element)
+    -Buy [books](element)
+    -Buy [sausages](element)
+    -Buy [tomatoes](element)
+    -buy [egg](element)
+    -buy [book](element)
+    -buy [sausage](element)
+    -buy [tomato](element)
+    -buy [eggs](element)
+    -buy [books](element)
+    -buy [sausages](element)
+    -buy [tomatoes](element)
+    -I would like to put [egg](element) in the list
+    -I would like to put [book](element) in the list
+    -I would like to put [sausage](element) in the list
+    -I would like to put [tomato](element) in the list
+    -I would like to put [eggs](element) in the list
+    -I would like to put [books](element) in the list
+    -I would like to put [sausages](element) in the list
+    -I would like to put [tomatoes](element) in the list
+    -I would like to buy [egg](element)
+    -I would like to buy [book](element)
+    -I would like to buy [sausage](element)
+    -I would like to buy [tomato](element)
+    -I would like to buy [eggs](element)
+    -I would like to buy [books](element)
+    -I would like to buy [sausages](element)
+    -I would like to buy [tomatoes](element)
+    -I'd like to put [egg](element) in the list
+    -I'd like to put [book](element) in the list
+    -I'd like to put [sausage](element) in the list
+    -I'd like to put [tomato](element) in the list
+    -I'd like to put [eggs](element) in the list
+    -I'd like to put [books](element) in the list
+    -I'd like to put [sausages](element) in the list
+    -I'd like to put [tomatoes](element) in the list
+    -Can you put [egg](element) in the list?
+    -Can you put [book](element) in the list?
+    -Can you put [sausage](element) in the list?
+    -Can you put [tomato](element) in the list?
+    -Can you put [eggs](element) in the list?
+    -Can you put [books](element) in the list?
+    -Can you put [sausages](element) in the list?
+    -Can you put [tomatoes](element) in the list?
+    -I have to put [egg](element) in the list
+    -I have to put [book](element) in the list
+    -I have to put [sausage](element) in the list
+    -I have to put [tomato](element) in the list
+    -I have to put [eggs](element) in the list
+    -I have to put [books](element) in the list
+    -I have to put [sausages](element) in the list
+    -I have to put [tomatoes](element) in the list
+    -i want to put [egg](element) in the list
+    -i want to put [book](element) in the list
+    -i want to put [sausage](element) in the list
+    -i want to put [tomato](element) in the list
+    -i want to put [eggs](element) in the list
+    -i want to put [books](element) in the list
+    -i want to put [sausages](element) in the list
+    -i want to put [tomatoes](element) in the list
+    -i would like to insert [egg](element)
+    -i would like to insert [book](element)
+    -i would like to insert [sausage](element)
+    -i would like to insert [tomato](element)
+    -i would like to insert [eggs](element)
+    -i would like to insert [books](element)
+    -i would like to insert [sausages](element)
+    -i would like to insert [tomatoes](element)
     
   
   
 - intent: remove_element
   examples: |
-    -Can you remove 11(element)?
-    -Can you remove 21(element)?
-    -Can you remove 31(element)?
-    -Can you remove 41(element)?
-    -Can you remove 12(element)?
-    -Can you remove 22(element)?
-    -Can you remove 32(element)?
-    -Can you remove 42(element)?
-    -Can you take off 11(element)?
-    -Can you take off 21(element)?
-    -Can you take off 31(element)?
-    -Can you take off 41(element)?
-    -Can you take off 12(element)?
-    -Can you take off 22(element)?
-    -Can you take off 32(element)?
-    -Can you take off 42(element)?
-    -You can take off 11(element)
-    -You can take off 21(element)
-    -You can take off 31(element)
-    -You can take off 41(element)
-    -You can take off 12(element)
-    -You can take off 22(element)
-    -You can take off 32(element)
-    -You can take off 42(element)
-    -Could you please remove 11(element)?
-    -Could you please remove 21(element)?
-    -Could you please remove 31(element)?
-    -Could you please remove 41(element)?
-    -Could you please remove 12(element)?
-    -Could you please remove 22(element)?
-    -Could you please remove 32(element)?
-    -Could you please remove 42(element)?
-    -Could you take off 11(element)?
-    -Could you take off 21(element)?
-    -Could you take off 31(element)?
-    -Could you take off 41(element)?
-    -Could you take off 12(element)?
-    -Could you take off 22(element)?
-    -Could you take off 32(element)?
-    -Could you take off 42(element)?
-    -Could you take away 11(element)?
-    -Could you take away 21(element)?
-    -Could you take away 31(element)?
-    -Could you take away 41(element)?
-    -Could you take away 12(element)?
-    -Could you take away 22(element)?
-    -Could you take away 32(element)?
-    -Could you take away 42(element)?
-    -Can you remove 11(element) from the list?
-    -Can you remove 21(element) from the list?
-    -Can you remove 31(element) from the list?
-    -Can you remove 41(element) from the list?
-    -Can you remove 12(element) from the list?
-    -Can you remove 22(element) from the list?
-    -Can you remove 32(element) from the list?
-    -Can you remove 42(element) from the list?
-    -Can you take off 11(element) from the list?
-    -Can you take off 21(element) from the list?
-    -Can you take off 31(element) from the list?
-    -Can you take off 41(element) from the list?
-    -Can you take off 12(element) from the list?
-    -Can you take off 22(element) from the list?
-    -Can you take off 32(element) from the list?
-    -Can you take off 42(element) from the list?
-    -Could you please remove 11(element) from the list?
-    -Could you please remove 21(element) from the list?
-    -Could you please remove 31(element) from the list?
-    -Could you please remove 41(element) from the list?
-    -Could you please remove 12(element) from the list?
-    -Could you please remove 22(element) from the list?
-    -Could you please remove 32(element) from the list?
-    -Could you please remove 42(element) from the list?
-    -Could you take off 11(element) from the list?
-    -Could you take off 21(element) from the list?
-    -Could you take off 31(element) from the list?
-    -Could you take off 41(element) from the list?
-    -Could you take off 12(element) from the list?
-    -Could you take off 22(element) from the list?
-    -Could you take off 32(element) from the list?
-    -Could you take off 42(element) from the list?
-    -Could you take away 11(element) from the list?
-    -Could you take away 21(element) from the list?
-    -Could you take away 31(element) from the list?
-    -Could you take away 41(element) from the list?
-    -Could you take away 12(element) from the list?
-    -Could you take away 22(element) from the list?
-    -Could you take away 32(element) from the list?
-    -Could you take away 42(element) from the list?
-    -Remove 11(element) from the list
-    -Remove 21(element) from the list
-    -Remove 31(element) from the list
-    -Remove 41(element) from the list
-    -Remove 12(element) from the list
-    -Remove 22(element) from the list
-    -Remove 32(element) from the list
-    -Remove 42(element) from the list
-    -remove 11(element)
-    -remove 21(element)
-    -remove 31(element)
-    -remove 41(element)
-    -remove 12(element)
-    -remove 22(element)
-    -remove 32(element)
-    -remove 42(element)
-    -I don't want to buy 11(element)
-    -I don't want to buy 21(element)
-    -I don't want to buy 31(element)
-    -I don't want to buy 41(element)
-    -I don't want to buy 12(element)
-    -I don't want to buy 22(element)
-    -I don't want to buy 32(element)
-    -I don't want to buy 42(element)
-    -I don't want 11(element)
-    -I don't want 21(element)
-    -I don't want 31(element)
-    -I don't want 41(element)
-    -I don't want 12(element)
-    -I don't want 22(element)
-    -I don't want 32(element)
-    -I don't want 42(element)
-    -I don't need 11(element) anymore
-    -I don't need 21(element) anymore
-    -I don't need 31(element) anymore
-    -I don't need 41(element) anymore
-    -I don't need 12(element) anymore
-    -I don't need 22(element) anymore
-    -I don't need 32(element) anymore
-    -I don't need 42(element) anymore
-    -Cancel 11(element)
-    -Cancel 21(element)
-    -Cancel 31(element)
-    -Cancel 41(element)
-    -Cancel 12(element)
-    -Cancel 22(element)
-    -Cancel 32(element)
-    -Cancel 42(element)
-    -cancel 11(element)
-    -cancel 21(element)
-    -cancel 31(element)
-    -cancel 41(element)
-    -cancel 12(element)
-    -cancel 22(element)
-    -cancel 32(element)
-    -cancel 42(element)
-    -Remove 11(element)
-    -Remove 21(element)
-    -Remove 31(element)
-    -Remove 41(element)
-    -Remove 12(element)
-    -Remove 22(element)
-    -Remove 32(element)
-    -Remove 42(element)
-    -remove 11(element)
-    -remove 21(element)
-    -remove 31(element)
-    -remove 41(element)
-    -remove 12(element)
-    -remove 22(element)
-    -remove 32(element)
-    -remove 42(element)
-    -Delete 11(element)
-    -Delete 21(element)
-    -Delete 31(element)
-    -Delete 41(element)
-    -Delete 12(element)
-    -Delete 22(element)
-    -Delete 32(element)
-    -Delete 42(element)
-    -delete 11(element)
-    -delete 21(element)
-    -delete 31(element)
-    -delete 41(element)
-    -delete 12(element)
-    -delete 22(element)
-    -delete 32(element)
-    -delete 42(element)
-    -Pull out 11(element) from the list
-    -Pull out 21(element) from the list
-    -Pull out 31(element) from the list
-    -Pull out 41(element) from the list
-    -Pull out 12(element) from the list
-    -Pull out 22(element) from the list
-    -Pull out 32(element) from the list
-    -Pull out 42(element) from the list
-    -pull out 11(element) from the the list
-    -pull out 21(element) from the the list
-    -pull out 31(element) from the the list
-    -pull out 41(element) from the the list
-    -pull out 12(element) from the the list
-    -pull out 22(element) from the the list
-    -pull out 32(element) from the the list
-    -pull out 42(element) from the the list
-    -I want to remove 11(element)
-    -I want to remove 21(element)
-    -I want to remove 31(element)
-    -I want to remove 41(element)
-    -I want to remove 12(element)
-    -I want to remove 22(element)
-    -I want to remove 32(element)
-    -I want to remove 42(element)
-    -I want to delete 11(element)
-    -I want to delete 21(element)
-    -I want to delete 31(element)
-    -I want to delete 41(element)
-    -I want to delete 12(element)
-    -I want to delete 22(element)
-    -I want to delete 32(element)
-    -I want to delete 42(element)
-    -I want to pull out 11(element) from the list
-    -I want to pull out 21(element) from the list
-    -I want to pull out 31(element) from the list
-    -I want to pull out 41(element) from the list
-    -I want to pull out 12(element) from the list
-    -I want to pull out 22(element) from the list
-    -I want to pull out 32(element) from the list
-    -I want to pull out 42(element) from the list
-    -I would like to add 11(element)
-    -I would like to add 21(element)
-    -I would like to add 31(element)
-    -I would like to add 41(element)
-    -I would like to add 12(element)
-    -I would like to add 22(element)
-    -I would like to add 32(element)
-    -I would like to add 42(element)
-    -I would like to insert 11(element)
-    -I would like to insert 21(element)
-    -I would like to insert 31(element)
-    -I would like to insert 41(element)
-    -I would like to insert 12(element)
-    -I would like to insert 22(element)
-    -I would like to insert 32(element)
-    -I would like to insert 42(element)
-    -I would like to pull out 11(element) from the list
-    -I would like to pull out 21(element) from the list
-    -I would like to pull out 31(element) from the list
-    -I would like to pull out 41(element) from the list
-    -I would like to pull out 12(element) from the list
-    -I would like to pull out 22(element) from the list
-    -I would like to pull out 32(element) from the list
-    -I would like to pull out 42(element) from the list
-    -I'd like to remove 11(element)
-    -I'd like to remove 21(element)
-    -I'd like to remove 31(element)
-    -I'd like to remove 41(element)
-    -I'd like to remove 12(element)
-    -I'd like to remove 22(element)
-    -I'd like to remove 32(element)
-    -I'd like to remove 42(element)
-    -I'd like to delete 11(element)
-    -I'd like to delete 21(element)
-    -I'd like to delete 31(element)
-    -I'd like to delete 41(element)
-    -I'd like to delete 12(element)
-    -I'd like to delete 22(element)
-    -I'd like to delete 32(element)
-    -I'd like to delete 42(element)
-    -I'd like to pull out 11(element) from the list
-    -I'd like to pull out 21(element) from the list
-    -I'd like to pull out 31(element) from the list
-    -I'd like to pull out 41(element) from the list
-    -I'd like to pull out 12(element) from the list
-    -I'd like to pull out 22(element) from the list
-    -I'd like to pull out 32(element) from the list
-    -I'd like to pull out 42(element) from the list
-    -I need to remove 11(element)
-    -I need to remove 21(element)
-    -I need to remove 31(element)
-    -I need to remove 41(element)
-    -I need to remove 12(element)
-    -I need to remove 22(element)
-    -I need to remove 32(element)
-    -I need to remove 42(element)
-    -I need to delete 11(element)
-    -I need to delete 21(element)
-    -I need to delete 31(element)
-    -I need to delete 41(element)
-    -I need to delete 12(element)
-    -I need to delete 22(element)
-    -I need to delete 32(element)
-    -I need to delete 42(element)
-    -Can you remove 11(element), please?
-    -Can you remove 21(element), please?
-    -Can you remove 31(element), please?
-    -Can you remove 41(element), please?
-    -Can you remove 12(element), please?
-    -Can you remove 22(element), please?
-    -Can you remove 32(element), please?
-    -Can you remove 42(element), please?
-    -Can you delete 11(element), please?
-    -Can you delete 21(element), please?
-    -Can you delete 31(element), please?
-    -Can you delete 41(element), please?
-    -Can you delete 12(element), please?
-    -Can you delete 22(element), please?
-    -Can you delete 32(element), please?
-    -Can you delete 42(element), please?
-    -Can you pull out 11(element) from the list?
-    -Can you pull out 21(element) from the list?
-    -Can you pull out 31(element) from the list?
-    -Can you pull out 41(element) from the list?
-    -Can you pull out 12(element) from the list?
-    -Can you pull out 22(element) from the list?
-    -Can you pull out 32(element) from the list?
-    -Can you pull out 42(element) from the list?
-    -I have to pull out 11(element) from the list
-    -I have to pull out 21(element) from the list
-    -I have to pull out 31(element) from the list
-    -I have to pull out 41(element) from the list
-    -I have to pull out 12(element) from the list
-    -I have to pull out 22(element) from the list
-    -I have to pull out 32(element) from the list
-    -I have to pull out 42(element) from the list
-    -i want to remove 11(element)
-    -i want to remove 21(element)
-    -i want to remove 31(element)
-    -i want to remove 41(element)
-    -i want to remove 12(element)
-    -i want to remove 22(element)
-    -i want to remove 32(element)
-    -i want to remove 42(element)
-    -i want to delete 11(element)
-    -i want to delete 21(element)
-    -i want to delete 31(element)
-    -i want to delete 41(element)
-    -i want to delete 12(element)
-    -i want to delete 22(element)
-    -i want to delete 32(element)
-    -i want to delete 42(element)
-    -i want to pull out 11(element) from the list
-    -i want to pull out 21(element) from the list
-    -i want to pull out 31(element) from the list
-    -i want to pull out 41(element) from the list
-    -i want to pull out 12(element) from the list
-    -i want to pull out 22(element) from the list
-    -i want to pull out 32(element) from the list
-    -i want to pull out 42(element) from the list
-    -i would like to remove 11(element)
-    -i would like to remove 21(element)
-    -i would like to remove 31(element)
-    -i would like to remove 41(element)
-    -i would like to remove 12(element)
-    -i would like to remove 22(element)
-    -i would like to remove 32(element)
-    -i would like to remove 42(element)
-    -i would like to delete 11(element)
-    -i would like to delete 21(element)
-    -i would like to delete 31(element)
-    -i would like to delete 41(element)
-    -i would like to delete 12(element)
-    -i would like to delete 22(element)
-    -i would like to delete 32(element)
-    -i would like to delete 42(element)
-    -i would like to pull out 11(element) from the list
-    -i would like to pull out 21(element) from the list
-    -i would like to pull out 31(element) from the list
-    -i would like to pull out 41(element) from the list
-    -i would like to pull out 12(element) from the list
-    -i would like to pull out 22(element) from the list
-    -i would like to pull out 32(element) from the list
-    -i would like to pull out 42(element) from the list
-    -i'd like to delete 11(element)
-    -i'd like to delete 21(element)
-    -i'd like to delete 31(element)
-    -i'd like to delete 41(element)
-    -i'd like to delete 12(element)
-    -i'd like to delete 22(element)
-    -i'd like to delete 32(element)
-    -i'd like to delete 42(element)
-    -i'd like to remove 11(element)
-    -i'd like to remove 21(element)
-    -i'd like to remove 31(element)
-    -i'd like to remove 41(element)
-    -i'd like to remove 12(element)
-    -i'd like to remove 22(element)
-    -i'd like to remove 32(element)
-    -i'd like to remove 42(element)
-    -i'd like to pull out 11(element) from the list
-    -i'd like to pull out 21(element) from the list
-    -i'd like to pull out 31(element) from the list
-    -i'd like to pull out 41(element) from the list
-    -i'd like to pull out 12(element) from the list
-    -i'd like to pull out 22(element) from the list
-    -i'd like to pull out 32(element) from the list
-    -i'd like to pull out 42(element) from the list
-    -i need to remove 11(element)
-    -i need to remove 21(element)
-    -i need to remove 31(element)
-    -i need to remove 41(element)
-    -i need to remove 12(element)
-    -i need to remove 22(element)
-    -i need to remove 32(element)
-    -i need to remove 42(element)
-    -i need to delete 11(element)
-    -i need to delete 21(element)
-    -i need to delete 31(element)
-    -i need to delete 41(element)
-    -i need to delete 12(element)
-    -i need to delete 22(element)
-    -i need to delete 32(element)
-    -i need to delete 42(element)
-    -can you remove 11(element), please?
-    -can you remove 21(element), please?
-    -can you remove 31(element), please?
-    -can you remove 41(element), please?
-    -can you remove 12(element), please?
-    -can you remove 22(element), please?
-    -can you remove 32(element), please?
-    -can you remove 42(element), please?
-    -can you delete 11(element) from the list?
-    -can you delete 21(element) from the list?
-    -can you delete 31(element) from the list?
-    -can you delete 41(element) from the list?
-    -can you delete 12(element) from the list?
-    -can you delete 22(element) from the list?
-    -can you delete 32(element) from the list?
-    -can you delete 42(element) from the list?
-    -can you pull out 11(element) from the list?
-    -can you pull out 21(element) from the list?
-    -can you pull out 31(element) from the list?
-    -can you pull out 41(element) from the list?
-    -can you pull out 12(element) from the list?
-    -can you pull out 22(element) from the list?
-    -can you pull out 32(element) from the list?
-    -can you pull out 42(element) from the list?
-    -i have to pull out 11(element) from the list
-    -i have to pull out 21(element) from the list
-    -i have to pull out 31(element) from the list
-    -i have to pull out 41(element) from the list
-    -i have to pull out 12(element) from the list
-    -i have to pull out 22(element) from the list
-    -i have to pull out 32(element) from the list
-    -i have to pull out 42(element) from the list
-    -I need to take off 11(element)
-    -I need to take off 21(element)
-    -I need to take off 31(element)
-    -I need to take off 41(element)
-    -I need to take off 12(element)
-    -I need to take off 22(element)
-    -I need to take off 32(element)
-    -I need to take off 42(element)
-    -Can you take off 11(element), please?
-    -Can you take off 21(element), please?
-    -Can you take off 31(element), please?
-    -Can you take off 41(element), please?
-    -Can you take off 12(element), please?
-    -Can you take off 22(element), please?
-    -Can you take off 32(element), please?
-    -Can you take off 42(element), please?
-    -I'd like to take off 11(element)
-    -I'd like to take off 21(element)
-    -I'd like to take off 31(element)
-    -I'd like to take off 41(element)
-    -I'd like to take off 12(element)
-    -I'd like to take off 22(element)
-    -I'd like to take off 32(element)
-    -I'd like to take off 42(element)
-    -I want to take off 11(element) 
-    -I want to take off 21(element)
-    -I want to take off 31(element)
-    -I want to take off 41(element)
-    -I want to take off 12(element) 
-    -I want to take off 22(element)
-    -I want to take off 32(element)
-    -I want to take off 42(element)
-    -I have to take off 11(element)
-    -I have to take off 21(element)
-    -I have to take off 31(element)
-    -I have to take off 41(element)
-    -I have to take off 12(element)
-    -I have to take off 22(element)
-    -I have to take off 32(element)
-    -I have to take off 42(element)
+    -Can you remove [egg](element)?
+    -Can you remove [book](element)?
+    -Can you remove [sausage](element)?
+    -Can you remove [tomato](element)?
+    -Can you remove [eggs](element)?
+    -Can you remove [books](element)?
+    -Can you remove [sausages](element)?
+    -Can you remove [tomatoes](element)?
+    -Can you take off [egg](element)?
+    -Can you take off [book](element)?
+    -Can you take off [sausage](element)?
+    -Can you take off [tomato](element)?
+    -Can you take off [eggs](element)?
+    -Can you take off [books](element)?
+    -Can you take off [sausages](element)?
+    -Can you take off [tomatoes](element)?
+    -You can take off [egg](element)
+    -You can take off [book](element)
+    -You can take off [sausage](element)
+    -You can take off [tomato](element)
+    -You can take off [eggs](element)
+    -You can take off [books](element)
+    -You can take off [sausages](element)
+    -You can take off [tomatoes](element)
+    -Could you please remove [egg](element)?
+    -Could you please remove [book](element)?
+    -Could you please remove [sausage](element)?
+    -Could you please remove [tomato](element)?
+    -Could you please remove [eggs](element)?
+    -Could you please remove [books](element)?
+    -Could you please remove [sausages](element)?
+    -Could you please remove [tomatoes](element)?
+    -Could you take off [egg](element)?
+    -Could you take off [book](element)?
+    -Could you take off [sausage](element)?
+    -Could you take off [tomato](element)?
+    -Could you take off [eggs](element)?
+    -Could you take off [books](element)?
+    -Could you take off [sausages](element)?
+    -Could you take off [tomatoes](element)?
+    -Could you take away [egg](element)?
+    -Could you take away [book](element)?
+    -Could you take away [sausage](element)?
+    -Could you take away [tomato](element)?
+    -Could you take away [eggs](element)?
+    -Could you take away [books](element)?
+    -Could you take away [sausages](element)?
+    -Could you take away [tomatoes](element)?
+    -Can you remove [egg](element) from the list?
+    -Can you remove [book](element) from the list?
+    -Can you remove [sausage](element) from the list?
+    -Can you remove [tomato](element) from the list?
+    -Can you remove [eggs](element) from the list?
+    -Can you remove [books](element) from the list?
+    -Can you remove [sausages](element) from the list?
+    -Can you remove [tomatoes](element) from the list?
+    -Can you take off [egg](element) from the list?
+    -Can you take off [book](element) from the list?
+    -Can you take off [sausage](element) from the list?
+    -Can you take off [tomato](element) from the list?
+    -Can you take off [eggs](element) from the list?
+    -Can you take off [books](element) from the list?
+    -Can you take off [sausages](element) from the list?
+    -Can you take off [tomatoes](element) from the list?
+    -Could you please remove [egg](element) from the list?
+    -Could you please remove [book](element) from the list?
+    -Could you please remove [sausage](element) from the list?
+    -Could you please remove [tomato](element) from the list?
+    -Could you please remove [eggs](element) from the list?
+    -Could you please remove [books](element) from the list?
+    -Could you please remove [sausages](element) from the list?
+    -Could you please remove [tomatoes](element) from the list?
+    -Could you take off [egg](element) from the list?
+    -Could you take off [book](element) from the list?
+    -Could you take off [sausage](element) from the list?
+    -Could you take off [tomato](element) from the list?
+    -Could you take off [eggs](element) from the list?
+    -Could you take off [books](element) from the list?
+    -Could you take off [sausages](element) from the list?
+    -Could you take off [tomatoes](element) from the list?
+    -Could you take away [egg](element) from the list?
+    -Could you take away [book](element) from the list?
+    -Could you take away [sausage](element) from the list?
+    -Could you take away [tomato](element) from the list?
+    -Could you take away [eggs](element) from the list?
+    -Could you take away [books](element) from the list?
+    -Could you take away [sausages](element) from the list?
+    -Could you take away [tomatoes](element) from the list?
+    -Remove [egg](element) from the list
+    -Remove [book](element) from the list
+    -Remove [sausage](element) from the list
+    -Remove [tomato](element) from the list
+    -Remove [eggs](element) from the list
+    -Remove [books](element) from the list
+    -Remove [sausages](element) from the list
+    -Remove [tomatoes](element) from the list
+    -remove [egg](element)
+    -remove [book](element)
+    -remove [sausage](element)
+    -remove [tomato](element)
+    -remove [eggs](element)
+    -remove [books](element)
+    -remove [sausages](element)
+    -remove [tomatoes](element)
+    -I don't want to buy [egg](element)
+    -I don't want to buy [book](element)
+    -I don't want to buy [sausage](element)
+    -I don't want to buy [tomato](element)
+    -I don't want to buy [eggs](element)
+    -I don't want to buy [books](element)
+    -I don't want to buy [sausages](element)
+    -I don't want to buy [tomatoes](element)
+    -I don't want [egg](element)
+    -I don't want [book](element)
+    -I don't want [sausage](element)
+    -I don't want [tomato](element)
+    -I don't want [eggs](element)
+    -I don't want [books](element)
+    -I don't want [sausages](element)
+    -I don't want [tomatoes](element)
+    -I don't need [egg](element) anymore
+    -I don't need [book](element) anymore
+    -I don't need [sausage](element) anymore
+    -I don't need [tomato](element) anymore
+    -I don't need [eggs](element) anymore
+    -I don't need [books](element) anymore
+    -I don't need [sausages](element) anymore
+    -I don't need [tomatoes](element) anymore
+    -Cancel [egg](element)
+    -Cancel [book](element)
+    -Cancel [sausage](element)
+    -Cancel [tomato](element)
+    -Cancel [eggs](element)
+    -Cancel [books](element)
+    -Cancel [sausages](element)
+    -Cancel [tomatoes](element)
+    -cancel [egg](element)
+    -cancel [book](element)
+    -cancel [sausage](element)
+    -cancel [tomato](element)
+    -cancel [eggs](element)
+    -cancel [books](element)
+    -cancel [sausages](element)
+    -cancel [tomatoes](element)
+    -Remove [egg](element)
+    -Remove [book](element)
+    -Remove [sausage](element)
+    -Remove [tomato](element)
+    -Remove [eggs](element)
+    -Remove [books](element)
+    -Remove [sausages](element)
+    -Remove [tomatoes](element)
+    -remove [egg](element)
+    -remove [book](element)
+    -remove [sausage](element)
+    -remove [tomato](element)
+    -remove [eggs](element)
+    -remove [books](element)
+    -remove [sausages](element)
+    -remove [tomatoes](element)
+    -Delete [egg](element)
+    -Delete [book](element)
+    -Delete [sausage](element)
+    -Delete [tomato](element)
+    -Delete [eggs](element)
+    -Delete [books](element)
+    -Delete [sausages](element)
+    -Delete [tomatoes](element)
+    -delete [egg](element)
+    -delete [book](element)
+    -delete [sausage](element)
+    -delete [tomato](element)
+    -delete [eggs](element)
+    -delete [books](element)
+    -delete [sausages](element)
+    -delete [tomatoes](element)
+    -Pull out [egg](element) from the list
+    -Pull out [book](element) from the list
+    -Pull out [sausage](element) from the list
+    -Pull out [tomato](element) from the list
+    -Pull out [eggs](element) from the list
+    -Pull out [books](element) from the list
+    -Pull out [sausages](element) from the list
+    -Pull out [tomatoes](element) from the list
+    -pull out [egg](element) from the the list
+    -pull out [book](element) from the the list
+    -pull out [sausage](element) from the the list
+    -pull out [tomato](element) from the the list
+    -pull out [eggs](element) from the the list
+    -pull out [books](element) from the the list
+    -pull out [sausages](element) from the the list
+    -pull out [tomatoes](element) from the the list
+    -I want to remove [egg](element)
+    -I want to remove [book](element)
+    -I want to remove [sausage](element)
+    -I want to remove [tomato](element)
+    -I want to remove [eggs](element)
+    -I want to remove [books](element)
+    -I want to remove [sausages](element)
+    -I want to remove [tomatoes](element)
+    -I want to delete [egg](element)
+    -I want to delete [book](element)
+    -I want to delete [sausage](element)
+    -I want to delete [tomato](element)
+    -I want to delete [eggs](element)
+    -I want to delete [books](element)
+    -I want to delete [sausages](element)
+    -I want to delete [tomatoes](element)
+    -I want to pull out [egg](element) from the list
+    -I want to pull out [book](element) from the list
+    -I want to pull out [sausage](element) from the list
+    -I want to pull out [tomato](element) from the list
+    -I want to pull out [eggs](element) from the list
+    -I want to pull out [books](element) from the list
+    -I want to pull out [sausages](element) from the list
+    -I want to pull out [tomatoes](element) from the list
+    -I would like to add [egg](element)
+    -I would like to add [book](element)
+    -I would like to add [sausage](element)
+    -I would like to add [tomato](element)
+    -I would like to add [eggs](element)
+    -I would like to add [books](element)
+    -I would like to add [sausages](element)
+    -I would like to add [tomatoes](element)
+    -I would like to insert [egg](element)
+    -I would like to insert [book](element)
+    -I would like to insert [sausage](element)
+    -I would like to insert [tomato](element)
+    -I would like to insert [eggs](element)
+    -I would like to insert [books](element)
+    -I would like to insert [sausages](element)
+    -I would like to insert [tomatoes](element)
+    -I would like to pull out [egg](element) from the list
+    -I would like to pull out [book](element) from the list
+    -I would like to pull out [sausage](element) from the list
+    -I would like to pull out [tomato](element) from the list
+    -I would like to pull out [eggs](element) from the list
+    -I would like to pull out [books](element) from the list
+    -I would like to pull out [sausages](element) from the list
+    -I would like to pull out [tomatoes](element) from the list
+    -I'd like to remove [egg](element)
+    -I'd like to remove [book](element)
+    -I'd like to remove [sausage](element)
+    -I'd like to remove [tomato](element)
+    -I'd like to remove [eggs](element)
+    -I'd like to remove [books](element)
+    -I'd like to remove [sausages](element)
+    -I'd like to remove [tomatoes](element)
+    -I'd like to delete [egg](element)
+    -I'd like to delete [book](element)
+    -I'd like to delete [sausage](element)
+    -I'd like to delete [tomato](element)
+    -I'd like to delete [eggs](element)
+    -I'd like to delete [books](element)
+    -I'd like to delete [sausages](element)
+    -I'd like to delete [tomatoes](element)
+    -I'd like to pull out [egg](element) from the list
+    -I'd like to pull out [book](element) from the list
+    -I'd like to pull out [sausage](element) from the list
+    -I'd like to pull out [tomato](element) from the list
+    -I'd like to pull out [eggs](element) from the list
+    -I'd like to pull out [books](element) from the list
+    -I'd like to pull out [sausages](element) from the list
+    -I'd like to pull out [tomatoes](element) from the list
+    -I need to remove [egg](element)
+    -I need to remove [book](element)
+    -I need to remove [sausage](element)
+    -I need to remove [tomato](element)
+    -I need to remove [eggs](element)
+    -I need to remove [books](element)
+    -I need to remove [sausages](element)
+    -I need to remove [tomatoes](element)
+    -I need to delete [egg](element)
+    -I need to delete [book](element)
+    -I need to delete [sausage](element)
+    -I need to delete [tomato](element)
+    -I need to delete [eggs](element)
+    -I need to delete [books](element)
+    -I need to delete [sausages](element)
+    -I need to delete [tomatoes](element)
+    -Can you remove [egg](element), please?
+    -Can you remove [book](element), please?
+    -Can you remove [sausage](element), please?
+    -Can you remove [tomato](element), please?
+    -Can you remove [eggs](element), please?
+    -Can you remove [books](element), please?
+    -Can you remove [sausages](element), please?
+    -Can you remove [tomatoes](element), please?
+    -Can you delete [egg](element), please?
+    -Can you delete [book](element), please?
+    -Can you delete [sausage](element), please?
+    -Can you delete [tomato](element), please?
+    -Can you delete [eggs](element), please?
+    -Can you delete [books](element), please?
+    -Can you delete [sausages](element), please?
+    -Can you delete [tomatoes](element), please?
+    -Can you pull out [egg](element) from the list?
+    -Can you pull out [book](element) from the list?
+    -Can you pull out [sausage](element) from the list?
+    -Can you pull out [tomato](element) from the list?
+    -Can you pull out [eggs](element) from the list?
+    -Can you pull out [books](element) from the list?
+    -Can you pull out [sausages](element) from the list?
+    -Can you pull out [tomatoes](element) from the list?
+    -I have to pull out [egg](element) from the list
+    -I have to pull out [book](element) from the list
+    -I have to pull out [sausage](element) from the list
+    -I have to pull out [tomato](element) from the list
+    -I have to pull out [eggs](element) from the list
+    -I have to pull out [books](element) from the list
+    -I have to pull out [sausages](element) from the list
+    -I have to pull out [tomatoes](element) from the list
+    -i want to remove [egg](element)
+    -i want to remove [book](element)
+    -i want to remove [sausage](element)
+    -i want to remove [tomato](element)
+    -i want to remove [eggs](element)
+    -i want to remove [books](element)
+    -i want to remove [sausages](element)
+    -i want to remove [tomatoes](element)
+    -i want to delete [egg](element)
+    -i want to delete [book](element)
+    -i want to delete [sausage](element)
+    -i want to delete [tomato](element)
+    -i want to delete [eggs](element)
+    -i want to delete [books](element)
+    -i want to delete [sausages](element)
+    -i want to delete [tomatoes](element)
+    -i want to pull out [egg](element) from the list
+    -i want to pull out [book](element) from the list
+    -i want to pull out [sausage](element) from the list
+    -i want to pull out [tomato](element) from the list
+    -i want to pull out [eggs](element) from the list
+    -i want to pull out [books](element) from the list
+    -i want to pull out [sausages](element) from the list
+    -i want to pull out [tomatoes](element) from the list
+    -i would like to remove [egg](element)
+    -i would like to remove [book](element)
+    -i would like to remove [sausage](element)
+    -i would like to remove [tomato](element)
+    -i would like to remove [eggs](element)
+    -i would like to remove [books](element)
+    -i would like to remove [sausages](element)
+    -i would like to remove [tomatoes](element)
+    -i would like to delete [egg](element)
+    -i would like to delete [book](element)
+    -i would like to delete [sausage](element)
+    -i would like to delete [tomato](element)
+    -i would like to delete [eggs](element)
+    -i would like to delete [books](element)
+    -i would like to delete [sausages](element)
+    -i would like to delete [tomatoes](element)
+    -i would like to pull out [egg](element) from the list
+    -i would like to pull out [book](element) from the list
+    -i would like to pull out [sausage](element) from the list
+    -i would like to pull out [tomato](element) from the list
+    -i would like to pull out [eggs](element) from the list
+    -i would like to pull out [books](element) from the list
+    -i would like to pull out [sausages](element) from the list
+    -i would like to pull out [tomatoes](element) from the list
+    -i'd like to delete [egg](element)
+    -i'd like to delete [book](element)
+    -i'd like to delete [sausage](element)
+    -i'd like to delete [tomato](element)
+    -i'd like to delete [eggs](element)
+    -i'd like to delete [books](element)
+    -i'd like to delete [sausages](element)
+    -i'd like to delete [tomatoes](element)
+    -i'd like to remove [egg](element)
+    -i'd like to remove [book](element)
+    -i'd like to remove [sausage](element)
+    -i'd like to remove [tomato](element)
+    -i'd like to remove [eggs](element)
+    -i'd like to remove [books](element)
+    -i'd like to remove [sausages](element)
+    -i'd like to remove [tomatoes](element)
+    -i'd like to pull out [egg](element) from the list
+    -i'd like to pull out [book](element) from the list
+    -i'd like to pull out [sausage](element) from the list
+    -i'd like to pull out [tomato](element) from the list
+    -i'd like to pull out [eggs](element) from the list
+    -i'd like to pull out [books](element) from the list
+    -i'd like to pull out [sausages](element) from the list
+    -i'd like to pull out [tomatoes](element) from the list
+    -i need to remove [egg](element)
+    -i need to remove [book](element)
+    -i need to remove [sausage](element)
+    -i need to remove [tomato](element)
+    -i need to remove [eggs](element)
+    -i need to remove [books](element)
+    -i need to remove [sausages](element)
+    -i need to remove [tomatoes](element)
+    -i need to delete [egg](element)
+    -i need to delete [book](element)
+    -i need to delete [sausage](element)
+    -i need to delete [tomato](element)
+    -i need to delete [eggs](element)
+    -i need to delete [books](element)
+    -i need to delete [sausages](element)
+    -i need to delete [tomatoes](element)
+    -can you remove [egg](element), please?
+    -can you remove [book](element), please?
+    -can you remove [sausage](element), please?
+    -can you remove [tomato](element), please?
+    -can you remove [eggs](element), please?
+    -can you remove [books](element), please?
+    -can you remove [sausages](element), please?
+    -can you remove [tomatoes](element), please?
+    -can you delete [egg](element) from the list?
+    -can you delete [book](element) from the list?
+    -can you delete [sausage](element) from the list?
+    -can you delete [tomato](element) from the list?
+    -can you delete [eggs](element) from the list?
+    -can you delete [books](element) from the list?
+    -can you delete [sausages](element) from the list?
+    -can you delete [tomatoes](element) from the list?
+    -can you pull out [egg](element) from the list?
+    -can you pull out [book](element) from the list?
+    -can you pull out [sausage](element) from the list?
+    -can you pull out [tomato](element) from the list?
+    -can you pull out [eggs](element) from the list?
+    -can you pull out [books](element) from the list?
+    -can you pull out [sausages](element) from the list?
+    -can you pull out [tomatoes](element) from the list?
+    -i have to pull out [egg](element) from the list
+    -i have to pull out [book](element) from the list
+    -i have to pull out [sausage](element) from the list
+    -i have to pull out [tomato](element) from the list
+    -i have to pull out [eggs](element) from the list
+    -i have to pull out [books](element) from the list
+    -i have to pull out [sausages](element) from the list
+    -i have to pull out [tomatoes](element) from the list
+    -I need to take off [egg](element)
+    -I need to take off [book](element)
+    -I need to take off [sausage](element)
+    -I need to take off [tomato](element)
+    -I need to take off [eggs](element)
+    -I need to take off [books](element)
+    -I need to take off [sausages](element)
+    -I need to take off [tomatoes](element)
+    -Can you take off [egg](element), please?
+    -Can you take off [book](element), please?
+    -Can you take off [sausage](element), please?
+    -Can you take off [tomato](element), please?
+    -Can you take off [eggs](element), please?
+    -Can you take off [books](element), please?
+    -Can you take off [sausages](element), please?
+    -Can you take off [tomatoes](element), please?
+    -I'd like to take off [egg](element)
+    -I'd like to take off [book](element)
+    -I'd like to take off [sausage](element)
+    -I'd like to take off [tomato](element)
+    -I'd like to take off [eggs](element)
+    -I'd like to take off [books](element)
+    -I'd like to take off [sausages](element)
+    -I'd like to take off [tomatoes](element)
+    -I want to take off [egg](element) 
+    -I want to take off [book](element)
+    -I want to take off [sausage](element)
+    -I want to take off [tomato](element)
+    -I want to take off [eggs](element) 
+    -I want to take off [books](element)
+    -I want to take off [sausages](element)
+    -I want to take off [tomatoes](element)
+    -I have to take off [egg](element)
+    -I have to take off [book](element)
+    -I have to take off [sausage](element)
+    -I have to take off [tomato](element)
+    -I have to take off [eggs](element)
+    -I have to take off [books](element)
+    -I have to take off [sausages](element)
+    -I have to take off [tomatoes](element)
       
 
 
 
 - intent: get_element_quantity
   examples: |
-    -I need 11(quantity)
-    -I need 21(quantity)
-    -I need 31(quantity)
-    -I need 41(quantity)
-    -I need 12(quantity)
-    -I need 22(quantity)
-    -I need 32(quantity)
-    -I need 42(quantity)
-    -I want 11(quantity)
-    -I want 21(quantity)
-    -I want 31(quantity)
-    -I want 41(quantity)
-    -I want 12(quantity)
-    -I want 22(quantity)
-    -I want 32(quantity)
-    -I want 42(quantity)
-    -I would like 11(quantity) of it
-    -I would like 21(quantity) of it
-    -I would like 31(quantity) of it
-    -I would like 41(quantity) of it
-    -I would like 12(quantity) of it
-    -I would like 22(quantity) of it
-    -I would like 32(quantity) of it
-    -I would like 42(quantity) of it
-    -I'd like 11(quantity)
-    -I'd like 21(quantity)
-    -I'd like 31(quantity)
-    -I'd like 41(quantity)
-    -I'd like 12(quantity)
-    -I'd like 22(quantity)
-    -I'd like 32(quantity)
-    -I'd like 42(quantity)
-    -i need 11(quantity)
-    -i need 21(quantity)
-    -i need 31(quantity)
-    -i need 41(quantity)
-    -i need 12(quantity)
-    -i need 22(quantity)
-    -i need 32(quantity)
-    -i need 42(quantity)
-    -i want 11(quantity)
-    -i want 21(quantity)
-    -i want 31(quantity)
-    -i want 41(quantity)
-    -i want 12(quantity)
-    -i want 22(quantity)
-    -i want 32(quantity)
-    -i want 42(quantity)
-    -i would like 11(quantity) of it
-    -i would like 12(quantity) of it
+    -I need [1](quantity)
+    -I need [2](quantity)
+    -I need [3](quantity)
+    -I need [4](quantity)
+    -I need [one](quantity)
+    -I need [two](quantity)
+    -I need [three](quantity)
+    -I need [four](quantity)
+    -I want [1](quantity)
+    -I want [2](quantity)
+    -I want [3](quantity)
+    -I want [4](quantity)
+    -I want [one](quantity)
+    -I want [two](quantity)
+    -I want [three](quantity)
+    -I want [four](quantity)
+    -I would like [1](quantity) of it
+    -I would like [2](quantity) of it
+    -I would like [3](quantity) of it
+    -I would like [4](quantity) of it
+    -I would like [one](quantity) of it
+    -I would like [two](quantity) of it
+    -I would like [three](quantity) of it
+    -I would like [four](quantity) of it
+    -I'd like [1](quantity)
+    -I'd like [2](quantity)
+    -I'd like [3](quantity)
+    -I'd like [4](quantity)
+    -I'd like [one](quantity)
+    -I'd like [two](quantity)
+    -I'd like [three](quantity)
+    -I'd like [four](quantity)
+    -i need [1](quantity)
+    -i need [2](quantity)
+    -i need [3](quantity)
+    -i need [4](quantity)
+    -i need [one](quantity)
+    -i need [two](quantity)
+    -i need [three](quantity)
+    -i need [four](quantity)
+    -i want [1](quantity)
+    -i want [2](quantity)
+    -i want [3](quantity)
+    -i want [4](quantity)
+    -i want [one](quantity)
+    -i want [two](quantity)
+    -i want [three](quantity)
+    -i want [four](quantity)
+    -i would like [1](quantity) of it
+    -i would like [one](quantity) of it
     -i would like 13(quantity) of it
     -i would like 14(quantity) of it
-    -i would like 12(quantity) of it
-    -i would like 22(quantity) of it
-    -i would like 32(quantity) of it
-    -i would like 42(quantity) of it
-    -i'd like 11(quantity)
-    -i'd like 21(quantity)
-    -i'd like 31(quantity)
-    -i'd like 41(quantity)
-    -i'd like 12(quantity)
-    -i'd like 22(quantity)
-    -i'd like 32(quantity)
-    -i'd like 42(quantity)
-    -Add 11(quantity)
-    -Add 21(quantity)
-    -Add 31(quantity)
-    -Add 41(quantity)
-    -Add 12(quantity)
-    -Add 22(quantity)
-    -Add 32(quantity)
-    -Add 42(quantity)
-    -add 11(quantity)
-    -add 21(quantity)
-    -add 31(quantity)
-    -add 41(quantity)
-    -add 12(quantity)
-    -add 22(quantity)
-    -add 32(quantity)
-    -add 42(quantity)
-    -put 11(quantity)
-    -put 21(quantity)
-    -put 31(quantity)
-    -put 41(quantity)
-    -put 12(quantity)
-    -put 22(quantity)
-    -put 32(quantity)
-    -put 42(quantity)
-    -Put 11(quantity)
-    -Put 21(quantity)
-    -Put 31(quantity)
-    -Put 41(quantity)
-    -Put 12(quantity)
-    -Put 22(quantity)
-    -Put 32(quantity)
-    -Put 42(quantity)
-    -Insert 11(quantity)
-    -Insert 21(quantity)
-    -Insert 31(quantity)
-    -Insert 41(quantity)
-    -Insert 12(quantity)
-    -Insert 22(quantity)
-    -Insert 32(quantity)
-    -Insert 42(quantity)
-    -insert 11(quantity)
-    -insert 21(quantity)
-    -insert 31(quantity)
-    -insert 41(quantity)
-    -insert 12(quantity)
-    -insert 22(quantity)
-    -insert 32(quantity)
-    -insert 42(quantity)
-    -11(quantity) of it
-    -21(quantity) of it
-    -31(quantity) of it
-    -41(quantity) of it
-    -12(quantity) of it
-    -22(quantity) of it
-    -32(quantity) of it
-    -42(quantity) of it
-    -11(quantity)
-    -21(quantity)
-    -31(quantity)
-    -41(quantity)
-    -12(quantity)
-    -22(quantity)
-    -32(quantity)
-    -42(quantity)
-    -Can you add 11(quantity), please?
-    -Can you add 21(quantity), please?
-    -Can you add 31(quantity), please?
-    -Can you add 41(quantity), please?
-    -Can you add 12(quantity), please?
-    -Can you add 22(quantity), please?
-    -Can you add 32(quantity), please?
-    -Can you add 42(quantity), please?
-    -I need to add 11(quantity)
-    -I need to add 21(quantity)
-    -I need to add 31(quantity)
-    -I need to add 41(quantity)
-    -I need to add 12(quantity)
-    -I need to add 22(quantity)
-    -I need to add 32(quantity)
-    -I need to add 42(quantity)
-    -I'd like to add 11(quantity)
-    -I'd like to add 21(quantity)
-    -I'd like to add 31(quantity)
-    -I'd like to add 41(quantity)
-    -I'd like to add 12(quantity)
-    -I'd like to add 22(quantity)
-    -I'd like to add 32(quantity)
-    -I'd like to add 42(quantity)
-    -I want to add 11(quantity)
-    -I want to add 21(quantity)
-    -I want to add 31(quantity)
-    -I want to add 41(quantity)
-    -I want to add 12(quantity)
-    -I want to add 22(quantity)
-    -I want to add 32(quantity)
-    -I want to add 42(quantity)
-    -I have to add 11(quantity)
-    -I have to add 21(quantity)
-    -I have to add 31(quantity)
-    -I have to add 41(quantity)
-    -I have to add 12(quantity)
-    -I have to add 22(quantity)
-    -I have to add 32(quantity)
-    -I have to add 42(quantity)
-    -I need to insert 11(quantity)
-    -I need to insert 21(quantity)
-    -I need to insert 31(quantity)
-    -I need to insert 41(quantity)
-    -I need to insert 12(quantity)
-    -I need to insert 22(quantity)
-    -I need to insert 32(quantity)
-    -I need to insert 42(quantity)
-    -Can you insert 11(quantity), please?
-    -Can you insert 21(quantity), please?
-    -Can you insert 31(quantity), please?
-    -Can you insert 41(quantity), please?
-    -Can you insert 12(quantity), please?
-    -Can you insert 22(quantity), please?
-    -Can you insert 32(quantity), please?
-    -Can you insert 42(quantity), please?
-    -I'd like to insert 11(quantity)
-    -I'd like to insert 21(quantity)
-    -I'd like to insert 31(quantity)
-    -I'd like to insert 41(quantity)
-    -I'd like to insert 12(quantity)
-    -I'd like to insert 22(quantity)
-    -I'd like to insert 32(quantity)
-    -I'd like to insert 42(quantity)
-    -I want to insert 11(quantity)
-    -I want to insert 21(quantity)
-    -I want to insert 31(quantity)
-    -I want to insert 41(quantity)
-    -I want to insert 12(quantity)
-    -I want to insert 22(quantity)
-    -I want to insert 32(quantity)
-    -I want to insert 42(quantity)
-    -I have to insert 11(quantity)
-    -I have to insert 21(quantity)
-    -I have to insert 31(quantity)
-    -I have to insert 41(quantity)
-    -I have to insert 12(quantity)
-    -I have to insert 22(quantity)
-    -I have to insert 32(quantity)
-    -I have to insert 42(quantity)
-    -I want 11(quantity) of it
-    -I want 21(quantity) of it
-    -I want 31(quantity) of it
-    -I want 41(quantity) of it
-    -I want 12(quantity) of it
-    -I want 22(quantity) of it
-    -I want 32(quantity) of it
-    -I want 42(quantity) of it
-    -I would like 11(quantity)
-    -I would like 21(quantity)
-    -I would like 31(quantity)
-    -I would like 41(quantity)
-    -I would like 12(quantity)
-    -I would like 22(quantity)
-    -I would like 32(quantity)
-    -I would like 42(quantity)
-    -11(quantity), please
-    -21(quantity), please
-    -31(quantity), please
-    -41(quantity), please
-    -12(quantity), please
-    -22(quantity), please
-    -32(quantity), please
-    -42(quantity), please
-    -11(quantity), thanks
-    -21(quantity), thanks
-    -31(quantity), thanks
-    -41(quantity), thanks
-    -12(quantity), thanks
-    -22(quantity), thanks
-    -32(quantity), thanks
-    -42(quantity), thanks
+    -i would like [one](quantity) of it
+    -i would like [two](quantity) of it
+    -i would like [three](quantity) of it
+    -i would like [four](quantity) of it
+    -i'd like [1](quantity)
+    -i'd like [2](quantity)
+    -i'd like [3](quantity)
+    -i'd like [4](quantity)
+    -i'd like [one](quantity)
+    -i'd like [two](quantity)
+    -i'd like [three](quantity)
+    -i'd like [four](quantity)
+    -Add [1](quantity)
+    -Add [2](quantity)
+    -Add [3](quantity)
+    -Add [4](quantity)
+    -Add [one](quantity)
+    -Add [two](quantity)
+    -Add [three](quantity)
+    -Add [four](quantity)
+    -add [1](quantity)
+    -add [2](quantity)
+    -add [3](quantity)
+    -add [4](quantity)
+    -add [one](quantity)
+    -add [two](quantity)
+    -add [three](quantity)
+    -add [four](quantity)
+    -put [1](quantity)
+    -put [2](quantity)
+    -put [3](quantity)
+    -put [4](quantity)
+    -put [one](quantity)
+    -put [two](quantity)
+    -put [three](quantity)
+    -put [four](quantity)
+    -Put [1](quantity)
+    -Put [2](quantity)
+    -Put [3](quantity)
+    -Put [4](quantity)
+    -Put [one](quantity)
+    -Put [two](quantity)
+    -Put [three](quantity)
+    -Put [four](quantity)
+    -Insert [1](quantity)
+    -Insert [2](quantity)
+    -Insert [3](quantity)
+    -Insert [4](quantity)
+    -Insert [one](quantity)
+    -Insert [two](quantity)
+    -Insert [three](quantity)
+    -Insert [four](quantity)
+    -insert [1](quantity)
+    -insert [2](quantity)
+    -insert [3](quantity)
+    -insert [4](quantity)
+    -insert [one](quantity)
+    -insert [two](quantity)
+    -insert [three](quantity)
+    -insert [four](quantity)
+    -[1](quantity) of it
+    -[2](quantity) of it
+    -[3](quantity) of it
+    -[4](quantity) of it
+    -[one](quantity) of it
+    -[two](quantity) of it
+    -[three](quantity) of it
+    -[four](quantity) of it
+    -[1](quantity)
+    -[2](quantity)
+    -[3](quantity)
+    -[4](quantity)
+    -[one](quantity)
+    -[two](quantity)
+    -[three](quantity)
+    -[four](quantity)
+    -Can you add [1](quantity), please?
+    -Can you add [2](quantity), please?
+    -Can you add [3](quantity), please?
+    -Can you add [4](quantity), please?
+    -Can you add [one](quantity), please?
+    -Can you add [two](quantity), please?
+    -Can you add [three](quantity), please?
+    -Can you add [four](quantity), please?
+    -I need to add [1](quantity)
+    -I need to add [2](quantity)
+    -I need to add [3](quantity)
+    -I need to add [4](quantity)
+    -I need to add [one](quantity)
+    -I need to add [two](quantity)
+    -I need to add [three](quantity)
+    -I need to add [four](quantity)
+    -I'd like to add [1](quantity)
+    -I'd like to add [2](quantity)
+    -I'd like to add [3](quantity)
+    -I'd like to add [4](quantity)
+    -I'd like to add [one](quantity)
+    -I'd like to add [two](quantity)
+    -I'd like to add [three](quantity)
+    -I'd like to add [four](quantity)
+    -I want to add [1](quantity)
+    -I want to add [2](quantity)
+    -I want to add [3](quantity)
+    -I want to add [4](quantity)
+    -I want to add [one](quantity)
+    -I want to add [two](quantity)
+    -I want to add [three](quantity)
+    -I want to add [four](quantity)
+    -I have to add [1](quantity)
+    -I have to add [2](quantity)
+    -I have to add [3](quantity)
+    -I have to add [4](quantity)
+    -I have to add [one](quantity)
+    -I have to add [two](quantity)
+    -I have to add [three](quantity)
+    -I have to add [four](quantity)
+    -I need to insert [1](quantity)
+    -I need to insert [2](quantity)
+    -I need to insert [3](quantity)
+    -I need to insert [4](quantity)
+    -I need to insert [one](quantity)
+    -I need to insert [two](quantity)
+    -I need to insert [three](quantity)
+    -I need to insert [four](quantity)
+    -Can you insert [1](quantity), please?
+    -Can you insert [2](quantity), please?
+    -Can you insert [3](quantity), please?
+    -Can you insert [4](quantity), please?
+    -Can you insert [one](quantity), please?
+    -Can you insert [two](quantity), please?
+    -Can you insert [three](quantity), please?
+    -Can you insert [four](quantity), please?
+    -I'd like to insert [1](quantity)
+    -I'd like to insert [2](quantity)
+    -I'd like to insert [3](quantity)
+    -I'd like to insert [4](quantity)
+    -I'd like to insert [one](quantity)
+    -I'd like to insert [two](quantity)
+    -I'd like to insert [three](quantity)
+    -I'd like to insert [four](quantity)
+    -I want to insert [1](quantity)
+    -I want to insert [2](quantity)
+    -I want to insert [3](quantity)
+    -I want to insert [4](quantity)
+    -I want to insert [one](quantity)
+    -I want to insert [two](quantity)
+    -I want to insert [three](quantity)
+    -I want to insert [four](quantity)
+    -I have to insert [1](quantity)
+    -I have to insert [2](quantity)
+    -I have to insert [3](quantity)
+    -I have to insert [4](quantity)
+    -I have to insert [one](quantity)
+    -I have to insert [two](quantity)
+    -I have to insert [three](quantity)
+    -I have to insert [four](quantity)
+    -I want [1](quantity) of it
+    -I want [2](quantity) of it
+    -I want [3](quantity) of it
+    -I want [4](quantity) of it
+    -I want [one](quantity) of it
+    -I want [two](quantity) of it
+    -I want [three](quantity) of it
+    -I want [four](quantity) of it
+    -I would like [1](quantity)
+    -I would like [2](quantity)
+    -I would like [3](quantity)
+    -I would like [4](quantity)
+    -I would like [one](quantity)
+    -I would like [two](quantity)
+    -I would like [three](quantity)
+    -I would like [four](quantity)
+    -[1](quantity), please
+    -[2](quantity), please
+    -[3](quantity), please
+    -[4](quantity), please
+    -[one](quantity), please
+    -[two](quantity), please
+    -[three](quantity), please
+    -[four](quantity), please
+    -[1](quantity), thanks
+    -[2](quantity), thanks
+    -[3](quantity), thanks
+    -[4](quantity), thanks
+    -[one](quantity), thanks
+    -[two](quantity), thanks
+    -[three](quantity), thanks
+    -[four](quantity), thanks

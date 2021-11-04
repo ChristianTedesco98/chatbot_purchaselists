@@ -16,12 +16,11 @@ entities:
   - list
 
 actions:
-  - action_submit
   - utter_greet
   - utter_goodbye
   - utter_noworries
   - utter_add_element
-  - utter_set_element_quantity
+  - utter_get_element_quantity
   - utter_remove_element
   - utter_look_list
   - utter_thanks
@@ -30,10 +29,10 @@ actions:
 slots:
   element:
     type: text
-    influence_conversation: true
+    influence_conversation: false
   quantity:
     type: float
-    influence_conversation: true
+    influence_conversation: false
   list_entry:
     type: text
     influence_conversation: false
@@ -42,7 +41,7 @@ slots:
     influence_conversation: false
 
 forms:
-  element_form:
+  add_element_form:
     required_slots:
       element:
         - type: from_entity
@@ -69,15 +68,14 @@ responses:
   utter_thanks:
   - text: "Ok. Thank you!"
 
-  utter_add_element:
-  - text: "Ok, how many of it do you want to add?"
-  - text: "How many do you want?"
-
-  utter_set_element_quantity:
-  - text: "Ok, I added it to the list"
+  utter_get_element_quantity:
+  - text: "Ok, how many do you need?"
 
   utter_remove_element:
   - text: "Ok, I remove it from the list"
+
+  utter_add_element:
+  - text: "Added to the list"
 
 
 
