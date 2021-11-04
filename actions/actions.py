@@ -11,17 +11,14 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 
-DATA = {
-    'List1' : {
-    }
-}
+DATA = {}
 
-class AddElement(Action):
+class UpdateList(Action):
 
     def name(self) -> Text:
-        return "utter_add_element"
+        return "update_list"
     
-    def write_file():
+    def write_file(self):
         f = open("test.txt", "w")
         f.write("Something saved")
         f.close()
@@ -36,13 +33,13 @@ class AddElement(Action):
         print("\nElement:",element)
         print("Quantity:",quantity)
 
-        for list in DATA:
-            if element in list:
-                old_quantity = list[element]
-                new_quantity = old_quantity + quantity
-                list[element] = new_quantity
-            else:
-                list[element] = quantity
+        
+        if element in DATA:
+            old_quantity = DATA[element]
+            new_quantity = old_quantity + quantity
+            DATA[element] = new_quantity
+        else:
+            DATA[element] = quantity
         
         self.write_file()
         

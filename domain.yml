@@ -21,6 +21,7 @@ actions:
   - utter_noworries
   - utter_add_element
   - utter_get_element_quantity
+  - update_list
   - utter_remove_element
   - utter_look_list
   - utter_thanks
@@ -46,6 +47,8 @@ forms:
       element:
         - type: from_entity
           entity: element
+  get_quantity_form:
+    required_slots:
       quantity:
         - type: from_entity
           entity: quantity
@@ -68,14 +71,11 @@ responses:
   utter_thanks:
   - text: "Ok. Thank you!"
 
-  utter_get_element_quantity:
-  - text: "Ok, how many do you need?"
-
   utter_remove_element:
   - text: "Ok, I remove it from the list"
 
   utter_add_element:
-  - text: "Added to the list"
+  - text: "How many do you need?"
 
 
 

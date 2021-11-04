@@ -10,7 +10,6 @@ rules:
 - rule: Activate add element form
   steps:
   - intent: add_element
-  - action: utter_get_element_quantity
   - action: add_element_form
   - active_loop: add_element_form
 
@@ -23,3 +22,19 @@ rules:
   - slot_was_set:
     - requested_slot: null
   - action: utter_add_element
+
+- rule: Activate get quantity form
+  steps:
+  - intent: get_element_quantity
+  - action: get_quantity_form
+  - active_loop: get_quantity_form
+
+- rule: Insert element
+  condition:
+  - active_loop: get_quantity_form
+  steps:
+  - action: get_quantity_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: update_list
