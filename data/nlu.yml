@@ -80,17 +80,33 @@ nlu:
 - intent: add_element
   examples: |
     -I would like to add 11 (element)
-    -i would like to add 12 (element) 
     -I would like to add 21 (element)
-    -i would like to add 22 (element)
     -I would like to add 31 (element)
-    -i would like to add 32 (element) 
     -I would like to add 41 (element)
+    -I would like to add 12 (element)
+    -I would like to add 22 (element)
+    -I would like to add 32 (element)
+    -I would like to add 42 (element)
+    -i would like to add 11 (element) 
+    -i would like to add 21 (element)
+    -i would like to add 31 (element)
+    -i would like to add 41 (element)
+    -i would like to add 12 (element) 
+    -i would like to add 22 (element)
+    -i would like to add 32 (element)
     -i would like to add 42 (element)
     -I'd like to add 11 (element)
     -I'd like to add 21 (element)
     -I'd like to add 31 (element)
     -I'd like to add 41 (element)
+    -I'd like to add 12 (element)
+    -I'd like to add 22 (element)
+    -I'd like to add 32 (element)
+    -I'd like to add 42 (element)
+    -If you please add 11 (element)
+    -If you please add 21 (element)
+    -If you please add 31 (element)
+    -If you please add 41 (element)
     -If you please add 12 (element)
     -If you please add 22 (element)
     -If you please add 32 (element)
@@ -99,6 +115,14 @@ nlu:
     -If you would please add 21 (element)
     -If you would please add 31 (element)
     -If you would please add 41 (element)
+    -If you would please add 12 (element)
+    -If you would please add 22 (element)
+    -If you would please add 32 (element)
+    -If you would please add 42 (element)
+    -If you'd like to add 11 (element)
+    -If you'd like to add 21 (element)
+    -If you'd like to add 31 (element)
+    -If you'd like to add 41 (element)
     -If you'd like to add 12 (element)
     -If you'd like to add 22 (element)
     -If you'd like to add 32 (element)
@@ -107,10 +131,22 @@ nlu:
     -If you could please add 21 (element)
     -If you could please add 31 (element)
     -If you could please add 41 (element)
+    -If you could please add 12 (element)
+    -If you could please add 22 (element)
+    -If you could please add 32 (element)
+    -If you could please add 42 (element)
     -Put on the list 11 (element)
     -Put on the list 21 (element)
     -Put on the list 31 (element)
     -Put on the list 41 (element)
+    -Put on the list 12 (element)
+    -Put on the list 22 (element)
+    -Put on the list 32 (element)
+    -Put on the list 42 (element)
+    -Please put on the list 11(element)
+    -Please put on the list 21(element)
+    -Please put on the list 31(element)
+    -Please put on the list 21(element)
     -Please put on the list 12(element)
     -Please put on the list 22(element)
     -Please put on the list 32(element)
@@ -119,6 +155,14 @@ nlu:
     -Put 21 (element)in the list
     -Put 31 (element)in the list
     -Put 41 (element)in the list
+    -Put 12 (element)in the list
+    -Put 22 (element)in the list
+    -Put 32 (element)in the list
+    -Put 42 (element)in the list
+    -Could you put 11 (element) in the list?
+    -Could you put 21 (element) in the list?
+    -Could you put 31 (element) in the list?
+    -Could you put 41 (element) in the list?
     -Could you put 12 (element) in the list?
     -Could you put 22 (element) in the list?
     -Could you put 32 (element) in the list?
@@ -127,10 +171,22 @@ nlu:
     -Could you add 21 (element) to the list?
     -Could you add 31 (element) to the list?
     -Could you add 41 (element) to the list?
+    -Could you add 12 (element) to the list?
+    -Could you add 22 (element) to the list?
+    -Could you add 32 (element) to the list?
+    -Could you add 42 (element) to the list?
     -I would like to include 11 (element)
     -I would like to include 21 (element)
     -I would like to include 31 (element)
     -I would like to include 41 (element)
+    -I would like to include 12 (element)
+    -I would like to include 22 (element)
+    -I would like to include 32 (element)
+    -I would like to include 42 (element)
+    -I would like to include 11 (element) in the list
+    -I would like to include 21 (element) in the list
+    -I would like to include 31 (element) in the list
+    -I would like to include 41 (element) in the list
     -I would like to include 12 (element) in the list
     -I would like to include 22 (element) in the list
     -I would like to include 32 (element) in the list
@@ -139,6 +195,14 @@ nlu:
     -I'd like to include 21 (element)
     -I'd like to include 31 (element)
     -I'd like to include 41 (element)
+    -I'd like to include 12 (element)
+    -I'd like to include 22 (element)
+    -I'd like to include 32 (element)
+    -I'd like to include 42 (element)
+    -I'd like to include 11 (element) in the list
+    -I'd like to include 21 (element) in the list
+    -I'd like to include 31 (element) in the list
+    -I'd like to include 41 (element) in the list
     -I'd like to include 12 (element) in the list
     -I'd like to include 22 (element) in the list
     -I'd like to include 32 (element) in the list
@@ -147,6 +211,14 @@ nlu:
     -i'd like to add 21 (element)
     -i'd like to add 31 (element)
     -i'd like to add 41 (element)
+    -i'd like to add 12 (element)
+    -i'd like to add 22 (element)
+    -i'd like to add 32 (element)
+    -i'd like to add 42 (element)
+    -if you please add 11 (element)
+    -if you please add 21 (element)
+    -if you please add 31 (element)
+    -if you please add 41 (element)
     -if you please add 12 (element)
     -if you please add 22 (element)
     -if you please add 32 (element)
@@ -155,6 +227,14 @@ nlu:
     -if you would please add 21 (element)
     -if you would please add 31 (element)
     -if you would please add 41 (element)
+    -if you would please add 12 (element)
+    -if you would please add 22 (element)
+    -if you would please add 32 (element)
+    -if you would please add 42 (element)
+    -if you'd like to add 11 (element)
+    -if you'd like to add 21 (element)
+    -if you'd like to add 31 (element)
+    -if you'd like to add 41 (element)
     -if you'd like to add 12 (element)
     -if you'd like to add 22 (element)
     -if you'd like to add 32 (element)
@@ -163,6 +243,14 @@ nlu:
     -if you could please add 21 (element)
     -if you could please add 31 (element)
     -if you could please add 41 (element)
+    -if you could please add 12 (element)
+    -if you could please add 22 (element)
+    -if you could please add 32 (element)
+    -if you could please add 42 (element)
+    -put on the list 11 (element)
+    -put on the list 21 (element)
+    -put on the list 31 (element)
+    -put on the list 41 (element)
     -put on the list 12 (element)
     -put on the list 22 (element)
     -put on the list 32 (element)
@@ -171,10 +259,22 @@ nlu:
     -please put on the list 21 (element)
     -please put on the list 31 (element)
     -please put on the list 41 (element)
+    -please put on the list 12 (element)
+    -please put on the list 22 (element)
+    -please put on the list 32 (element)
+    -please put on the list 42 (element)
     -put 11 (element) in the list
     -put 21 (element) in the list
     -put 31 (element) in the list  
     -put 41 (element) in the list 
+    -put 12 (element) in the list
+    -put 22 (element) in the list
+    -put 32 (element) in the list  
+    -put 42 (element) in the list 
+    -could you put 11 (element) in the list?
+    -could you put 21 (element) in the list?
+    -could you put 31 (element) in the list?
+    -could you put 41 (element) in the list?
     -could you put 12 (element) in the list?
     -could you put 22 (element) in the list?
     -could you put 32 (element) in the list?
@@ -183,10 +283,22 @@ nlu:
     -could you add 21 (element) to the list?
     -could you add 31 (element) to the list?
     -could you add 41 (element) to the list?
+    -could you add 12 (element) to the list?
+    -could you add 22 (element) to the list?
+    -could you add 32 (element) to the list?
+    -could you add 42 (element) to the list?
     -i would like to include 11(element)
     -i would like to include 21(element)
     -i would like to include 31(element)
     -i would like to include 41(element)
+    -i would like to include 12(element)
+    -i would like to include 22(element)
+    -i would like to include 32(element)
+    -i would like to include 42(element)
+    -i would like to include 11 (element) in the list
+    -i would like to include 21 (element) in the list
+    -i would like to include 31 (element) in the list
+    -i would like to include 41 (element) in the list
     -i would like to include 12 (element) in the list
     -i would like to include 22 (element) in the list
     -i would like to include 32 (element) in the list
@@ -195,208 +307,1074 @@ nlu:
     -i'd like to include 21(element)
     -i'd like to include 31(element)
     -i'd like to include 41(element)
+    -i'd like to include 12(element)
+    -i'd like to include 22(element)
+    -i'd like to include 32(element)
+    -i'd like to include 42(element)
+    -i'd like to include 11 (element) in the list
+    -i'd like to include 21 (element) in the list
+    -i'd like to include 31 (element) in the list
+    -i'd like to include 41 (element) in the list
     -i'd like to include 12 (element) in the list
     -i'd like to include 22 (element) in the list
+    -i'd like to include 32 (element) in the list
     -i'd like to include 42 (element) in the list
     -Add 11 (element) to the list
     -Add 21 (element) to the list
+    -Add 31 (element) to the list
     -Add 41 (element) to the list
+    -Add 12 (element) to the list
+    -Add 22 (element) to the list
+    -Add 32 (element) to the list
+    -Add 42 (element) to the list
+    -add 11 (element) to the list  
+    -add 21 (element) to the list
+    -add 31 (element) to the list 
+    -add 41 (element) to the list
     -add 12 (element) to the list  
-    -add 22 (element) to the list  
+    -add 22 (element) to the list
+    -add 32 (element) to the list 
     -add 42 (element) to the list
     -I would like to buy 11 (element)
     -I would like to buy 21 (element)
+    -I would like to buy 31 (element)
     -I would like to buy 41 (element)
+    -I would like to buy 12 (element)
+    -I would like to buy 22 (element)
+    -I would like to buy 32 (element)
+    -I would like to buy 42 (element)
+    -I need so 11 (element)
+    -I need so 21 (element)
+    -I need so 31 (element)
+    -I need so 41 (element)
     -I need so 12 (element)
     -I need so 22 (element)
+    -I need so 32 (element)
     -I need so 42 (element)
     -I'd like to buy 11 (element)
     -I'd like to buy 21 (element)
+    -I'd like to buy 31 (element)
     -I'd like to buy 41 (element)
+    -I'd like to buy 12 (element)
+    -I'd like to buy 22 (element)
+    -I'd like to buy 32 (element)
+    -I'd like to buy 42 (element)
     -i would like to buy 12 (element)
     -i would like to buy 22 (element)
+    -i would like to buy 32 (element)
+    -i would like to buy 42 (element)
+    -i would like to buy 12 (element)
+    -i would like to buy 22 (element)
+    -i would like to buy 32 (element)
     -i would like to buy 42 (element)
     -i need so 11 (element)
     -i need so 21 (element)
+    -i need so 31 (element)
     -i need so 41 (element)
+    -i need so 12 (element)
+    -i need so 22 (element)
+    -i need so 32 (element)
+    -i need so 42 (element)
+    -i'd like to buy 11(element)
+    -i'd like to buy 21(element)
+    -i'd like to buy 31(element)
+    -i'd like to buy 41(element)
     -i'd like to buy 12(element)
     -i'd like to buy 22(element)
+    -i'd like to buy 32(element)
     -i'd like to buy 42(element)
     -Add 11 (element)
     -Add 21 (element)
+    -Add 31 (element)
     -Add 41 (element)
+    -Add 12 (element)
+    -Add 22 (element)
+    -Add 32 (element)
+    -Add 42 (element)
+    -add 11(element)
+    -add 21(element)
+    -add 31(element)
+    -add 41(element)
     -add 12(element)
+    -add 22(element)
+    -add 32(element)
     -add 42(element)
     -I want to buy 11(element)
     -I want to buy 21(element)
+    -I want to buy 31(element)
     -I want to buy 41(element)
+    -I want to buy 12(element)
+    -I want to buy 22(element)
+    -I want to buy 32(element)
+    -I want to buy 42(element)
+    -I need 11 (element)
+    -I need 21 (element)
+    -I need 31 (element)
+    -I need 41 (element)
     -I need 12 (element)
     -I need 22 (element)
+    -I need 32 (element)
     -I need 42 (element)
     -i want to buy 11 (element)
     -i want to buy 21 (element)
+    -i want to buy 31 (element)
     -i want to buy 41 (element)
+    -i want to buy 12 (element)
+    -i want to buy 22 (element)
+    -i want to buy 32 (element)
+    -i want to buy 42 (element)
+    -i need 11 (element)
+    -i need 21 (element)
+    -i need 31 (element)
+    -i need 41 (element)
     -i need 12 (element)
     -i need 22 (element)
+    -i need 32 (element)
     -i need 42 (element)
     -Insert 11 (element)
     -Insert 21 (element)
+    -Insert 31 (element)
+    -Insert 41 (element)
+    -Insert 12 (element)
+    -Insert 22 (element)
+    -Insert 32 (element)
+    -Insert 42 (element)
+    -insert 11 (element)
+    -insert 21 (element)
+    -insert 31 (element)
+    -insert 41 (element)
     -insert 12 (element)
     -insert 22 (element)
+    -insert 32 (element)
+    -insert 42 (element)
+    -I have finished 11(element)
+    -I have finished 21(element)
+    -I have finished 31(element)
+    -I have finished 41(element)
     -I have finished 12(element)
     -I have finished 22(element)
+    -I have finished 32(element)
+    -I have finished 42(element)
     -I need to add 11 (element)
     -I need to add 21 (element)
+    -I need to add 31 (element)
+    -I need to add 41 (element)
+    -I need to add 12 (element)
+    -I need to add 22 (element)
+    -I need to add 32 (element)
+    -I need to add 42 (element)
+    -i have finished 11(element)
+    -i have finished 21(element)
+    -i have finished 31(element)
+    -i have finished 41(element)
     -i have finished 12(element)
     -i have finished 22(element)
+    -i have finished 32(element)
+    -i have finished 42(element)
     -i need to add 11 (element)
     -i need to add 21 (element)
+    -i need to add 31 (element)
+    -i need to add 41 (element)
+    -i need to add 12 (element)
+    -i need to add 22 (element)
+    -i need to add 32 (element)
+    -i need to add 42 (element)
+    -Can you add 11(element), please?
+    -Can you add 21(element), please?
+    -Can you add 31(element), please?
+    -Can you add 41(element), please?
     -Can you add 12(element), please?
     -Can you add 22(element), please?
+    -Can you add 32(element), please?
+    -Can you add 42(element), please?
     -I want to add 11(element)
     -I want to add 21(element)
-    -I have to add 12 (element)
-    -I have to add 22 (element)
-    -I need to insert 11 (element)
-    -I need to insert 21 (element)
+    -I want to add 31(element)
+    -I want to add 41(element)
+    -I want to add 12(element)
+    -I want to add 22(element)
+    -I want to add 32(element)
+    -I want to add 42(element)
+    -I have to add 11(element)
+    -I have to add 21(element)
+    -I have to add 31(element)
+    -I have to add 41(element)
+    -I have to add 12(element)
+    -I have to add 22(element)
+    -I have to add 32(element)
+    -I have to add 42(element)
+    -I need to insert 11(element)
+    -I need to insert 21(element)
+    -I need to insert 31(element)
+    -I need to insert 41(element)
+    -I need to insert 12(element)
+    -I need to insert 22(element)
+    -I need to insert 32(element)
+    -I need to insert 42(element)
+    -i want to add 11(element)
+    -i want to add 21(element)
+    -i want to add 31(element)
+    -i want to add 41(element)
     -i want to add 12(element)
     -i want to add 22(element)
-    -i have to add 11 (element)
-    -i have to add 21 (element)
+    -i want to add 32(element)
+    -i want to add 42(element)
+    -i have to add 11(element)
+    -i have to add 21(element)
+    -i have to add 31(element)
+    -i have to add 41(element)
+    -i have to add 12(element)
+    -i have to add 22(element)
+    -i have to add 32(element)
+    -i have to add 42(element)
+    -i need to insert 11(element)
+    -i need to insert 21(element)
+    -i need to insert 31(element)
+    -i need to insert 41(element)
     -i need to insert 12(element)
     -i need to insert 22(element)
-    -Can you insert 11 (element), please?
-    -Can you insert 21 (element), please?
-    -I'd like to insert 12 (element)
-    -I'd like to insert 22 (element)
-    -I want to insert 11 (element)
-    -I want to insert 21 (element)
-    -I have to insert 12 (element)
-    -I have to insert 22 (element)
+    -i need to insert 32(element)
+    -i need to insert 42(element)
+    -Can you insert 11(element), please?
+    -Can you insert 21(element), please?
+    -Can you insert 31(element), please?
+    -Can you insert 41(element), please?
+    -Can you insert 12(element), please?
+    -Can you insert 22(element), please?
+    -Can you insert 32(element), please?
+    -Can you insert 42(element), please?
+    -I'd like to insert 11(element)
+    -I'd like to insert 21(element)
+    -I'd like to insert 31(element)
+    -I'd like to insert 41(element)
+    -I'd like to insert 12(element)
+    -I'd like to insert 22(element)
+    -I'd like to insert 32(element)
+    -I'd like to insert 42(element)
+    -I want to insert 11(element)
+    -I want to insert 21(element)
+    -I want to insert 31(element)
+    -I want to insert 41(element)
+    -I want to insert 12(element)
+    -I want to insert 22(element)
+    -I want to insert 32(element)
+    -I want to insert 42(element)
+    -I have to insert 11(element)
+    -I have to insert 21(element)
+    -I have to insert 31(element)
+    -I have to insert 41(element)
+    -I have to insert 12(element)
+    -I have to insert 22(element)
+    -I have to insert 32(element)
+    -I have to insert 42(element)
     -i'd like to insert 11(element)
     -i'd like to insert 21(element)
+    -i'd like to insert 31(element)
+    -i'd like to insert 41(element)
+    -i'd like to insert 12(element)
+    -i'd like to insert 22(element)
+    -i'd like to insert 32(element)
+    -i'd like to insert 42(element)
     -i want to insert 11(element)
     -i want to insert 21(element)
-    -i have to insert 12 (element)
-    -i have to insert 22 (element)
-    -Buy 11 (element)
-    -Buy 21 (element)
-    -buy 12 (element)
-    -buy 22 (element)
-    -I would like to put 11 (element) in the list
-    -I would like to put 21 (element) in the list
-    -I would like to buy 12 (element)
-    -I would like to buy 22 (element)
-    -I'd like to put 11 (element) in the list
-    -I'd like to put 21 (element) in the list
-    -Can you put 12 (element) in the list?
-    -Can you put 22 (element) in the list?
-    -I have to put 11 (element) in the list
-    -I have to put 21 (element) in the list
-    -i want to put 12 (element) in the list
-    -i want to put 22 (element) in the list
-    -i would like to insert 12 (element)
-    -i would like to insert 22 (element)
+    -i want to insert 31(element)
+    -i want to insert 41(element)
+    -i have to insert 12(element)
+    -i have to insert 22(element)
+    -i have to insert 32(element)
+    -i have to insert 42(element)
+    -Buy 11(element)
+    -Buy 21(element)
+    -Buy 31(element)
+    -Buy 41(element)
+    -Buy 12(element)
+    -Buy 22(element)
+    -Buy 32(element)
+    -Buy 42(element)
+    -buy 11(element)
+    -buy 21(element)
+    -buy 31(element)
+    -buy 41(element)
+    -buy 12(element)
+    -buy 22(element)
+    -buy 32(element)
+    -buy 42(element)
+    -I would like to put 11(element) in the list
+    -I would like to put 21(element) in the list
+    -I would like to put 31(element) in the list
+    -I would like to put 41(element) in the list
+    -I would like to put 12(element) in the list
+    -I would like to put 22(element) in the list
+    -I would like to put 32(element) in the list
+    -I would like to put 42(element) in the list
+    -I would like to buy 11(element)
+    -I would like to buy 21(element)
+    -I would like to buy 31(element)
+    -I would like to buy 41(element)
+    -I would like to buy 12(element)
+    -I would like to buy 22(element)
+    -I would like to buy 32(element)
+    -I would like to buy 42(element)
+    -I'd like to put 11(element) in the list
+    -I'd like to put 21(element) in the list
+    -I'd like to put 31(element) in the list
+    -I'd like to put 41(element) in the list
+    -I'd like to put 12(element) in the list
+    -I'd like to put 22(element) in the list
+    -I'd like to put 32(element) in the list
+    -I'd like to put 42(element) in the list
+    -Can you put 11(element) in the list?
+    -Can you put 21(element) in the list?
+    -Can you put 31(element) in the list?
+    -Can you put 41(element) in the list?
+    -Can you put 12(element) in the list?
+    -Can you put 22(element) in the list?
+    -Can you put 32(element) in the list?
+    -Can you put 42(element) in the list?
+    -I have to put 11(element) in the list
+    -I have to put 21(element) in the list
+    -I have to put 31(element) in the list
+    -I have to put 41(element) in the list
+    -I have to put 12(element) in the list
+    -I have to put 22(element) in the list
+    -I have to put 32(element) in the list
+    -I have to put 42(element) in the list
+    -i want to put 11(element) in the list
+    -i want to put 21(element) in the list
+    -i want to put 31(element) in the list
+    -i want to put 41(element) in the list
+    -i want to put 12(element) in the list
+    -i want to put 22(element) in the list
+    -i want to put 32(element) in the list
+    -i want to put 42(element) in the list
+    -i would like to insert 11(element)
+    -i would like to insert 21(element)
+    -i would like to insert 31(element)
+    -i would like to insert 41(element)
+    -i would like to insert 12(element)
+    -i would like to insert 22(element)
+    -i would like to insert 32(element)
+    -i would like to insert 42(element)
     
   
   
 - intent: remove_element
   examples: |
-    -Can you remove 11 (element)?
-    -Can you take off 12 (element)?
-    -You can take off 11 (element)
-    -Could you please remove 12 (element)?
-    -Could you take off 11 (element)?
-    -Could you take away 12 (element)?
-    -Can you remove 11 (element) from the list?
-    -Can you take off 12 (element) from the list?
-    -Could you please remove 11 (element) from the list?
-    -Could you take off 11 (element) from the list?
-    -Could you take away 12 (element) from the list?
-    -Remove 11 (element) from the list
-    -remove 12 (element)
+    -Can you remove 11(element)?
+    -Can you remove 21(element)?
+    -Can you remove 31(element)?
+    -Can you remove 41(element)?
+    -Can you remove 12(element)?
+    -Can you remove 22(element)?
+    -Can you remove 32(element)?
+    -Can you remove 42(element)?
+    -Can you take off 11(element)?
+    -Can you take off 21(element)?
+    -Can you take off 31(element)?
+    -Can you take off 41(element)?
+    -Can you take off 12(element)?
+    -Can you take off 22(element)?
+    -Can you take off 32(element)?
+    -Can you take off 42(element)?
+    -You can take off 11(element)
+    -You can take off 21(element)
+    -You can take off 31(element)
+    -You can take off 41(element)
+    -You can take off 12(element)
+    -You can take off 22(element)
+    -You can take off 32(element)
+    -You can take off 42(element)
+    -Could you please remove 11(element)?
+    -Could you please remove 21(element)?
+    -Could you please remove 31(element)?
+    -Could you please remove 41(element)?
+    -Could you please remove 12(element)?
+    -Could you please remove 22(element)?
+    -Could you please remove 32(element)?
+    -Could you please remove 42(element)?
+    -Could you take off 11(element)?
+    -Could you take off 21(element)?
+    -Could you take off 31(element)?
+    -Could you take off 41(element)?
+    -Could you take off 12(element)?
+    -Could you take off 22(element)?
+    -Could you take off 32(element)?
+    -Could you take off 42(element)?
+    -Could you take away 11(element)?
+    -Could you take away 21(element)?
+    -Could you take away 31(element)?
+    -Could you take away 41(element)?
+    -Could you take away 12(element)?
+    -Could you take away 22(element)?
+    -Could you take away 32(element)?
+    -Could you take away 42(element)?
+    -Can you remove 11(element) from the list?
+    -Can you remove 21(element) from the list?
+    -Can you remove 31(element) from the list?
+    -Can you remove 41(element) from the list?
+    -Can you remove 12(element) from the list?
+    -Can you remove 22(element) from the list?
+    -Can you remove 32(element) from the list?
+    -Can you remove 42(element) from the list?
+    -Can you take off 11(element) from the list?
+    -Can you take off 21(element) from the list?
+    -Can you take off 31(element) from the list?
+    -Can you take off 41(element) from the list?
+    -Can you take off 12(element) from the list?
+    -Can you take off 22(element) from the list?
+    -Can you take off 32(element) from the list?
+    -Can you take off 42(element) from the list?
+    -Could you please remove 11(element) from the list?
+    -Could you please remove 21(element) from the list?
+    -Could you please remove 31(element) from the list?
+    -Could you please remove 41(element) from the list?
+    -Could you please remove 12(element) from the list?
+    -Could you please remove 22(element) from the list?
+    -Could you please remove 32(element) from the list?
+    -Could you please remove 42(element) from the list?
+    -Could you take off 11(element) from the list?
+    -Could you take off 21(element) from the list?
+    -Could you take off 31(element) from the list?
+    -Could you take off 41(element) from the list?
+    -Could you take off 12(element) from the list?
+    -Could you take off 22(element) from the list?
+    -Could you take off 32(element) from the list?
+    -Could you take off 42(element) from the list?
+    -Could you take away 11(element) from the list?
+    -Could you take away 21(element) from the list?
+    -Could you take away 31(element) from the list?
+    -Could you take away 41(element) from the list?
+    -Could you take away 12(element) from the list?
+    -Could you take away 22(element) from the list?
+    -Could you take away 32(element) from the list?
+    -Could you take away 42(element) from the list?
+    -Remove 11(element) from the list
+    -Remove 21(element) from the list
+    -Remove 31(element) from the list
+    -Remove 41(element) from the list
+    -Remove 12(element) from the list
+    -Remove 22(element) from the list
+    -Remove 32(element) from the list
+    -Remove 42(element) from the list
+    -remove 11(element)
+    -remove 21(element)
+    -remove 31(element)
+    -remove 41(element)
+    -remove 12(element)
+    -remove 22(element)
+    -remove 32(element)
+    -remove 42(element)
     -I don't want to buy 11(element)
-    -I don't want 12 (element)
-    -I don't need 11 (element) anymore
+    -I don't want to buy 21(element)
+    -I don't want to buy 31(element)
+    -I don't want to buy 41(element)
+    -I don't want to buy 12(element)
+    -I don't want to buy 22(element)
+    -I don't want to buy 32(element)
+    -I don't want to buy 42(element)
+    -I don't want 11(element)
+    -I don't want 21(element)
+    -I don't want 31(element)
+    -I don't want 41(element)
+    -I don't want 12(element)
+    -I don't want 22(element)
+    -I don't want 32(element)
+    -I don't want 42(element)
+    -I don't need 11(element) anymore
+    -I don't need 21(element) anymore
+    -I don't need 31(element) anymore
+    -I don't need 41(element) anymore
+    -I don't need 12(element) anymore
+    -I don't need 22(element) anymore
+    -I don't need 32(element) anymore
+    -I don't need 42(element) anymore
     -Cancel 11(element)
-    -cancel 12 (element)
-    -Remove 11 (element)
-    -remove 12 (element)
-    -Delete 11 (element)
-    -delete 12 (element)
+    -Cancel 21(element)
+    -Cancel 31(element)
+    -Cancel 41(element)
+    -Cancel 12(element)
+    -Cancel 22(element)
+    -Cancel 32(element)
+    -Cancel 42(element)
+    -cancel 11(element)
+    -cancel 21(element)
+    -cancel 31(element)
+    -cancel 41(element)
+    -cancel 12(element)
+    -cancel 22(element)
+    -cancel 32(element)
+    -cancel 42(element)
+    -Remove 11(element)
+    -Remove 21(element)
+    -Remove 31(element)
+    -Remove 41(element)
+    -Remove 12(element)
+    -Remove 22(element)
+    -Remove 32(element)
+    -Remove 42(element)
+    -remove 11(element)
+    -remove 21(element)
+    -remove 31(element)
+    -remove 41(element)
+    -remove 12(element)
+    -remove 22(element)
+    -remove 32(element)
+    -remove 42(element)
+    -Delete 11(element)
+    -Delete 21(element)
+    -Delete 31(element)
+    -Delete 41(element)
+    -Delete 12(element)
+    -Delete 22(element)
+    -Delete 32(element)
+    -Delete 42(element)
+    -delete 11(element)
+    -delete 21(element)
+    -delete 31(element)
+    -delete 41(element)
+    -delete 12(element)
+    -delete 22(element)
+    -delete 32(element)
+    -delete 42(element)
     -Pull out 11(element) from the list
-    -pull out 12 (element) from the the list
+    -Pull out 21(element) from the list
+    -Pull out 31(element) from the list
+    -Pull out 41(element) from the list
+    -Pull out 12(element) from the list
+    -Pull out 22(element) from the list
+    -Pull out 32(element) from the list
+    -Pull out 42(element) from the list
+    -pull out 11(element) from the the list
+    -pull out 21(element) from the the list
+    -pull out 31(element) from the the list
+    -pull out 41(element) from the the list
+    -pull out 12(element) from the the list
+    -pull out 22(element) from the the list
+    -pull out 32(element) from the the list
+    -pull out 42(element) from the the list
     -I want to remove 11(element)
-    -I want to delete 12 (element)
-    -I want to pull out 11 (element) from the list
+    -I want to remove 21(element)
+    -I want to remove 31(element)
+    -I want to remove 41(element)
+    -I want to remove 12(element)
+    -I want to remove 22(element)
+    -I want to remove 32(element)
+    -I want to remove 42(element)
+    -I want to delete 11(element)
+    -I want to delete 21(element)
+    -I want to delete 31(element)
+    -I want to delete 41(element)
+    -I want to delete 12(element)
+    -I want to delete 22(element)
+    -I want to delete 32(element)
+    -I want to delete 42(element)
+    -I want to pull out 11(element) from the list
+    -I want to pull out 21(element) from the list
+    -I want to pull out 31(element) from the list
+    -I want to pull out 41(element) from the list
+    -I want to pull out 12(element) from the list
+    -I want to pull out 22(element) from the list
+    -I want to pull out 32(element) from the list
+    -I want to pull out 42(element) from the list
+    -I would like to add 11(element)
+    -I would like to add 21(element)
+    -I would like to add 31(element)
+    -I would like to add 41(element)
     -I would like to add 12(element)
-    -I would like to insert 11 (element)
-    -I would like to pull out 12 (element) from the list
-    -I'd like to remove 11 (element)
-    -I'd like to delete 12 (element)
-    -I'd like to pull out 11 (element) from the list
-    -I need to remove 12 (element)
-    -I need to delete 11 (element)
-    -Can you remove 11 (element), please?
-    -Can you delete 12 (element), please?
-    -Can you pull out 11 (element) from the list?
-    -I have to pull out 12 (element) from the list
-    -i want to remove 11 (element)
-    -i want to delete 12 (element)
-    -i want to pull out 11 (element) from the list
-    -i would like to remove 11 (element)
-    -i would like to delete 12 (element)
-    -i would like to pull out 11 (element) from the list
-    -i'd like to delete 11 (element)
-    -i'd like to remove 12 (element)
-    -i'd like to pull out 11 (element) from the list
-    -i need to remove 12 (element)
-    -i need to delete 11 (element)
-    -can you remove 12 (element), please?
-    -can you delete 11 (element) from the list?
-    -can you pull out 11 (element) from the list?
-    -i have to pull out 12 (element) from the list
-    -I need to take off 11 (element)
-    -Can you take off 12 (element), please?
-    -I'd like to take off 11 (element)
-    -I want to take off 12 (element) 
-    -I have to take off 11 (element)
+    -I would like to add 22(element)
+    -I would like to add 32(element)
+    -I would like to add 42(element)
+    -I would like to insert 11(element)
+    -I would like to insert 21(element)
+    -I would like to insert 31(element)
+    -I would like to insert 41(element)
+    -I would like to insert 12(element)
+    -I would like to insert 22(element)
+    -I would like to insert 32(element)
+    -I would like to insert 42(element)
+    -I would like to pull out 11(element) from the list
+    -I would like to pull out 21(element) from the list
+    -I would like to pull out 31(element) from the list
+    -I would like to pull out 41(element) from the list
+    -I would like to pull out 12(element) from the list
+    -I would like to pull out 22(element) from the list
+    -I would like to pull out 32(element) from the list
+    -I would like to pull out 42(element) from the list
+    -I'd like to remove 11(element)
+    -I'd like to remove 21(element)
+    -I'd like to remove 31(element)
+    -I'd like to remove 41(element)
+    -I'd like to remove 12(element)
+    -I'd like to remove 22(element)
+    -I'd like to remove 32(element)
+    -I'd like to remove 42(element)
+    -I'd like to delete 11(element)
+    -I'd like to delete 21(element)
+    -I'd like to delete 31(element)
+    -I'd like to delete 41(element)
+    -I'd like to delete 12(element)
+    -I'd like to delete 22(element)
+    -I'd like to delete 32(element)
+    -I'd like to delete 42(element)
+    -I'd like to pull out 11(element) from the list
+    -I'd like to pull out 21(element) from the list
+    -I'd like to pull out 31(element) from the list
+    -I'd like to pull out 41(element) from the list
+    -I'd like to pull out 12(element) from the list
+    -I'd like to pull out 22(element) from the list
+    -I'd like to pull out 32(element) from the list
+    -I'd like to pull out 42(element) from the list
+    -I need to remove 11(element)
+    -I need to remove 21(element)
+    -I need to remove 31(element)
+    -I need to remove 41(element)
+    -I need to remove 12(element)
+    -I need to remove 22(element)
+    -I need to remove 32(element)
+    -I need to remove 42(element)
+    -I need to delete 11(element)
+    -I need to delete 21(element)
+    -I need to delete 31(element)
+    -I need to delete 41(element)
+    -I need to delete 12(element)
+    -I need to delete 22(element)
+    -I need to delete 32(element)
+    -I need to delete 42(element)
+    -Can you remove 11(element), please?
+    -Can you remove 21(element), please?
+    -Can you remove 31(element), please?
+    -Can you remove 41(element), please?
+    -Can you remove 12(element), please?
+    -Can you remove 22(element), please?
+    -Can you remove 32(element), please?
+    -Can you remove 42(element), please?
+    -Can you delete 11(element), please?
+    -Can you delete 21(element), please?
+    -Can you delete 31(element), please?
+    -Can you delete 41(element), please?
+    -Can you delete 12(element), please?
+    -Can you delete 22(element), please?
+    -Can you delete 32(element), please?
+    -Can you delete 42(element), please?
+    -Can you pull out 11(element) from the list?
+    -Can you pull out 21(element) from the list?
+    -Can you pull out 31(element) from the list?
+    -Can you pull out 41(element) from the list?
+    -Can you pull out 12(element) from the list?
+    -Can you pull out 22(element) from the list?
+    -Can you pull out 32(element) from the list?
+    -Can you pull out 42(element) from the list?
+    -I have to pull out 11(element) from the list
+    -I have to pull out 21(element) from the list
+    -I have to pull out 31(element) from the list
+    -I have to pull out 41(element) from the list
+    -I have to pull out 12(element) from the list
+    -I have to pull out 22(element) from the list
+    -I have to pull out 32(element) from the list
+    -I have to pull out 42(element) from the list
+    -i want to remove 11(element)
+    -i want to remove 21(element)
+    -i want to remove 31(element)
+    -i want to remove 41(element)
+    -i want to remove 12(element)
+    -i want to remove 22(element)
+    -i want to remove 32(element)
+    -i want to remove 42(element)
+    -i want to delete 11(element)
+    -i want to delete 21(element)
+    -i want to delete 31(element)
+    -i want to delete 41(element)
+    -i want to delete 12(element)
+    -i want to delete 22(element)
+    -i want to delete 32(element)
+    -i want to delete 42(element)
+    -i want to pull out 11(element) from the list
+    -i want to pull out 21(element) from the list
+    -i want to pull out 31(element) from the list
+    -i want to pull out 41(element) from the list
+    -i want to pull out 12(element) from the list
+    -i want to pull out 22(element) from the list
+    -i want to pull out 32(element) from the list
+    -i want to pull out 42(element) from the list
+    -i would like to remove 11(element)
+    -i would like to remove 21(element)
+    -i would like to remove 31(element)
+    -i would like to remove 41(element)
+    -i would like to remove 12(element)
+    -i would like to remove 22(element)
+    -i would like to remove 32(element)
+    -i would like to remove 42(element)
+    -i would like to delete 11(element)
+    -i would like to delete 21(element)
+    -i would like to delete 31(element)
+    -i would like to delete 41(element)
+    -i would like to delete 12(element)
+    -i would like to delete 22(element)
+    -i would like to delete 32(element)
+    -i would like to delete 42(element)
+    -i would like to pull out 11(element) from the list
+    -i would like to pull out 21(element) from the list
+    -i would like to pull out 31(element) from the list
+    -i would like to pull out 41(element) from the list
+    -i would like to pull out 12(element) from the list
+    -i would like to pull out 22(element) from the list
+    -i would like to pull out 32(element) from the list
+    -i would like to pull out 42(element) from the list
+    -i'd like to delete 11(element)
+    -i'd like to delete 21(element)
+    -i'd like to delete 31(element)
+    -i'd like to delete 41(element)
+    -i'd like to delete 12(element)
+    -i'd like to delete 22(element)
+    -i'd like to delete 32(element)
+    -i'd like to delete 42(element)
+    -i'd like to remove 11(element)
+    -i'd like to remove 21(element)
+    -i'd like to remove 31(element)
+    -i'd like to remove 41(element)
+    -i'd like to remove 12(element)
+    -i'd like to remove 22(element)
+    -i'd like to remove 32(element)
+    -i'd like to remove 42(element)
+    -i'd like to pull out 11(element) from the list
+    -i'd like to pull out 21(element) from the list
+    -i'd like to pull out 31(element) from the list
+    -i'd like to pull out 41(element) from the list
+    -i'd like to pull out 12(element) from the list
+    -i'd like to pull out 22(element) from the list
+    -i'd like to pull out 32(element) from the list
+    -i'd like to pull out 42(element) from the list
+    -i need to remove 11(element)
+    -i need to remove 21(element)
+    -i need to remove 31(element)
+    -i need to remove 41(element)
+    -i need to remove 12(element)
+    -i need to remove 22(element)
+    -i need to remove 32(element)
+    -i need to remove 42(element)
+    -i need to delete 11(element)
+    -i need to delete 21(element)
+    -i need to delete 31(element)
+    -i need to delete 41(element)
+    -i need to delete 12(element)
+    -i need to delete 22(element)
+    -i need to delete 32(element)
+    -i need to delete 42(element)
+    -can you remove 11(element), please?
+    -can you remove 21(element), please?
+    -can you remove 31(element), please?
+    -can you remove 41(element), please?
+    -can you remove 12(element), please?
+    -can you remove 22(element), please?
+    -can you remove 32(element), please?
+    -can you remove 42(element), please?
+    -can you delete 11(element) from the list?
+    -can you delete 21(element) from the list?
+    -can you delete 31(element) from the list?
+    -can you delete 41(element) from the list?
+    -can you delete 12(element) from the list?
+    -can you delete 22(element) from the list?
+    -can you delete 32(element) from the list?
+    -can you delete 42(element) from the list?
+    -can you pull out 11(element) from the list?
+    -can you pull out 21(element) from the list?
+    -can you pull out 31(element) from the list?
+    -can you pull out 41(element) from the list?
+    -can you pull out 12(element) from the list?
+    -can you pull out 22(element) from the list?
+    -can you pull out 32(element) from the list?
+    -can you pull out 42(element) from the list?
+    -i have to pull out 11(element) from the list
+    -i have to pull out 21(element) from the list
+    -i have to pull out 31(element) from the list
+    -i have to pull out 41(element) from the list
+    -i have to pull out 12(element) from the list
+    -i have to pull out 22(element) from the list
+    -i have to pull out 32(element) from the list
+    -i have to pull out 42(element) from the list
+    -I need to take off 11(element)
+    -I need to take off 21(element)
+    -I need to take off 31(element)
+    -I need to take off 41(element)
+    -I need to take off 12(element)
+    -I need to take off 22(element)
+    -I need to take off 32(element)
+    -I need to take off 42(element)
+    -Can you take off 11(element), please?
+    -Can you take off 21(element), please?
+    -Can you take off 31(element), please?
+    -Can you take off 41(element), please?
+    -Can you take off 12(element), please?
+    -Can you take off 22(element), please?
+    -Can you take off 32(element), please?
+    -Can you take off 42(element), please?
+    -I'd like to take off 11(element)
+    -I'd like to take off 21(element)
+    -I'd like to take off 31(element)
+    -I'd like to take off 41(element)
+    -I'd like to take off 12(element)
+    -I'd like to take off 22(element)
+    -I'd like to take off 32(element)
+    -I'd like to take off 42(element)
+    -I want to take off 11(element) 
+    -I want to take off 21(element)
+    -I want to take off 31(element)
+    -I want to take off 41(element)
+    -I want to take off 12(element) 
+    -I want to take off 22(element)
+    -I want to take off 32(element)
+    -I want to take off 42(element)
+    -I have to take off 11(element)
+    -I have to take off 21(element)
+    -I have to take off 31(element)
+    -I have to take off 41(element)
+    -I have to take off 12(element)
+    -I have to take off 22(element)
+    -I have to take off 32(element)
+    -I have to take off 42(element)
       
 
 
 
 - intent: get_element_quantity
   examples: |
-    -I need(quantity)
-    -I want(quantity)
-    -I would like(quantity) of it
-    -I'd like(quantity)
-    -i need(quantity)
-    -i want(quantity)
-    -i would like(quantity) of it
-    -i'd like(quantity)
-    -Add(quantity)
-    -add(quantity)
-    -put(quantity)
-    -Put(quantity)
-    -Insert(quantity)
-    -insert(quantity)
-    -(quantity) of it
-    -(quantity)
-    -Can you add(quantity), please?
-    -I need to add(quantity)
-    -I'd like to add(quantity)
-    -I want to add(quantity)
-    -I have to add(quantity)
-    -I need to insert(quantity)
-    -Can you insert(quantity), please?
-    -I'd like to insert(quantity)
-    -I want to insert(quantity)
-    -I have to insert(quantity)
-    -I want(quantity) of it
-    -I would like(quantity)
-    -(quantity), please
-    -(quantity), thanks
-
-
-
+    -I need 11(quantity)
+    -I need 21(quantity)
+    -I need 31(quantity)
+    -I need 41(quantity)
+    -I need 12(quantity)
+    -I need 22(quantity)
+    -I need 32(quantity)
+    -I need 42(quantity)
+    -I want 11(quantity)
+    -I want 21(quantity)
+    -I want 31(quantity)
+    -I want 41(quantity)
+    -I want 12(quantity)
+    -I want 22(quantity)
+    -I want 32(quantity)
+    -I want 42(quantity)
+    -I would like 11(quantity) of it
+    -I would like 21(quantity) of it
+    -I would like 31(quantity) of it
+    -I would like 41(quantity) of it
+    -I would like 12(quantity) of it
+    -I would like 22(quantity) of it
+    -I would like 32(quantity) of it
+    -I would like 42(quantity) of it
+    -I'd like 11(quantity)
+    -I'd like 21(quantity)
+    -I'd like 31(quantity)
+    -I'd like 41(quantity)
+    -I'd like 12(quantity)
+    -I'd like 22(quantity)
+    -I'd like 32(quantity)
+    -I'd like 42(quantity)
+    -i need 11(quantity)
+    -i need 21(quantity)
+    -i need 31(quantity)
+    -i need 41(quantity)
+    -i need 12(quantity)
+    -i need 22(quantity)
+    -i need 32(quantity)
+    -i need 42(quantity)
+    -i want 11(quantity)
+    -i want 21(quantity)
+    -i want 31(quantity)
+    -i want 41(quantity)
+    -i want 12(quantity)
+    -i want 22(quantity)
+    -i want 32(quantity)
+    -i want 42(quantity)
+    -i would like 11(quantity) of it
+    -i would like 12(quantity) of it
+    -i would like 13(quantity) of it
+    -i would like 14(quantity) of it
+    -i would like 12(quantity) of it
+    -i would like 22(quantity) of it
+    -i would like 32(quantity) of it
+    -i would like 42(quantity) of it
+    -i'd like 11(quantity)
+    -i'd like 21(quantity)
+    -i'd like 31(quantity)
+    -i'd like 41(quantity)
+    -i'd like 12(quantity)
+    -i'd like 22(quantity)
+    -i'd like 32(quantity)
+    -i'd like 42(quantity)
+    -Add 11(quantity)
+    -Add 21(quantity)
+    -Add 31(quantity)
+    -Add 41(quantity)
+    -Add 12(quantity)
+    -Add 22(quantity)
+    -Add 32(quantity)
+    -Add 42(quantity)
+    -add 11(quantity)
+    -add 21(quantity)
+    -add 31(quantity)
+    -add 41(quantity)
+    -add 12(quantity)
+    -add 22(quantity)
+    -add 32(quantity)
+    -add 42(quantity)
+    -put 11(quantity)
+    -put 21(quantity)
+    -put 31(quantity)
+    -put 41(quantity)
+    -put 12(quantity)
+    -put 22(quantity)
+    -put 32(quantity)
+    -put 42(quantity)
+    -Put 11(quantity)
+    -Put 21(quantity)
+    -Put 31(quantity)
+    -Put 41(quantity)
+    -Put 12(quantity)
+    -Put 22(quantity)
+    -Put 32(quantity)
+    -Put 42(quantity)
+    -Insert 11(quantity)
+    -Insert 21(quantity)
+    -Insert 31(quantity)
+    -Insert 41(quantity)
+    -Insert 12(quantity)
+    -Insert 22(quantity)
+    -Insert 32(quantity)
+    -Insert 42(quantity)
+    -insert 11(quantity)
+    -insert 21(quantity)
+    -insert 31(quantity)
+    -insert 41(quantity)
+    -insert 12(quantity)
+    -insert 22(quantity)
+    -insert 32(quantity)
+    -insert 42(quantity)
+    -11(quantity) of it
+    -21(quantity) of it
+    -31(quantity) of it
+    -41(quantity) of it
+    -12(quantity) of it
+    -22(quantity) of it
+    -32(quantity) of it
+    -42(quantity) of it
+    -11(quantity)
+    -21(quantity)
+    -31(quantity)
+    -41(quantity)
+    -12(quantity)
+    -22(quantity)
+    -32(quantity)
+    -42(quantity)
+    -Can you add 11(quantity), please?
+    -Can you add 21(quantity), please?
+    -Can you add 31(quantity), please?
+    -Can you add 41(quantity), please?
+    -Can you add 12(quantity), please?
+    -Can you add 22(quantity), please?
+    -Can you add 32(quantity), please?
+    -Can you add 42(quantity), please?
+    -I need to add 11(quantity)
+    -I need to add 21(quantity)
+    -I need to add 31(quantity)
+    -I need to add 41(quantity)
+    -I need to add 12(quantity)
+    -I need to add 22(quantity)
+    -I need to add 32(quantity)
+    -I need to add 42(quantity)
+    -I'd like to add 11(quantity)
+    -I'd like to add 21(quantity)
+    -I'd like to add 31(quantity)
+    -I'd like to add 41(quantity)
+    -I'd like to add 12(quantity)
+    -I'd like to add 22(quantity)
+    -I'd like to add 32(quantity)
+    -I'd like to add 42(quantity)
+    -I want to add 11(quantity)
+    -I want to add 21(quantity)
+    -I want to add 31(quantity)
+    -I want to add 41(quantity)
+    -I want to add 12(quantity)
+    -I want to add 22(quantity)
+    -I want to add 32(quantity)
+    -I want to add 42(quantity)
+    -I have to add 11(quantity)
+    -I have to add 21(quantity)
+    -I have to add 31(quantity)
+    -I have to add 41(quantity)
+    -I have to add 12(quantity)
+    -I have to add 22(quantity)
+    -I have to add 32(quantity)
+    -I have to add 42(quantity)
+    -I need to insert 11(quantity)
+    -I need to insert 21(quantity)
+    -I need to insert 31(quantity)
+    -I need to insert 41(quantity)
+    -I need to insert 12(quantity)
+    -I need to insert 22(quantity)
+    -I need to insert 32(quantity)
+    -I need to insert 42(quantity)
+    -Can you insert 11(quantity), please?
+    -Can you insert 21(quantity), please?
+    -Can you insert 31(quantity), please?
+    -Can you insert 41(quantity), please?
+    -Can you insert 12(quantity), please?
+    -Can you insert 22(quantity), please?
+    -Can you insert 32(quantity), please?
+    -Can you insert 42(quantity), please?
+    -I'd like to insert 11(quantity)
+    -I'd like to insert 21(quantity)
+    -I'd like to insert 31(quantity)
+    -I'd like to insert 41(quantity)
+    -I'd like to insert 12(quantity)
+    -I'd like to insert 22(quantity)
+    -I'd like to insert 32(quantity)
+    -I'd like to insert 42(quantity)
+    -I want to insert 11(quantity)
+    -I want to insert 21(quantity)
+    -I want to insert 31(quantity)
+    -I want to insert 41(quantity)
+    -I want to insert 12(quantity)
+    -I want to insert 22(quantity)
+    -I want to insert 32(quantity)
+    -I want to insert 42(quantity)
+    -I have to insert 11(quantity)
+    -I have to insert 21(quantity)
+    -I have to insert 31(quantity)
+    -I have to insert 41(quantity)
+    -I have to insert 12(quantity)
+    -I have to insert 22(quantity)
+    -I have to insert 32(quantity)
+    -I have to insert 42(quantity)
+    -I want 11(quantity) of it
+    -I want 21(quantity) of it
+    -I want 31(quantity) of it
+    -I want 41(quantity) of it
+    -I want 12(quantity) of it
+    -I want 22(quantity) of it
+    -I want 32(quantity) of it
+    -I want 42(quantity) of it
+    -I would like 11(quantity)
+    -I would like 21(quantity)
+    -I would like 31(quantity)
+    -I would like 41(quantity)
+    -I would like 12(quantity)
+    -I would like 22(quantity)
+    -I would like 32(quantity)
+    -I would like 42(quantity)
+    -11(quantity), please
+    -21(quantity), please
+    -31(quantity), please
+    -41(quantity), please
+    -12(quantity), please
+    -22(quantity), please
+    -32(quantity), please
+    -42(quantity), please
+    -11(quantity), thanks
+    -21(quantity), thanks
+    -31(quantity), thanks
+    -41(quantity), thanks
+    -12(quantity), thanks
+    -22(quantity), thanks
+    -32(quantity), thanks
+    -42(quantity), thanks
