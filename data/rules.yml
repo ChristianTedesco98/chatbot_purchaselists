@@ -37,4 +37,20 @@ rules:
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - action: update_list
+  - action: update_element
+
+- rule: Activate remove element form
+  steps:
+  - intent: remove_element
+  - action: remove_element_form
+  - active_loop: remove_element_form
+
+- rule: Remove element
+  condition:
+  - active_loop: remove_element_form
+  steps:
+  - action: remove_element_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: delete_element

@@ -1,31 +1,5 @@
 version: "2.0"
 
-
-#
-#egg, eggs, 
-#book, books, 
-#sausage, sausages, 
-#tomato, tomatoes,
-#potato, potatoes,
-#pen, pens,
-#newspaper, newspapers,
-#shirt, shirts,
-#candy, candies,
-#pizza, pizzas,
-#pair of shoes,
-#pair of jeans,
-#pair of sunglasses,
-#bracelet, bracelets,
-#headphone, headphones,
-#water bootle, water bottles,
-#wine bottle, wine bottles,
-#beer, beers,
-#pack of flour
-#
-
-
-
-
 nlu:
 - intent: greet
   examples: |
@@ -74,7 +48,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 
 - intent: add_element
   examples: |
@@ -653,9 +626,7 @@ nlu:
     -i would like to insert [eggs](element)
     -i would like to insert [books](element)
     -i would like to insert [sausages](element)
-    -i would like to insert [tomatoes](element)
-    
-  
+    -i would like to insert [tomatoes](element)    
   
 - intent: remove_element
   examples: |
@@ -923,22 +894,6 @@ nlu:
     -I'd like to pull out [books](element) from the list
     -I'd like to pull out [sausages](element) from the list
     -I'd like to pull out [tomatoes](element) from the list
-    -I need to remove [egg](element)
-    -I need to remove [book](element)
-    -I need to remove [sausage](element)
-    -I need to remove [tomato](element)
-    -I need to remove [eggs](element)
-    -I need to remove [books](element)
-    -I need to remove [sausages](element)
-    -I need to remove [tomatoes](element)
-    -I need to delete [egg](element)
-    -I need to delete [book](element)
-    -I need to delete [sausage](element)
-    -I need to delete [tomato](element)
-    -I need to delete [eggs](element)
-    -I need to delete [books](element)
-    -I need to delete [sausages](element)
-    -I need to delete [tomatoes](element)
     -Can you remove [egg](element), please?
     -Can you remove [book](element), please?
     -Can you remove [sausage](element), please?
@@ -1043,22 +998,6 @@ nlu:
     -i'd like to pull out [books](element) from the list
     -i'd like to pull out [sausages](element) from the list
     -i'd like to pull out [tomatoes](element) from the list
-    -i need to remove [egg](element)
-    -i need to remove [book](element)
-    -i need to remove [sausage](element)
-    -i need to remove [tomato](element)
-    -i need to remove [eggs](element)
-    -i need to remove [books](element)
-    -i need to remove [sausages](element)
-    -i need to remove [tomatoes](element)
-    -i need to delete [egg](element)
-    -i need to delete [book](element)
-    -i need to delete [sausage](element)
-    -i need to delete [tomato](element)
-    -i need to delete [eggs](element)
-    -i need to delete [books](element)
-    -i need to delete [sausages](element)
-    -i need to delete [tomatoes](element)
     -can you remove [egg](element), please?
     -can you remove [book](element), please?
     -can you remove [sausage](element), please?
@@ -1091,14 +1030,6 @@ nlu:
     -i have to pull out [books](element) from the list
     -i have to pull out [sausages](element) from the list
     -i have to pull out [tomatoes](element) from the list
-    -I need to take off [egg](element)
-    -I need to take off [book](element)
-    -I need to take off [sausage](element)
-    -I need to take off [tomato](element)
-    -I need to take off [eggs](element)
-    -I need to take off [books](element)
-    -I need to take off [sausages](element)
-    -I need to take off [tomatoes](element)
     -Can you take off [egg](element), please?
     -Can you take off [book](element), please?
     -Can you take off [sausage](element), please?
@@ -1131,124 +1062,9 @@ nlu:
     -I have to take off [books](element)
     -I have to take off [sausages](element)
     -I have to take off [tomatoes](element)
-      
-
-
-
+           
 - intent: get_element_quantity
   examples: |
-    -I need [1](quantity)
-    -I need [2](quantity)
-    -I need [3](quantity)
-    -I need [4](quantity)
-    -I need [one](quantity)
-    -I need [two](quantity)
-    -I need [three](quantity)
-    -I need [four](quantity)
-    -I want [1](quantity)
-    -I want [2](quantity)
-    -I want [3](quantity)
-    -I want [4](quantity)
-    -I want [one](quantity)
-    -I want [two](quantity)
-    -I want [three](quantity)
-    -I want [four](quantity)
-    -I would like [1](quantity) of it
-    -I would like [2](quantity) of it
-    -I would like [3](quantity) of it
-    -I would like [4](quantity) of it
-    -I would like [one](quantity) of it
-    -I would like [two](quantity) of it
-    -I would like [three](quantity) of it
-    -I would like [four](quantity) of it
-    -I'd like [1](quantity)
-    -I'd like [2](quantity)
-    -I'd like [3](quantity)
-    -I'd like [4](quantity)
-    -I'd like [one](quantity)
-    -I'd like [two](quantity)
-    -I'd like [three](quantity)
-    -I'd like [four](quantity)
-    -i need [1](quantity)
-    -i need [2](quantity)
-    -i need [3](quantity)
-    -i need [4](quantity)
-    -i need [one](quantity)
-    -i need [two](quantity)
-    -i need [three](quantity)
-    -i need [four](quantity)
-    -i want [1](quantity)
-    -i want [2](quantity)
-    -i want [3](quantity)
-    -i want [4](quantity)
-    -i want [one](quantity)
-    -i want [two](quantity)
-    -i want [three](quantity)
-    -i want [four](quantity)
-    -i would like [1](quantity) of it
-    -i would like [one](quantity) of it
-    -i would like 13(quantity) of it
-    -i would like 14(quantity) of it
-    -i would like [one](quantity) of it
-    -i would like [two](quantity) of it
-    -i would like [three](quantity) of it
-    -i would like [four](quantity) of it
-    -i'd like [1](quantity)
-    -i'd like [2](quantity)
-    -i'd like [3](quantity)
-    -i'd like [4](quantity)
-    -i'd like [one](quantity)
-    -i'd like [two](quantity)
-    -i'd like [three](quantity)
-    -i'd like [four](quantity)
-    -Add [1](quantity)
-    -Add [2](quantity)
-    -Add [3](quantity)
-    -Add [4](quantity)
-    -Add [one](quantity)
-    -Add [two](quantity)
-    -Add [three](quantity)
-    -Add [four](quantity)
-    -add [1](quantity)
-    -add [2](quantity)
-    -add [3](quantity)
-    -add [4](quantity)
-    -add [one](quantity)
-    -add [two](quantity)
-    -add [three](quantity)
-    -add [four](quantity)
-    -put [1](quantity)
-    -put [2](quantity)
-    -put [3](quantity)
-    -put [4](quantity)
-    -put [one](quantity)
-    -put [two](quantity)
-    -put [three](quantity)
-    -put [four](quantity)
-    -Put [1](quantity)
-    -Put [2](quantity)
-    -Put [3](quantity)
-    -Put [4](quantity)
-    -Put [one](quantity)
-    -Put [two](quantity)
-    -Put [three](quantity)
-    -Put [four](quantity)
-    -Insert [1](quantity)
-    -Insert [2](quantity)
-    -Insert [3](quantity)
-    -Insert [4](quantity)
-    -Insert [one](quantity)
-    -Insert [two](quantity)
-    -Insert [three](quantity)
-    -Insert [four](quantity)
-    -insert [1](quantity)
-    -insert [2](quantity)
-    -insert [3](quantity)
-    -insert [4](quantity)
-    -insert [one](quantity)
-    -insert [two](quantity)
-    -insert [three](quantity)
-    -insert [four](quantity)
     -[1](quantity) of it
     -[2](quantity) of it
     -[3](quantity) of it
@@ -1265,102 +1081,6 @@ nlu:
     -[two](quantity)
     -[three](quantity)
     -[four](quantity)
-    -Can you add [1](quantity), please?
-    -Can you add [2](quantity), please?
-    -Can you add [3](quantity), please?
-    -Can you add [4](quantity), please?
-    -Can you add [one](quantity), please?
-    -Can you add [two](quantity), please?
-    -Can you add [three](quantity), please?
-    -Can you add [four](quantity), please?
-    -I need to add [1](quantity)
-    -I need to add [2](quantity)
-    -I need to add [3](quantity)
-    -I need to add [4](quantity)
-    -I need to add [one](quantity)
-    -I need to add [two](quantity)
-    -I need to add [three](quantity)
-    -I need to add [four](quantity)
-    -I'd like to add [1](quantity)
-    -I'd like to add [2](quantity)
-    -I'd like to add [3](quantity)
-    -I'd like to add [4](quantity)
-    -I'd like to add [one](quantity)
-    -I'd like to add [two](quantity)
-    -I'd like to add [three](quantity)
-    -I'd like to add [four](quantity)
-    -I want to add [1](quantity)
-    -I want to add [2](quantity)
-    -I want to add [3](quantity)
-    -I want to add [4](quantity)
-    -I want to add [one](quantity)
-    -I want to add [two](quantity)
-    -I want to add [three](quantity)
-    -I want to add [four](quantity)
-    -I have to add [1](quantity)
-    -I have to add [2](quantity)
-    -I have to add [3](quantity)
-    -I have to add [4](quantity)
-    -I have to add [one](quantity)
-    -I have to add [two](quantity)
-    -I have to add [three](quantity)
-    -I have to add [four](quantity)
-    -I need to insert [1](quantity)
-    -I need to insert [2](quantity)
-    -I need to insert [3](quantity)
-    -I need to insert [4](quantity)
-    -I need to insert [one](quantity)
-    -I need to insert [two](quantity)
-    -I need to insert [three](quantity)
-    -I need to insert [four](quantity)
-    -Can you insert [1](quantity), please?
-    -Can you insert [2](quantity), please?
-    -Can you insert [3](quantity), please?
-    -Can you insert [4](quantity), please?
-    -Can you insert [one](quantity), please?
-    -Can you insert [two](quantity), please?
-    -Can you insert [three](quantity), please?
-    -Can you insert [four](quantity), please?
-    -I'd like to insert [1](quantity)
-    -I'd like to insert [2](quantity)
-    -I'd like to insert [3](quantity)
-    -I'd like to insert [4](quantity)
-    -I'd like to insert [one](quantity)
-    -I'd like to insert [two](quantity)
-    -I'd like to insert [three](quantity)
-    -I'd like to insert [four](quantity)
-    -I want to insert [1](quantity)
-    -I want to insert [2](quantity)
-    -I want to insert [3](quantity)
-    -I want to insert [4](quantity)
-    -I want to insert [one](quantity)
-    -I want to insert [two](quantity)
-    -I want to insert [three](quantity)
-    -I want to insert [four](quantity)
-    -I have to insert [1](quantity)
-    -I have to insert [2](quantity)
-    -I have to insert [3](quantity)
-    -I have to insert [4](quantity)
-    -I have to insert [one](quantity)
-    -I have to insert [two](quantity)
-    -I have to insert [three](quantity)
-    -I have to insert [four](quantity)
-    -I want [1](quantity) of it
-    -I want [2](quantity) of it
-    -I want [3](quantity) of it
-    -I want [4](quantity) of it
-    -I want [one](quantity) of it
-    -I want [two](quantity) of it
-    -I want [three](quantity) of it
-    -I want [four](quantity) of it
-    -I would like [1](quantity)
-    -I would like [2](quantity)
-    -I would like [3](quantity)
-    -I would like [4](quantity)
-    -I would like [one](quantity)
-    -I would like [two](quantity)
-    -I would like [three](quantity)
-    -I would like [four](quantity)
     -[1](quantity), please
     -[2](quantity), please
     -[3](quantity), please
@@ -1377,3 +1097,38 @@ nlu:
     -[two](quantity), thanks
     -[three](quantity), thanks
     -[four](quantity), thanks
+
+- intent: view_list
+  examples: |
+    -I would like to see the list
+    -Let me view the list
+    -Show me the list
+    -I would like to look at the list
+    -I want to see the list
+    -What do I have to buy?
+    -Let me see what I have to buy 
+    -i would like to see the list
+    -let me view the list
+    -show me the list
+    -i would like to look at the list
+    -i want to see the list
+    -what do I have to buy?
+    -let me see what I have to buy   
+
+- lookup: element
+  examples: |
+    - potato
+    - pen
+    - newspaper
+    - shirt
+    - candy
+    - pizza
+    - pair of jeans 
+    - pair of shoes
+    - pair of sanglasses
+    - bracelet 
+    - headphone
+    - water bootle
+    - wine bootle 
+    - beer
+    - pack of flour

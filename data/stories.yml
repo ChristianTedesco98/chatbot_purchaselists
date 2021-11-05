@@ -8,4 +8,10 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
+
+- story: story_view_list
+  steps:
+  - intent: view_list
+  - action: display_list
+
     

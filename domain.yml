@@ -8,7 +8,7 @@ intents:
   - add_element
   - remove_element
   - get_element_quantity
-  - look_list
+  - view_list
 
 entities:
   - element
@@ -20,10 +20,9 @@ actions:
   - utter_goodbye
   - utter_noworries
   - utter_add_element
-  - utter_get_element_quantity
-  - update_list
-  - utter_remove_element
-  - utter_look_list
+  - update_element
+  - delete_element
+  - display_list
   - utter_thanks
 
 
@@ -52,6 +51,11 @@ forms:
       quantity:
         - type: from_entity
           entity: quantity
+  remove_element_form:
+    required_slots:
+      element:
+        - type: from_entity
+          entity: element
 
 
 responses:
@@ -70,9 +74,6 @@ responses:
 
   utter_thanks:
   - text: "Ok. Thank you!"
-
-  utter_remove_element:
-  - text: "Ok, I remove it from the list"
 
   utter_add_element:
   - text: "How many do you need?"
