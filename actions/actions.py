@@ -11,6 +11,9 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import json
+import os
+
+
 
 DATA = {}
 file_loaded = False
@@ -18,9 +21,13 @@ file_loaded = False
 class ManageFile():
 
     def loadData():
-        global DATA, file_loaded 
+        global DATA, file_loaded
+        if not os.path.exists('data.json'):
+            with open('data.json', 'w') as file:
+                json.dump({}, file)
+                pass 
         try:
-            file = open("data.json", "r")
+            file = open("data.json", "r+")
             data_read = file.read()
             DATA = json.loads(data_read)
             file.close()

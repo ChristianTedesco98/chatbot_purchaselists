@@ -4,22 +4,12 @@ digraph  {
 1 [class=active, fontsize=12, label=action_session_start];
 2 [class=active, fontsize=12, label=add_element_form];
 3 [class=active, fontsize=12, label=utter_add_element];
-4 [class=active, fontsize=12, label=get_quantity_form];
-5 [class=active, fontsize=12, label=update_element];
-6 [class=active, fontsize=12, label=display_list];
-7 [class="intent dashed active", label="  ?  ", shape=rect];
-8 [class="intent active", fillcolor=lightblue, label="i need a book", shape=rect, style=filled];
-9 [class="intent active", fillcolor=lightblue, label=1, shape=rect, style=filled];
-10 [class="intent active", fillcolor=lightblue, label="show me the list", shape=rect, style=filled];
+4 [class="intent dashed active", label="  ?  ", shape=rect];
+5 [class="intent active", fillcolor=lightblue, label="add book", shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];
 0 -> 1  [class=active, key=NONE, label=""];
-1 -> 8  [class=active, key=0];
+1 -> 5  [class=active, key=0];
 2 -> 3  [class=active, key=NONE, label=""];
-3 -> 9  [class=active, key=0];
-4 -> 5  [class=active, key=NONE, label=""];
-5 -> 10  [class=active, key=0];
-6 -> 7  [class=active, key=NONE, label=""];
-8 -> 2  [class=active, key=0];
-9 -> 4  [class=active, key=0];
-10 -> 6  [class=active, key=0];
+3 -> 4  [class=active, key=NONE, label=""];
+5 -> 2  [class=active, key=0];
 }

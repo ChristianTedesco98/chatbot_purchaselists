@@ -2,10 +2,53 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: en
 
+
+# pipeline:
+#   - name: SpacyNLP
+#     model: "en_core_web_md"
+#   - name: SpacyTokenizer
+#   - name: SpacyFeaturizer
+#   - name: DIETClassifier
+#     epochs: 100
+#   - name: RegexEntityExtractor
+#     case_sensitive: False
+#     use_lookup_tables: True
+#     use_regexes: True
+#   - name: SklearnIntentClassifier
+#   - name: EntitySynonymMapper
+#   - name: FallbackClassifier
+#     threshold: 0.5
+#     ambiguity_threshold: 0.1
+
+# pipeline:
+#   - name: SpacyNLP
+#     model: "en_core_web_md"
+#   - name: SpacyTokenizer
+#   - name: SpacyFeaturizer
+#   - name: RegexFeaturizer
+#   - name: RegexEntityExtractor
+#     case_sensitive: False
+#     use_lookup_tables: True
+#     use_regexes: True
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: "char_wb"
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+
 pipeline:
    - name: WhitespaceTokenizer
    - name: RegexFeaturizer
    - name: RegexEntityExtractor
+     case_sensitive: False
+     use_lookup_tables: True
+     use_regexes: True
    - name: LexicalSyntacticFeaturizer
    - name: CountVectorsFeaturizer
    - name: CountVectorsFeaturizer
@@ -22,6 +65,8 @@ pipeline:
    - name: FallbackClassifier
      threshold: 0.3
      ambiguity_threshold: 0.1
+
+
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.

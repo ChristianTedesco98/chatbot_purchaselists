@@ -24,6 +24,8 @@ actions:
   - delete_element
   - display_list
   - utter_thanks
+  - utter_ask_element
+  - utter_ask_quantity
 
 
 slots:
@@ -34,9 +36,6 @@ slots:
     type: float
     influence_conversation: false
   list_entry:
-    type: text
-    influence_conversation: false
-  list:
     type: text
     influence_conversation: false
 
@@ -77,6 +76,12 @@ responses:
 
   utter_add_element:
   - text: "How many do you need?"
+
+  utter_ask_element:
+  - text: "I didn't understand the product"
+
+  utter_ask_quantity:
+  - text: "I didn't understand the quantity"
 
 
 

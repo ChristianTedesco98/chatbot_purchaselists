@@ -1117,18 +1117,5 @@ nlu:
 
 - lookup: element
   examples: |
-    - potato
-    - pen
-    - newspaper
-    - shirt
-    - candy
-    - pizza
-    - pair of jeans 
-    - pair of shoes
-    - pair of sanglasses
-    - bracelet 
-    - headphone
-    - water bootle
-    - wine bootle 
-    - beer
-    - pack of flour
+    product_list.yml
+    
