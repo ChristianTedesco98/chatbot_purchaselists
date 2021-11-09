@@ -630,438 +630,423 @@ nlu:
   
 - intent: remove_element
   examples: |
-    -Can you remove [egg](element)?
-    -Can you remove [book](element)?
-    -Can you remove [sausage](element)?
-    -Can you remove [tomato](element)?
-    -Can you remove [eggs](element)?
-    -Can you remove [books](element)?
-    -Can you remove [sausages](element)?
-    -Can you remove [tomatoes](element)?
-    -Can you take off [egg](element)?
-    -Can you take off [book](element)?
-    -Can you take off [sausage](element)?
-    -Can you take off [tomato](element)?
-    -Can you take off [eggs](element)?
-    -Can you take off [books](element)?
-    -Can you take off [sausages](element)?
-    -Can you take off [tomatoes](element)?
-    -You can take off [egg](element)
-    -You can take off [book](element)
-    -You can take off [sausage](element)
-    -You can take off [tomato](element)
-    -You can take off [eggs](element)
-    -You can take off [books](element)
-    -You can take off [sausages](element)
-    -You can take off [tomatoes](element)
-    -Could you please remove [egg](element)?
-    -Could you please remove [book](element)?
-    -Could you please remove [sausage](element)?
-    -Could you please remove [tomato](element)?
-    -Could you please remove [eggs](element)?
-    -Could you please remove [books](element)?
-    -Could you please remove [sausages](element)?
-    -Could you please remove [tomatoes](element)?
-    -Could you take off [egg](element)?
-    -Could you take off [book](element)?
-    -Could you take off [sausage](element)?
-    -Could you take off [tomato](element)?
-    -Could you take off [eggs](element)?
-    -Could you take off [books](element)?
-    -Could you take off [sausages](element)?
-    -Could you take off [tomatoes](element)?
-    -Could you take away [egg](element)?
-    -Could you take away [book](element)?
-    -Could you take away [sausage](element)?
-    -Could you take away [tomato](element)?
-    -Could you take away [eggs](element)?
-    -Could you take away [books](element)?
-    -Could you take away [sausages](element)?
-    -Could you take away [tomatoes](element)?
-    -Can you remove [egg](element) from the list?
-    -Can you remove [book](element) from the list?
-    -Can you remove [sausage](element) from the list?
-    -Can you remove [tomato](element) from the list?
-    -Can you remove [eggs](element) from the list?
-    -Can you remove [books](element) from the list?
-    -Can you remove [sausages](element) from the list?
-    -Can you remove [tomatoes](element) from the list?
-    -Can you take off [egg](element) from the list?
-    -Can you take off [book](element) from the list?
-    -Can you take off [sausage](element) from the list?
-    -Can you take off [tomato](element) from the list?
-    -Can you take off [eggs](element) from the list?
-    -Can you take off [books](element) from the list?
-    -Can you take off [sausages](element) from the list?
-    -Can you take off [tomatoes](element) from the list?
-    -Could you please remove [egg](element) from the list?
-    -Could you please remove [book](element) from the list?
-    -Could you please remove [sausage](element) from the list?
-    -Could you please remove [tomato](element) from the list?
-    -Could you please remove [eggs](element) from the list?
-    -Could you please remove [books](element) from the list?
-    -Could you please remove [sausages](element) from the list?
-    -Could you please remove [tomatoes](element) from the list?
-    -Could you take off [egg](element) from the list?
-    -Could you take off [book](element) from the list?
-    -Could you take off [sausage](element) from the list?
-    -Could you take off [tomato](element) from the list?
-    -Could you take off [eggs](element) from the list?
-    -Could you take off [books](element) from the list?
-    -Could you take off [sausages](element) from the list?
-    -Could you take off [tomatoes](element) from the list?
-    -Could you take away [egg](element) from the list?
-    -Could you take away [book](element) from the list?
-    -Could you take away [sausage](element) from the list?
-    -Could you take away [tomato](element) from the list?
-    -Could you take away [eggs](element) from the list?
-    -Could you take away [books](element) from the list?
-    -Could you take away [sausages](element) from the list?
-    -Could you take away [tomatoes](element) from the list?
-    -Remove [egg](element) from the list
-    -Remove [book](element) from the list
-    -Remove [sausage](element) from the list
-    -Remove [tomato](element) from the list
-    -Remove [eggs](element) from the list
-    -Remove [books](element) from the list
-    -Remove [sausages](element) from the list
-    -Remove [tomatoes](element) from the list
-    -remove [egg](element)
-    -remove [book](element)
-    -remove [sausage](element)
-    -remove [tomato](element)
-    -remove [eggs](element)
-    -remove [books](element)
-    -remove [sausages](element)
-    -remove [tomatoes](element)
-    -I don't want to buy [egg](element)
-    -I don't want to buy [book](element)
-    -I don't want to buy [sausage](element)
-    -I don't want to buy [tomato](element)
-    -I don't want to buy [eggs](element)
-    -I don't want to buy [books](element)
-    -I don't want to buy [sausages](element)
-    -I don't want to buy [tomatoes](element)
-    -I don't want [egg](element)
-    -I don't want [book](element)
-    -I don't want [sausage](element)
-    -I don't want [tomato](element)
-    -I don't want [eggs](element)
-    -I don't want [books](element)
-    -I don't want [sausages](element)
-    -I don't want [tomatoes](element)
-    -I don't need [egg](element) anymore
-    -I don't need [book](element) anymore
-    -I don't need [sausage](element) anymore
-    -I don't need [tomato](element) anymore
-    -I don't need [eggs](element) anymore
-    -I don't need [books](element) anymore
-    -I don't need [sausages](element) anymore
-    -I don't need [tomatoes](element) anymore
-    -Cancel [egg](element)
-    -Cancel [book](element)
-    -Cancel [sausage](element)
-    -Cancel [tomato](element)
-    -Cancel [eggs](element)
-    -Cancel [books](element)
-    -Cancel [sausages](element)
-    -Cancel [tomatoes](element)
-    -cancel [egg](element)
-    -cancel [book](element)
-    -cancel [sausage](element)
-    -cancel [tomato](element)
-    -cancel [eggs](element)
-    -cancel [books](element)
-    -cancel [sausages](element)
-    -cancel [tomatoes](element)
-    -Remove [egg](element)
-    -Remove [book](element)
-    -Remove [sausage](element)
-    -Remove [tomato](element)
-    -Remove [eggs](element)
-    -Remove [books](element)
-    -Remove [sausages](element)
-    -Remove [tomatoes](element)
-    -remove [egg](element)
-    -remove [book](element)
-    -remove [sausage](element)
-    -remove [tomato](element)
-    -remove [eggs](element)
-    -remove [books](element)
-    -remove [sausages](element)
-    -remove [tomatoes](element)
-    -Delete [egg](element)
-    -Delete [book](element)
-    -Delete [sausage](element)
-    -Delete [tomato](element)
-    -Delete [eggs](element)
-    -Delete [books](element)
-    -Delete [sausages](element)
-    -Delete [tomatoes](element)
-    -delete [egg](element)
-    -delete [book](element)
-    -delete [sausage](element)
-    -delete [tomato](element)
-    -delete [eggs](element)
-    -delete [books](element)
-    -delete [sausages](element)
-    -delete [tomatoes](element)
-    -Pull out [egg](element) from the list
-    -Pull out [book](element) from the list
-    -Pull out [sausage](element) from the list
-    -Pull out [tomato](element) from the list
-    -Pull out [eggs](element) from the list
-    -Pull out [books](element) from the list
-    -Pull out [sausages](element) from the list
-    -Pull out [tomatoes](element) from the list
-    -pull out [egg](element) from the the list
-    -pull out [book](element) from the the list
-    -pull out [sausage](element) from the the list
-    -pull out [tomato](element) from the the list
-    -pull out [eggs](element) from the the list
-    -pull out [books](element) from the the list
-    -pull out [sausages](element) from the the list
-    -pull out [tomatoes](element) from the the list
-    -I want to remove [egg](element)
-    -I want to remove [book](element)
-    -I want to remove [sausage](element)
-    -I want to remove [tomato](element)
-    -I want to remove [eggs](element)
-    -I want to remove [books](element)
-    -I want to remove [sausages](element)
-    -I want to remove [tomatoes](element)
-    -I want to delete [egg](element)
-    -I want to delete [book](element)
-    -I want to delete [sausage](element)
-    -I want to delete [tomato](element)
-    -I want to delete [eggs](element)
-    -I want to delete [books](element)
-    -I want to delete [sausages](element)
-    -I want to delete [tomatoes](element)
-    -I want to pull out [egg](element) from the list
-    -I want to pull out [book](element) from the list
-    -I want to pull out [sausage](element) from the list
-    -I want to pull out [tomato](element) from the list
-    -I want to pull out [eggs](element) from the list
-    -I want to pull out [books](element) from the list
-    -I want to pull out [sausages](element) from the list
-    -I want to pull out [tomatoes](element) from the list
-    -I would like to add [egg](element)
-    -I would like to add [book](element)
-    -I would like to add [sausage](element)
-    -I would like to add [tomato](element)
-    -I would like to add [eggs](element)
-    -I would like to add [books](element)
-    -I would like to add [sausages](element)
-    -I would like to add [tomatoes](element)
-    -I would like to insert [egg](element)
-    -I would like to insert [book](element)
-    -I would like to insert [sausage](element)
-    -I would like to insert [tomato](element)
-    -I would like to insert [eggs](element)
-    -I would like to insert [books](element)
-    -I would like to insert [sausages](element)
-    -I would like to insert [tomatoes](element)
-    -I would like to pull out [egg](element) from the list
-    -I would like to pull out [book](element) from the list
-    -I would like to pull out [sausage](element) from the list
-    -I would like to pull out [tomato](element) from the list
-    -I would like to pull out [eggs](element) from the list
-    -I would like to pull out [books](element) from the list
-    -I would like to pull out [sausages](element) from the list
-    -I would like to pull out [tomatoes](element) from the list
-    -I'd like to remove [egg](element)
-    -I'd like to remove [book](element)
-    -I'd like to remove [sausage](element)
-    -I'd like to remove [tomato](element)
-    -I'd like to remove [eggs](element)
-    -I'd like to remove [books](element)
-    -I'd like to remove [sausages](element)
-    -I'd like to remove [tomatoes](element)
-    -I'd like to delete [egg](element)
-    -I'd like to delete [book](element)
-    -I'd like to delete [sausage](element)
-    -I'd like to delete [tomato](element)
-    -I'd like to delete [eggs](element)
-    -I'd like to delete [books](element)
-    -I'd like to delete [sausages](element)
-    -I'd like to delete [tomatoes](element)
-    -I'd like to pull out [egg](element) from the list
-    -I'd like to pull out [book](element) from the list
-    -I'd like to pull out [sausage](element) from the list
-    -I'd like to pull out [tomato](element) from the list
-    -I'd like to pull out [eggs](element) from the list
-    -I'd like to pull out [books](element) from the list
-    -I'd like to pull out [sausages](element) from the list
-    -I'd like to pull out [tomatoes](element) from the list
-    -Can you remove [egg](element), please?
-    -Can you remove [book](element), please?
-    -Can you remove [sausage](element), please?
-    -Can you remove [tomato](element), please?
-    -Can you remove [eggs](element), please?
-    -Can you remove [books](element), please?
-    -Can you remove [sausages](element), please?
-    -Can you remove [tomatoes](element), please?
-    -Can you delete [egg](element), please?
-    -Can you delete [book](element), please?
-    -Can you delete [sausage](element), please?
-    -Can you delete [tomato](element), please?
-    -Can you delete [eggs](element), please?
-    -Can you delete [books](element), please?
-    -Can you delete [sausages](element), please?
-    -Can you delete [tomatoes](element), please?
-    -Can you pull out [egg](element) from the list?
-    -Can you pull out [book](element) from the list?
-    -Can you pull out [sausage](element) from the list?
-    -Can you pull out [tomato](element) from the list?
-    -Can you pull out [eggs](element) from the list?
-    -Can you pull out [books](element) from the list?
-    -Can you pull out [sausages](element) from the list?
-    -Can you pull out [tomatoes](element) from the list?
-    -I have to pull out [egg](element) from the list
-    -I have to pull out [book](element) from the list
-    -I have to pull out [sausage](element) from the list
-    -I have to pull out [tomato](element) from the list
-    -I have to pull out [eggs](element) from the list
-    -I have to pull out [books](element) from the list
-    -I have to pull out [sausages](element) from the list
-    -I have to pull out [tomatoes](element) from the list
-    -i want to remove [egg](element)
-    -i want to remove [book](element)
-    -i want to remove [sausage](element)
-    -i want to remove [tomato](element)
-    -i want to remove [eggs](element)
-    -i want to remove [books](element)
-    -i want to remove [sausages](element)
-    -i want to remove [tomatoes](element)
-    -i want to delete [egg](element)
-    -i want to delete [book](element)
-    -i want to delete [sausage](element)
-    -i want to delete [tomato](element)
-    -i want to delete [eggs](element)
-    -i want to delete [books](element)
-    -i want to delete [sausages](element)
-    -i want to delete [tomatoes](element)
-    -i want to pull out [egg](element) from the list
-    -i want to pull out [book](element) from the list
-    -i want to pull out [sausage](element) from the list
-    -i want to pull out [tomato](element) from the list
-    -i want to pull out [eggs](element) from the list
-    -i want to pull out [books](element) from the list
-    -i want to pull out [sausages](element) from the list
-    -i want to pull out [tomatoes](element) from the list
-    -i would like to remove [egg](element)
-    -i would like to remove [book](element)
-    -i would like to remove [sausage](element)
-    -i would like to remove [tomato](element)
-    -i would like to remove [eggs](element)
-    -i would like to remove [books](element)
-    -i would like to remove [sausages](element)
-    -i would like to remove [tomatoes](element)
-    -i would like to delete [egg](element)
-    -i would like to delete [book](element)
-    -i would like to delete [sausage](element)
-    -i would like to delete [tomato](element)
-    -i would like to delete [eggs](element)
-    -i would like to delete [books](element)
-    -i would like to delete [sausages](element)
-    -i would like to delete [tomatoes](element)
-    -i would like to pull out [egg](element) from the list
-    -i would like to pull out [book](element) from the list
-    -i would like to pull out [sausage](element) from the list
-    -i would like to pull out [tomato](element) from the list
-    -i would like to pull out [eggs](element) from the list
-    -i would like to pull out [books](element) from the list
-    -i would like to pull out [sausages](element) from the list
-    -i would like to pull out [tomatoes](element) from the list
-    -i'd like to delete [egg](element)
-    -i'd like to delete [book](element)
-    -i'd like to delete [sausage](element)
-    -i'd like to delete [tomato](element)
-    -i'd like to delete [eggs](element)
-    -i'd like to delete [books](element)
-    -i'd like to delete [sausages](element)
-    -i'd like to delete [tomatoes](element)
-    -i'd like to remove [egg](element)
-    -i'd like to remove [book](element)
-    -i'd like to remove [sausage](element)
-    -i'd like to remove [tomato](element)
-    -i'd like to remove [eggs](element)
-    -i'd like to remove [books](element)
-    -i'd like to remove [sausages](element)
-    -i'd like to remove [tomatoes](element)
-    -i'd like to pull out [egg](element) from the list
-    -i'd like to pull out [book](element) from the list
-    -i'd like to pull out [sausage](element) from the list
-    -i'd like to pull out [tomato](element) from the list
-    -i'd like to pull out [eggs](element) from the list
-    -i'd like to pull out [books](element) from the list
-    -i'd like to pull out [sausages](element) from the list
-    -i'd like to pull out [tomatoes](element) from the list
-    -can you remove [egg](element), please?
-    -can you remove [book](element), please?
-    -can you remove [sausage](element), please?
-    -can you remove [tomato](element), please?
-    -can you remove [eggs](element), please?
-    -can you remove [books](element), please?
-    -can you remove [sausages](element), please?
-    -can you remove [tomatoes](element), please?
-    -can you delete [egg](element) from the list?
-    -can you delete [book](element) from the list?
-    -can you delete [sausage](element) from the list?
-    -can you delete [tomato](element) from the list?
-    -can you delete [eggs](element) from the list?
-    -can you delete [books](element) from the list?
-    -can you delete [sausages](element) from the list?
-    -can you delete [tomatoes](element) from the list?
-    -can you pull out [egg](element) from the list?
-    -can you pull out [book](element) from the list?
-    -can you pull out [sausage](element) from the list?
-    -can you pull out [tomato](element) from the list?
-    -can you pull out [eggs](element) from the list?
-    -can you pull out [books](element) from the list?
-    -can you pull out [sausages](element) from the list?
-    -can you pull out [tomatoes](element) from the list?
-    -i have to pull out [egg](element) from the list
-    -i have to pull out [book](element) from the list
-    -i have to pull out [sausage](element) from the list
-    -i have to pull out [tomato](element) from the list
-    -i have to pull out [eggs](element) from the list
-    -i have to pull out [books](element) from the list
-    -i have to pull out [sausages](element) from the list
-    -i have to pull out [tomatoes](element) from the list
-    -Can you take off [egg](element), please?
-    -Can you take off [book](element), please?
-    -Can you take off [sausage](element), please?
-    -Can you take off [tomato](element), please?
-    -Can you take off [eggs](element), please?
-    -Can you take off [books](element), please?
-    -Can you take off [sausages](element), please?
-    -Can you take off [tomatoes](element), please?
-    -I'd like to take off [egg](element)
-    -I'd like to take off [book](element)
-    -I'd like to take off [sausage](element)
-    -I'd like to take off [tomato](element)
-    -I'd like to take off [eggs](element)
-    -I'd like to take off [books](element)
-    -I'd like to take off [sausages](element)
-    -I'd like to take off [tomatoes](element)
-    -I want to take off [egg](element) 
-    -I want to take off [book](element)
-    -I want to take off [sausage](element)
-    -I want to take off [tomato](element)
-    -I want to take off [eggs](element) 
-    -I want to take off [books](element)
-    -I want to take off [sausages](element)
-    -I want to take off [tomatoes](element)
-    -I have to take off [egg](element)
-    -I have to take off [book](element)
-    -I have to take off [sausage](element)
-    -I have to take off [tomato](element)
-    -I have to take off [eggs](element)
-    -I have to take off [books](element)
-    -I have to take off [sausages](element)
-    -I have to take off [tomatoes](element)
+    -Can you remove [1](quantity) [egg](element)?
+    -Can you remove [2](quantity) [book](element)?
+    -Can you remove [3](quantity) [sausage](element)?
+    -Can you remove [4](quantity) [tomato](element)?
+    -Can you remove [5](quantity) [eggs](element)?
+    -Can you remove [6](quantity) [books](element)?
+    -Can you remove [7](quantity) [sausages](element)?
+    -Can you remove [8](quantity) [tomatoes](element)?
+    -Can you take off [1](quantity) [egg](element)?
+    -Can you take off [2](quantity) [book](element)?
+    -Can you take off [3](quantity) [sausage](element)?
+    -Can you take off [4](quantity) [tomato](element)?
+    -Can you take off [5](quantity) [eggs](element)?
+    -Can you take off [6](quantity) [books](element)?
+    -Can you take off [7](quantity) [sausages](element)?
+    -Can you take off [8](quantity) [tomatoes](element)?
+    -You can take off [1](quantity) [egg](element)
+    -You can take off [2](quantity) [book](element)
+    -You can take off [3](quantity) [sausage](element)
+    -You can take off [4](quantity) [tomato](element)
+    -You can take off [5](quantity) [eggs](element)
+    -You can take off [6](quantity) [books](element)
+    -You can take off [7](quantity) [sausages](element)
+    -You can take off [8](quantity) [tomatoes](element)
+    -Could you please remove [1](quantity) [egg](element)?
+    -Could you please remove [2](quantity) [book](element)?
+    -Could you please remove [3](quantity) [sausage](element)?
+    -Could you please remove [4](quantity) [tomato](element)?
+    -Could you please remove [5](quantity) [eggs](element)?
+    -Could you please remove [6](quantity) [books](element)?
+    -Could you please remove [7](quantity) [sausages](element)?
+    -Could you please remove [8](quantity) [tomatoes](element)?
+    -Could you take off [1](quantity) [egg](element)?
+    -Could you take off [2](quantity) [book](element)?
+    -Could you take off [3](quantity) [sausage](element)?
+    -Could you take off [4](quantity) [tomato](element)?
+    -Could you take off [5](quantity) [eggs](element)?
+    -Could you take off [6](quantity) [books](element)?
+    -Could you take off [7](quantity) [sausages](element)?
+    -Could you take off [8](quantity) [tomatoes](element)?
+    -Could you take away [1](quantity) [egg](element)?
+    -Could you take away [2](quantity) [book](element)?
+    -Could you take away [3](quantity) [sausage](element)?
+    -Could you take away [4](quantity) [tomato](element)?
+    -Could you take away [5](quantity) [eggs](element)?
+    -Could you take away [6](quantity) [books](element)?
+    -Could you take away [7](quantity) [sausages](element)?
+    -Could you take away [8](quantity) [tomatoes](element)?
+    -Can you remove [1](quantity) [egg](element) from the list?
+    -Can you remove [2](quantity) [book](element) from the list?
+    -Can you remove [3](quantity) [sausage](element) from the list?
+    -Can you remove [4](quantity) [tomato](element) from the list?
+    -Can you remove [5](quantity) [eggs](element) from the list?
+    -Can you remove [6](quantity) [books](element) from the list?
+    -Can you remove [7](quantity) [sausages](element) from the list?
+    -Can you remove [8](quantity) [tomatoes](element) from the list?
+    -Can you take off [1](quantity) [egg](element) from the list?
+    -Can you take off [2](quantity) [book](element) from the list?
+    -Can you take off [3](quantity) [sausage](element) from the list?
+    -Can you take off [4](quantity) [tomato](element) from the list?
+    -Can you take off [5](quantity) [eggs](element) from the list?
+    -Can you take off [6](quantity) [books](element) from the list?
+    -Can you take off [7](quantity) [sausages](element) from the list?
+    -Can you take off [8](quantity) [tomatoes](element) from the list?
+    -Could you please remove [1](quantity) [egg](element) from the list?
+    -Could you please remove [2](quantity) [book](element) from the list?
+    -Could you please remove [3](quantity) [sausage](element) from the list?
+    -Could you please remove [4](quantity) [tomato](element) from the list?
+    -Could you please remove [5](quantity) [eggs](element) from the list?
+    -Could you please remove [6](quantity) [books](element) from the list?
+    -Could you please remove [7](quantity) [sausages](element) from the list?
+    -Could you please remove [8](quantity) [tomatoes](element) from the list?
+    -Could you take off [1](quantity) [egg](element) from the list?
+    -Could you take off [2](quantity) [book](element) from the list?
+    -Could you take off [3](quantity) [sausage](element) from the list?
+    -Could you take off [4](quantity) [tomato](element) from the list?
+    -Could you take off [5](quantity) [eggs](element) from the list?
+    -Could you take off [6](quantity) [books](element) from the list?
+    -Could you take off [7](quantity) [sausages](element) from the list?
+    -Could you take off [8](quantity) [tomatoes](element) from the list?
+    -Could you take away [1](quantity) [egg](element) from the list?
+    -Could you take away [2](quantity) [book](element) from the list?
+    -Could you take away [3](quantity) [sausage](element) from the list?
+    -Could you take away [4](quantity) [tomato](element) from the list?
+    -Could you take away [5](quantity) [eggs](element) from the list?
+    -Could you take away [6](quantity) [books](element) from the list?
+    -Could you take away [7](quantity) [sausages](element) from the list?
+    -Could you take away [8](quantity) [tomatoes](element) from the list?
+    -Remove [1](quantity) [egg](element) from the list
+    -Remove [2](quantity) [book](element) from the list
+    -Remove [3](quantity) [sausage](element) from the list
+    -Remove [4](quantity) [tomato](element) from the list
+    -Remove [5](quantity) [eggs](element) from the list
+    -Remove [6](quantity) [books](element) from the list
+    -Remove [7](quantity) [sausages](element) from the list
+    -Remove [8](quantity) [tomatoes](element) from the list
+    -remove [1](quantity) [egg](element)
+    -remove [2](quantity) [book](element)
+    -remove [3](quantity) [sausage](element)
+    -remove [4](quantity) [tomato](element)
+    -remove [5](quantity) [eggs](element)
+    -remove [6](quantity) [books](element)
+    -remove [7](quantity) [sausages](element)
+    -remove [8](quantity) [tomatoes](element)
+    -I don't want to buy [1](quantity) [egg](element)
+    -I don't want to buy [2](quantity) [book](element)
+    -I don't want to buy [3](quantity) [sausage](element)
+    -I don't want to buy [4](quantity) [tomato](element)
+    -I don't want to buy [5](quantity) [eggs](element)
+    -I don't want to buy [6](quantity) [books](element)
+    -I don't want to buy [7](quantity) [sausages](element)
+    -I don't want to buy [8](quantity) [tomatoes](element)
+    -I don't want [1](quantity) [egg](element)
+    -I don't want [2](quantity) [book](element)
+    -I don't want [3](quantity) [sausage](element)
+    -I don't want [4](quantity) [tomato](element)
+    -I don't want [5](quantity) [eggs](element)
+    -I don't want [6](quantity) [books](element)
+    -I don't want [7](quantity) [sausages](element)
+    -I don't want [8](quantity) [tomatoes](element)
+    -I don't need [1](quantity) [egg](element) anymore
+    -I don't need [2](quantity) [book](element) anymore
+    -I don't need [3](quantity) [sausage](element) anymore
+    -I don't need [4](quantity) [tomato](element) anymore
+    -I don't need [5](quantity) [eggs](element) anymore
+    -I don't need [6](quantity) [books](element) anymore
+    -I don't need [7](quantity) [sausages](element) anymore
+    -I don't need [8](quantity) [tomatoes](element) anymore
+    -Cancel [1](quantity) [egg](element)
+    -Cancel [2](quantity) [book](element)
+    -Cancel [3](quantity) [sausage](element)
+    -Cancel [4](quantity) [tomato](element)
+    -Cancel [5](quantity) [eggs](element)
+    -Cancel [6](quantity) [books](element)
+    -Cancel [7](quantity) [sausages](element)
+    -Cancel [8](quantity) [tomatoes](element)
+    -cancel [1](quantity) [egg](element)
+    -cancel [2](quantity) [book](element)
+    -cancel [3](quantity) [sausage](element)
+    -cancel [4](quantity) [tomato](element)
+    -cancel [5](quantity) [eggs](element)
+    -cancel [6](quantity) [books](element)
+    -cancel [7](quantity) [sausages](element)
+    -cancel [8](quantity) [tomatoes](element)
+    -Remove [1](quantity) [egg](element)
+    -Remove [2](quantity) [book](element)
+    -Remove [3](quantity) [sausage](element)
+    -Remove [4](quantity) [tomato](element)
+    -Remove [5](quantity) [eggs](element)
+    -Remove [6](quantity) [books](element)
+    -Remove [7](quantity) [sausages](element)
+    -Remove [8](quantity) [tomatoes](element)
+    -remove [1](quantity) [egg](element)
+    -remove [2](quantity) [book](element)
+    -remove [3](quantity) [sausage](element)
+    -remove [4](quantity) [tomato](element)
+    -remove [5](quantity) [eggs](element)
+    -remove [6](quantity) [books](element)
+    -remove [7](quantity) [sausages](element)
+    -remove [8](quantity) [tomatoes](element)
+    -Delete [1](quantity) [egg](element)
+    -Delete [2](quantity) [book](element)
+    -Delete [3](quantity) [sausage](element)
+    -Delete [4](quantity) [tomato](element)
+    -Delete [5](quantity) [eggs](element)
+    -Delete [6](quantity) [books](element)
+    -Delete [7](quantity) [sausages](element)
+    -Delete [8](quantity) [tomatoes](element)
+    -delete [1](quantity) [egg](element)
+    -delete [2](quantity) [book](element)
+    -delete [3](quantity) [sausage](element)
+    -delete [4](quantity) [tomato](element)
+    -delete [5](quantity) [eggs](element)
+    -delete [6](quantity) [books](element)
+    -delete [7](quantity) [sausages](element)
+    -delete [8](quantity) [tomatoes](element)
+    -Pull out [1](quantity) [egg](element) from the list
+    -Pull out [2](quantity) [book](element) from the list
+    -Pull out [3](quantity) [sausage](element) from the list
+    -Pull out [4](quantity) [tomato](element) from the list
+    -Pull out [5](quantity) [eggs](element) from the list
+    -Pull out [6](quantity) [books](element) from the list
+    -Pull out [7](quantity) [sausages](element) from the list
+    -Pull out [8](quantity) [tomatoes](element) from the list
+    -pull out [1](quantity) [egg](element) from the the list
+    -pull out [2](quantity) [book](element) from the the list
+    -pull out [3](quantity) [sausage](element) from the the list
+    -pull out [4](quantity) [tomato](element) from the the list
+    -pull out [5](quantity) [eggs](element) from the the list
+    -pull out [6](quantity) [books](element) from the the list
+    -pull out [7](quantity) [sausages](element) from the the list
+    -pull out [8](quantity) [tomatoes](element) from the the list
+    -I want to remove [1](quantity) [egg](element)
+    -I want to remove [2](quantity) [book](element)
+    -I want to remove [3](quantity) [sausage](element)
+    -I want to remove [4](quantity) [tomato](element)
+    -I want to remove [5](quantity) [eggs](element)
+    -I want to remove [6](quantity) [books](element)
+    -I want to remove [7](quantity) [sausages](element)
+    -I want to remove [8](quantity) [tomatoes](element)
+    -I want to delete [1](quantity) [egg](element)
+    -I want to delete [2](quantity) [book](element)
+    -I want to delete [3](quantity) [sausage](element)
+    -I want to delete [4](quantity) [tomato](element)
+    -I want to delete [5](quantity) [eggs](element)
+    -I want to delete [6](quantity) [books](element)
+    -I want to delete [7](quantity) [sausages](element)
+    -I want to delete [8](quantity) [tomatoes](element)
+    -I want to pull out [1](quantity) [egg](element) from the list
+    -I want to pull out [2](quantity) [book](element) from the list
+    -I want to pull out [3](quantity) [sausage](element) from the list
+    -I want to pull out [4](quantity) [tomato](element) from the list
+    -I want to pull out [5](quantity) [eggs](element) from the list
+    -I want to pull out [6](quantity) [books](element) from the list
+    -I want to pull out [7](quantity) [sausages](element) from the list
+    -I want to pull out [8](quantity) [tomatoes](element) from the list
+    -I would like to pull out [1](quantity) [egg](element) from the list
+    -I would like to pull out [2](quantity) [book](element) from the list
+    -I would like to pull out [3](quantity) [sausage](element) from the list
+    -I would like to pull out [4](quantity) [tomato](element) from the list
+    -I would like to pull out [5](quantity) [eggs](element) from the list
+    -I would like to pull out [6](quantity) [books](element) from the list
+    -I would like to pull out [7](quantity) [sausages](element) from the list
+    -I would like to pull out [8](quantity) [tomatoes](element) from the list
+    -I'd like to remove [1](quantity) [egg](element)
+    -I'd like to remove [2](quantity) [book](element)
+    -I'd like to remove [3](quantity) [sausage](element)
+    -I'd like to remove [4](quantity) [tomato](element)
+    -I'd like to remove [5](quantity) [eggs](element)
+    -I'd like to remove [6](quantity) [books](element)
+    -I'd like to remove [7](quantity) [sausages](element)
+    -I'd like to remove [8](quantity) [tomatoes](element)
+    -I'd like to delete [1](quantity) [egg](element)
+    -I'd like to delete [2](quantity) [book](element)
+    -I'd like to delete [3](quantity) [sausage](element)
+    -I'd like to delete [4](quantity) [tomato](element)
+    -I'd like to delete [5](quantity) [eggs](element)
+    -I'd like to delete [6](quantity) [books](element)
+    -I'd like to delete [7](quantity) [sausages](element)
+    -I'd like to delete [8](quantity) [tomatoes](element)
+    -I'd like to pull out [1](quantity) [egg](element) from the list
+    -I'd like to pull out [2](quantity) [book](element) from the list
+    -I'd like to pull out [3](quantity) [sausage](element) from the list
+    -I'd like to pull out [4](quantity) [tomato](element) from the list
+    -I'd like to pull out [5](quantity) [eggs](element) from the list
+    -I'd like to pull out [6](quantity) [books](element) from the list
+    -I'd like to pull out [7](quantity) [sausages](element) from the list
+    -I'd like to pull out [8](quantity) [tomatoes](element) from the list
+    -Can you remove [1](quantity) [egg](element), please?
+    -Can you remove [2](quantity) [book](element), please?
+    -Can you remove [3](quantity) [sausage](element), please?
+    -Can you remove [4](quantity) [tomato](element), please?
+    -Can you remove [5](quantity) [eggs](element), please?
+    -Can you remove [6](quantity) [books](element), please?
+    -Can you remove [7](quantity) [sausages](element), please?
+    -Can you remove [8](quantity) [tomatoes](element), please?
+    -Can you delete [1](quantity) [egg](element), please?
+    -Can you delete [2](quantity) [book](element), please?
+    -Can you delete [3](quantity) [sausage](element), please?
+    -Can you delete [4](quantity) [tomato](element), please?
+    -Can you delete [5](quantity) [eggs](element), please?
+    -Can you delete [6](quantity) [books](element), please?
+    -Can you delete [7](quantity) [sausages](element), please?
+    -Can you delete [8](quantity) [tomatoes](element), please?
+    -Can you pull out [1](quantity) [egg](element) from the list?
+    -Can you pull out [2](quantity) [book](element) from the list?
+    -Can you pull out [3](quantity) [sausage](element) from the list?
+    -Can you pull out [4](quantity) [tomato](element) from the list?
+    -Can you pull out [5](quantity) [eggs](element) from the list?
+    -Can you pull out [6](quantity) [books](element) from the list?
+    -Can you pull out [7](quantity) [sausages](element) from the list?
+    -Can you pull out [8](quantity) [tomatoes](element) from the list?
+    -I have to pull out [1](quantity) [egg](element) from the list
+    -I have to pull out [2](quantity) [book](element) from the list
+    -I have to pull out [3](quantity) [sausage](element) from the list
+    -I have to pull out [4](quantity) [tomato](element) from the list
+    -I have to pull out [5](quantity) [eggs](element) from the list
+    -I have to pull out [6](quantity) [books](element) from the list
+    -I have to pull out [7](quantity) [sausages](element) from the list
+    -I have to pull out [8](quantity) [tomatoes](element) from the list
+    -i want to remove [1](quantity) [egg](element)
+    -i want to remove [2](quantity) [book](element)
+    -i want to remove [3](quantity) [sausage](element)
+    -i want to remove [4](quantity) [tomato](element)
+    -i want to remove [5](quantity) [eggs](element)
+    -i want to remove [6](quantity) [books](element)
+    -i want to remove [7](quantity) [sausages](element)
+    -i want to remove [8](quantity) [tomatoes](element)
+    -i want to delete [1](quantity) [egg](element)
+    -i want to delete [2](quantity) [book](element)
+    -i want to delete [3](quantity) [sausage](element)
+    -i want to delete [4](quantity) [tomato](element)
+    -i want to delete [5](quantity) [eggs](element)
+    -i want to delete [6](quantity) [books](element)
+    -i want to delete [7](quantity) [sausages](element)
+    -i want to delete [8](quantity) [tomatoes](element)
+    -i want to pull out [1](quantity) [egg](element) from the list
+    -i want to pull out [2](quantity) [book](element) from the list
+    -i want to pull out [3](quantity) [sausage](element) from the list
+    -i want to pull out [4](quantity) [tomato](element) from the list
+    -i want to pull out [5](quantity) [eggs](element) from the list
+    -i want to pull out [6](quantity) [books](element) from the list
+    -i want to pull out [7](quantity) [sausages](element) from the list
+    -i want to pull out [8](quantity) [tomatoes](element) from the list
+    -i would like to remove [1](quantity) [egg](element)
+    -i would like to remove [2](quantity) [book](element)
+    -i would like to remove [3](quantity) [sausage](element)
+    -i would like to remove [4](quantity) [tomato](element)
+    -i would like to remove [5](quantity) [eggs](element)
+    -i would like to remove [6](quantity) [books](element)
+    -i would like to remove [7](quantity) [sausages](element)
+    -i would like to remove [8](quantity) [tomatoes](element)
+    -i would like to delete [1](quantity) [egg](element)
+    -i would like to delete [2](quantity) [book](element)
+    -i would like to delete [3](quantity) [sausage](element)
+    -i would like to delete [4](quantity) [tomato](element)
+    -i would like to delete [5](quantity) [eggs](element)
+    -i would like to delete [6](quantity) [books](element)
+    -i would like to delete [7](quantity) [sausages](element)
+    -i would like to delete [8](quantity) [tomatoes](element)
+    -i would like to pull out [1](quantity) [egg](element) from the list
+    -i would like to pull out [2](quantity) [book](element) from the list
+    -i would like to pull out [3](quantity) [sausage](element) from the list
+    -i would like to pull out [4](quantity) [tomato](element) from the list
+    -i would like to pull out [5](quantity) [eggs](element) from the list
+    -i would like to pull out [6](quantity) [books](element) from the list
+    -i would like to pull out [7](quantity) [sausages](element) from the list
+    -i would like to pull out [8](quantity) [tomatoes](element) from the list
+    -i'd like to delete [1](quantity) [egg](element)
+    -i'd like to delete [2](quantity) [book](element)
+    -i'd like to delete [3](quantity) [sausage](element)
+    -i'd like to delete [4](quantity) [tomato](element)
+    -i'd like to delete [5](quantity) [eggs](element)
+    -i'd like to delete [6](quantity) [books](element)
+    -i'd like to delete [7](quantity) [sausages](element)
+    -i'd like to delete [8](quantity) [tomatoes](element)
+    -i'd like to remove [1](quantity) [egg](element)
+    -i'd like to remove [2](quantity) [book](element)
+    -i'd like to remove [3](quantity) [sausage](element)
+    -i'd like to remove [4](quantity) [tomato](element)
+    -i'd like to remove [5](quantity) [eggs](element)
+    -i'd like to remove [6](quantity) [books](element)
+    -i'd like to remove [7](quantity) [sausages](element)
+    -i'd like to remove [8](quantity) [tomatoes](element)
+    -i'd like to pull out [1](quantity) [egg](element) from the list
+    -i'd like to pull out [2](quantity) [book](element) from the list
+    -i'd like to pull out [3](quantity) [sausage](element) from the list
+    -i'd like to pull out [4](quantity) [tomato](element) from the list
+    -i'd like to pull out [5](quantity) [eggs](element) from the list
+    -i'd like to pull out [6](quantity) [books](element) from the list
+    -i'd like to pull out [7](quantity) [sausages](element) from the list
+    -i'd like to pull out [8](quantity) [tomatoes](element) from the list
+    -can you remove [1](quantity) [egg](element), please?
+    -can you remove [2](quantity) [book](element), please?
+    -can you remove [3](quantity) [sausage](element), please?
+    -can you remove [4](quantity) [tomato](element), please?
+    -can you remove [5](quantity) [eggs](element), please?
+    -can you remove [6](quantity) [books](element), please?
+    -can you remove [7](quantity) [sausages](element), please?
+    -can you remove [8](quantity) [tomatoes](element), please?
+    -can you delete [1](quantity) [egg](element) from the list?
+    -can you delete [2](quantity) [book](element) from the list?
+    -can you delete [3](quantity) [sausage](element) from the list?
+    -can you delete [4](quantity) [tomato](element) from the list?
+    -can you delete [5](quantity) [eggs](element) from the list?
+    -can you delete [6](quantity) [books](element) from the list?
+    -can you delete [7](quantity) [sausages](element) from the list?
+    -can you delete [8](quantity) [tomatoes](element) from the list?
+    -can you pull out [1](quantity) [egg](element) from the list?
+    -can you pull out [2](quantity) [book](element) from the list?
+    -can you pull out [3](quantity) [sausage](element) from the list?
+    -can you pull out [4](quantity) [tomato](element) from the list?
+    -can you pull out [5](quantity) [eggs](element) from the list?
+    -can you pull out [6](quantity) [books](element) from the list?
+    -can you pull out [7](quantity) [sausages](element) from the list?
+    -can you pull out [8](quantity) [tomatoes](element) from the list?
+    -i have to pull out [1](quantity) [egg](element) from the list
+    -i have to pull out [2](quantity) [book](element) from the list
+    -i have to pull out [3](quantity) [sausage](element) from the list
+    -i have to pull out [4](quantity) [tomato](element) from the list
+    -i have to pull out [5](quantity) [eggs](element) from the list
+    -i have to pull out [6](quantity) [books](element) from the list
+    -i have to pull out [7](quantity) [sausages](element) from the list
+    -i have to pull out [8](quantity) [tomatoes](element) from the list
+    -Can you take off [1](quantity) [egg](element), please?
+    -Can you take off [2](quantity) [book](element), please?
+    -Can you take off [3](quantity) [sausage](element), please?
+    -Can you take off [4](quantity) [tomato](element), please?
+    -Can you take off [5](quantity) [eggs](element), please?
+    -Can you take off [6](quantity) [books](element), please?
+    -Can you take off [7](quantity) [sausages](element), please?
+    -Can you take off [8](quantity) [tomatoes](element), please?
+    -I'd like to take off [1](quantity) [egg](element)
+    -I'd like to take off [2](quantity) [book](element)
+    -I'd like to take off [3](quantity) [sausage](element)
+    -I'd like to take off [4](quantity) [tomato](element)
+    -I'd like to take off [5](quantity) [eggs](element)
+    -I'd like to take off [6](quantity) [books](element)
+    -I'd like to take off [7](quantity) [sausages](element)
+    -I'd like to take off [8](quantity) [tomatoes](element)
+    -I want to take off [1](quantity) [egg](element) 
+    -I want to take off [2](quantity) [book](element)
+    -I want to take off [3](quantity) [sausage](element)
+    -I want to take off [4](quantity) [tomato](element)
+    -I want to take off [5](quantity) [eggs](element) 
+    -I want to take off [6](quantity) [books](element)
+    -I want to take off [7](quantity) [sausages](element)
+    -I want to take off [8](quantity) [tomatoes](element)
+    -I have to take off [1](quantity) [egg](element)
+    -I have to take off [2](quantity) [book](element)
+    -I have to take off [3](quantity) [sausage](element)
+    -I have to take off [4](quantity) [tomato](element)
+    -I have to take off [5](quantity) [eggs](element)
+    -I have to take off [6](quantity) [books](element)
+    -I have to take off [7](quantity) [sausages](element)
+    -I have to take off [8](quantity) [tomatoes](element)
+
            
 - intent: get_element_quantity
   examples: |
@@ -1118,4 +1103,7 @@ nlu:
 - lookup: element
   examples: |
     product_list.yml
-    
+
+- lookup: quantity
+  examples: |
+    numbers_list.yml    

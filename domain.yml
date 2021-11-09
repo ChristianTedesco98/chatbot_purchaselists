@@ -55,6 +55,9 @@ forms:
       element:
         - type: from_entity
           entity: element
+      quantity:
+        - type: from_entity
+          entity: quantity
 
 
 responses:

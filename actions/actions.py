@@ -5,15 +5,14 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-from typing import Any, Text, Dict, List
-
-from rasa_sdk import Action, Tracker
-from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet
 import json
 import os
+from typing import Any, Dict, List, Text
 
-
+from rasa_sdk import Action, Tracker
+from rasa_sdk.events import SlotSet
+from rasa_sdk.executor import CollectingDispatcher
+from word2number import w2n
 
 DATA = {}
 file_loaded = False
@@ -58,16 +57,27 @@ class UpdateElement(Action):
         element = tracker.get_slot("element")
         quantity = tracker.get_slot("quantity")
 
+        if type(element) is list:
+            element = element[0]
+        if type(quantity) is list:
+            quantity = quantity[0]
+
+        if element is None or element == "null":
+            dispatcher.utter_message(text="I didn't understand.") 
+            return [SlotSet("element", None), SlotSet("quantity", None)]
+        
+        if quantity is None or quantity == "null" or quantity == "all":
+            dispatcher.utter_message(text="I didn't understand.") 
+            return [SlotSet("element", None), SlotSet("quantity", None)]
+        
         print("\nElement:",element)
         print("Quantity:",quantity)
 
+        quantity = w2n.word_to_num(quantity)
+
         
-        if element in DATA:
-            old_quantity = DATA[element]
-            new_quantity = str(int(old_quantity) + int(quantity))
-            DATA[element] = new_quantity
-        else:
-            DATA[element] = quantity
+        
+        DATA[element] = quantity
         
         
         ManageFile.writeData()
@@ -91,8 +101,9 @@ class DisplayList(Action):
 
         
         if DATA:
+            dispatcher.utter_message(text="Your list contains:\n")  
             for element in DATA:
-                list_entry = f"{element}:{DATA[element]}\n"
+                list_entry = f"{element}:{DATA[element]} - \n"
                 dispatcher.utter_message(text=list_entry) 
         else:
              dispatcher.utter_message(text="Your list is empty\n")    
@@ -114,11 +125,34 @@ class DeleteElement(Action):
             ManageFile.loadData()
             
         element = tracker.get_slot("element")
+        quantity = tracker.get_slot("quantity")
 
         print("\nElement:",element)
+        print("\nQuantity:",quantity)
+
+        if element is None or element == "null":
+            dispatcher.utter_message(text="I didn't understand.") 
+            return [SlotSet("element", None), SlotSet("quantity", None)]
+        
+        if type(element) is list:
+            element = element[0]
+        if type(quantity) is list:
+            quantity = quantity[0]
         
         if element in DATA:
-            del DATA[element]
+            if quantity is not None and quantity != "null":
+                if quantity == "all":
+                    del DATA[element]
+                else:
+                    if int(DATA[element]) - int(quantity) <= 0:
+                        del DATA[element]
+                    else:
+                        DATA[element] = str(int(DATA[element]) - int(quantity)) 
+            else:
+                if quantity is None or quantity == "null":
+                    dispatcher.utter_message(text="I didn't understand.") 
+                    return [SlotSet("element", None), SlotSet("quantity", None)]
+
             dispatcher.utter_message(text="Element removed.") 
         else:
             dispatcher.utter_message(text="Element not found.") 

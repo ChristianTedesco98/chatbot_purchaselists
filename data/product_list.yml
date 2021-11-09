@@ -3,53 +3,1636 @@ version: "2.0"
 nlu:
  - lookup: element
    examples: |
+    - nutmeg
+    - pokeberry shoots
+    - broccoli
+    - crab
+    - winged bean leaves
+    - cornnuts
+    - scrapple
+    - cranberry
+    - inf for
+    - cashew butter
+    - milk shakes
+    - shark
+    - kale
+    - soymilk
+    - safflower sd krnls
+    - marie callender's bf stroganoff & noodles
+    - elk
+    - peas&carrots
+    - hormel turkey chili w
+    - doughnuts
+    - chewing gum
+    - yautia (tannier)
+    - grape drink
+    - turkey and gravy
+    - pizza hut 12" super supreme pizza
+    - lime juice
+    - frozen novelites
+    - worthington meatless chick
+    - chives
+    - coconut milk
+    - taco bell
+    - turkey stks
+    - crls
+    - lemon peel
+    - ensure fiber w
+    - pout
+    - biscuits
+    - yambean (jicama)
+    - loma linda dinner cuts
+    - french toast
+    - banquet tky & gry w
+    - guavas
+    - sucker
+    - worthington prosage roll
+    - teff
+    - carambola
+    - stouffer's crmd chipped bf
+    - prairie turnips
+    - butter oil
+    - turmeric
+    - mushroom
+    - morningstar farms grillers prime
+    - pork skins
+    - rose hips
+    - taro leaves
+    - meatballs
+    - shortening bread
+    - eggnog
+    - fat
+    - jams & preserves
+    - elderberries
+    - conch
+    - frz nvl
+    - ostrich
+    - worthington chic
+    - sesame stks
+    - peaches
+    - sesame seeds
+    - cauliflower
+    - blueberries
+    - potato soup
+    - jackfruit
+    - choc
+    - formulated
+    - breakfast tart
+    - celery
+    - beef jerky
+    - worthington diced chik
+    - ginger
+    - radicchio
+    - cornmeal
+    - little caesars 14" original rnd pepperoni pizza
+    - beet grns
+    - campbell's sel gold label soups
+    - potato salad
+    - peanut sprd
+    - fruit
+    - oriental mix
+    - grape juice drink
+    - cowpeas
+    - mckee baking
+    - wolffish
+    - little caesars 14" pepperoni pizza
+    - persimmons
+    - cardoon
+    - collards
+    - mustard grns
+    - arugula
+    - turnip grns&turnips
+    - sweet rolls
+    - campbell's red & white
+    - cowpeas (blackeyes)
+    - hc mesq bf w
+    - worthington chili
+    - morningstar farms veggie bacon strips
+    - soup
+    - roughy
+    - worthington stakelets
+    - rolls
+    - buckwheat groats
+    - agave
+    - frog legs
+    - seeds
+    - healthy choic mesq chk bbq
+    - morningstar farms veggie sausage links
+    - worthington super links
+    - broadbeans
+    - morningstar farms veggie cakes southwestern style
+    - cheese sub
+    - orange juc
+    - cabbage
+    - kraft macaroni & cheese dinner original flavor
+    - hodgson mill
+    - ice crm cones
+    - freezer queen gravy&sliced bf meal
+    - scallop
+    - onion rings
+    - figs
+    - coffeecake
+    - dock
+    - bagels
+    - turnip grns
+    - pepper
+    - grape leaves
+    - breakfast items
+    - pepperoni
+    - sesame sd krnls
+    - crabapples
+    - garlic
+    - pie crust
+    - tortellini
+    - worthington veja
+    - chef boyardee bf ravioli in tomato & meat sau
+    - scup
+    - shortening frying (hvy duty)
+    - sturgeon
+    - inf form
+    - carissa
+    - fast fds
+    - chocolate
+    - form
+    - sea lion
+    - rice cake
+    - lambsquarters
+    - shortening cake mix
+    - shortening frying hvy duty
+    - fish
+    - buckwheat flr
+    - stagg country chili w
+    - tky
+    - egg custards
+    - rockfish
+    - tea
+    - spaghetti w
+    - campbell soup
+    - silk mocha
+    - pudding
+    - cream substitute
+    - boysenberries
+    - vinespinach
+    - pistachio nuts
+    - stouffer's ln cuisine spaghetti w
+    - pickle&pimiento loaf
+    - morningstar farms spicy black bean burger
+    - inf fo
+    - loquats
+    - raspberries
+    - acorns
+    - ling
+    - alcoholic bev
+    - vermicelli
+    - acerola
+    - infa for
+    - silk plus fiber
+    - worthington dinner rst
+    - beef pot pie
+    - eng drk
+    - cloves
+    - dolphinfish
+    - hummus
+    - froz novlt
+    - grapefruit juice
+    - spearmint
+    - dutch brand loaf
+    - mustard spinach
+    - soursop
+    - citrus fruit juc drk
+    - whiting
+    - rhubarb
+    - pumpkin flowers
+    - mussel
+    - morningstar farms meatless mini corn dogs
+    - morningstar farms meal starters steak strips
+    - keebler
+    - pizza hut 14" pepperoni pizza
+    - anchovy
+    - horseradish
+    - hormel
+    - mustard greens
+    - lima bns
+    - yachtwurst
+    - kiwifruit
+    - pine nuts
+    - weight watchers smart ones
+    - pork&bf sausage
+    - cusk
+    - popovers
+    - abiyuch
+    - grapefruit
+    - whipped topping
+    - halibut
+    - corn pudd
+    - turkey rst
+    - winged bns
+    - cerls
+    - sea bass
+    - bluefish
+    - pineapple&grapefruit juc drk
+    - chicory roots
+    - worthington stripples
+    - radish seeds
+    - campbell soup comp
+    - strawberries
+    - sardine
+    - beef stew
+    - inf formmead john
+    - frozen novelt
+    - morningstar farms original chik'n tenders
+    - limes
+    - morningstar farms grillers recipe crumbles
+    - walrus
+    - mush
+    - hormel vegetarian chili w
+    - bison
+    - morningstar farms veggie bites broccoli cheddar
+    - cocoa
+    - silk very vanilla
+    - mixed veg & fruit juc drk
+    - soy flour
+    - hazelnuts or filberts
+    - morningstar farms brkfst pattie made w
+    - inf formu
+    - salsify
+    - side dishes
+    - mustard
+    - tortilla
+    - eel
+    - guava sauce
+    - passion
+    - banquet orig fried chk thigh
+    - shake
+    - campbel company
+    - snacks
+    - silk nog
+    - pumpkin
+    - continen mill
+    - coriander (cilantro) leaves
+    - butterfish
+    - stagg classic chili w
+    - agutuk
+    - desserts
+    - silk plus omega
+    - mangos
+    - poultry
+    - crmy drsg
+    - pike
+    - drink mix
+    - papa john's 14" chs pizza
+    - campbell's chunky soups
+    - biscuit
+    - the budget gourmet
+    - morningstar farms veggie bites eggs florentine
+    - orange juice
+    - carl buddig
+    - bologna
+    - hc chk enchi supma in grn chili sau
+    - fish oil
+    - silk unswtnd
+    - celeriac
+    - yardlong bns
+    - ocean perch
+    - margarine
+    - danish pastry
+    - chorizo
+    - mother's loaf
+    - campbell's red & white 
+    - pizza hut 12" chs pizza
+    - beechnuts
+    - grouper
+    - sesame butter
+    - inf formula
+    - prune juice
+    - soymilk
+    - campbell's chunky microwavable bwls
+    - pollock
+    - feijoa
+    - fruit punch
+    - broccoli raab
+    - silk vanilla
+    - chicken pot pie
+    - cottonseed flr
+    - butternuts
+    - muffin
+    - silk lt pln
+    - worthington lofat veja
+    - butter replcmnt
+    - apple juc
+    - grape juc cocktail
+    - fruit butters
+    - orange brkfst drk
+    - cinnamon
+    - cottonseed meal
+    - drum
+    - kellogg
+    - peach nectar
+    - pizza hut 14" chs pizza
+    - mouse nuts
+    - plains pricklypear
+    - cocktail mix
+    - bacon bits
+    - pasta w
+    - archway home style cookies
+    - campbel
+    - salmon
+    - tomatoes
+    - breadfruit seeds
+    - worthington prosage links
+    - fruit salad
+    - campbell soup co
+    - cereals ready to eat
+    - squash
+    - pigeon peas (red gm)
+    - pitanga
+    - george weston baker
+    - malabar spinach
+    - pomegranates
+    - luncheon slices
+    - loma linda lofat big franks
+    - mustard seed
+    - brussels sprouts
+    - pepeao
+    - loma linda little links
+    - pompano
+    - squirrel
+    - melon
+    - salad drsng
+    - shad
+    - fireweed
+    - eppaw
+    - snack
+    - game meat bison
+    - tyson chick fajita kit
+    - burger king
+    - turkey roll
+    - stouffer's ln cuisine chick & veg w
+    - pie
+    - currants
+    - kraft foods
+    - spaghettios
+    - oheloberries
+    - hush puppies
+    - corn bran
+    - gooseberries
+    - sweet potato
+    - campbell's sel mcrwvable bowls
+    - barbecue loaf
+    - turnips
+    - chef boyardee mini ravioli
+    - prunes
+    - watermelon
+    - chestnuts
+    - chef boyardee spaghetti & meatballs in tomato sau
+    - capers
+    - toppings
+    - cherimoya
+    - general mills
+    - stouffer's stuffed peppers w
+    - creamy drsng
+    - sauce
+    - worthington veg steaks
+    - burbot
+    - kid cuisine chk nug
+    - froz novelties
+    - pickles
+    - amaranth leaves
+    - beef broth&tomato juc
+    - grapefruit juc
+    - george weston bakeries
+    - stagg ranchhouse chili w
+    - basil
+    - balsam
+    - pastrami
+    - almonds
+    - coconut crm
+    - thuringer
+    - animal fat
+    - almond butter
+    - lemonade
+    - little caesars 14" chs pizza
+    - mungo bns
+    - chicory
+    - hickorynuts
+    - morningstar farms chik'n nuggets
+    - light ice crm
+    - category
+    - seal
+    - corned beef loaf
+    - spinach
+    - stouffer's ln cuisine oriental bf w
+    - smart ones
+    - tangerine juice
+    - frozen yogurts
+    - usda cmdty peaches
+    - broadbeans (fava beans)
+    - croissants
+    - red baron premium pockets
+    - sunflower sd butter
+    - chiton
+    - loma linda linketts
+    - catsup
+    - stouffer's ln cuisine macaroni & bf in tomato sau
+    - burrito
+    - whale
+    - stew
+    - silk pln
+    - bagel
+    - english muffin
+    - dandelion grns
+    - vanilla extract
+    - water
+    - swordfish
+    - muffins
+    - taco shells
+    - peas
+    - ginkgo nuts
+    - salami
+    - worthington multigrain cutlets
+    - mori
+    - steelhead trout
+    - yellowtail
+    - pinon nuts
+    - epazote
+    - bread crumbs
+    - beans
+    - morningstar farms philly cheesesteak burger
+    - gelatins
+    - turkey pot pie
+    - oranges
+    - kohlrabi
+    - egg mix
+    - lettuce
+    - rutabagas
+    - hormel rst bf hash
+    - taro
+    - acerola juice
+    - perch
+    - rice
+    - usda cmdty
+    - usda cmdty fd
+    - arrowroot
+    - herring
+    - jujube
+    - okra
+    - lemon juc
+    - worthington wham
+    - crackers
+    - interstate brands corp
+    - banquet chick pot pie
+    - sweetpotato
+    - carb bev
+    - cattail
+    - apple cider
+    - baked bns
+    - onions
+    - snapper
+    - oyster
+    - pummelo
+    - carrot juice
+    - asparagus
+    - apricot nectar
+    - endive
+    - orange
+    - clam&tomato juc
+    - morningstar farms veggie corn dogs w
+    - apples
+    - tomato products
+    - peanut butter w
+    - tennis bread
+    - butcher boy meats
+    - sesbania flower
+    - domino's 14" pepperoni pizza
+    - sour crm
+    - nectarines
+    - orange peel
+    - chicory greens
+    - shrimp
+    - pimento
+    - kanpyo
+    - hc contry rstd tky w
+    - jew's ear
+    - campbell's sel mcrwvable bwls
+    - juice
+    - palm hearts
+    - granola bar
+    - campbell's chnky soups
+    - cream sub
+    - strudel
+    - kentucky fried chick
+    - sunflower sd krnls
+    - worthington smoked turkey
+    - shortening confectionery
+    - shortening
+    - sage
+    - bread sticks
+    - scrambled eggs&sausage w
+    - rose
+    - shallots
+    - whey
+    - squab
+    - morningstar farms veggie medley w
+    - potatoes
+    - celery flakes
+    - coffee sub
+    - melon balls
+    - frosting
+    - spices
+    - loma linda vege
+    - mcdonald's
+    - bananas
+    - orange drk
+    - hyacinth bns
+    - frozen novelties
+    - turkey&pork sausage
+    - fruit punch juc drk
+    - hearts of palm
+    - chicken breast tenders
+    - silk choc
+    - vegetable oil
+    - rice cakes
+    - hot pockets
+    - soy meal
+    - morningstar farms meatless corn dogs
+    - egg rolls
+    - worthington fripats
+    - ginger root
+    - spaghetti
+    - turkey sausage
+    - vitasoy usa
+    - millet
+    - cereal rte
+    - avocados
+    - chili
+    - brazilnuts
+    - flatfish (flounder&sole sp)
+    - rambutan
+    - pate de foie gras
+    - luncheon sausage
+    - croutons
+    - morningstar farms okara patties made w
+    - chayote
+    - peanuts
+    - fluid replcmnt
+    - coconut meat
+    - refried bns
+    - oopah (tunicate)
+    - liver sausage
+    - applesauce
+    - plantains
+    - crisped rice bar
+    - kielbasa
+    - parmesan chs topping
+    - spot
+    - worthington saucettes
+    - thyme
+    - pineapple juc
+    - silk plus for bone health
+    - tapioca
+    - sea cucumber
+    - stouffer's chick pie
+    - macaroni
+    - pork & turkey sausage
+    - sandwich spread
+    - cranberries
+    - game meat
+    - winged bean
+    - mayonnaise
+    - salmonberries
+    - chervil
+    - fruit leather
+    - peas&onions
+    - melons
+    - cream
+    - hormel always tender
+    - jams&preserves
+    - cake
+    - pumpkin pie mix
+    - campbell soup co.
+    - trail mix
+    - bass
+    - marie callender tky w
+    - mammy
+    - nopales
+    - sports drk
+    - ice creams
+    - headcheese
+    - mortadella
+    - cheese sprd
+    - mixed nuts
+    - sherbet
+    - patio bf & bean burrito
+    - seatrout
+    - english
+    - dandelion greens
+    - pineapple&orange juc drk
+    - orange&apricot juc drk
+    - tortillas
+    - wild rice
+    - granola bars
+    - heinz
+    - spelt
+    - turkey
+    - sour drsng
+    - deer (venison)
+    - papaya nectar
+    - babyfood
+    - campbell soup company
+    - cherries
+    - wasabi
+    - chocolate syrup
+    - swamp cabbage
+    - cheese
+    - turkey thigh
+    - cheese food
+    - butter
+    - worthington turkee slices
+    - soybeans
+    - whiskey sour mix
+    - tofu
+    - waterchestnuts
+    - fst fd
+    - dill weed
+    - roe
+    - gelatin dssrt
+    - nuts
+    - old el paso chili w
+    - quinces
+    - mor
+    - lentils
+    - gry
+    - cheesefurter
+    - catfish
+    - silk lt vanilla
+    - turkey ham
+    - whelk
+    - gravy
+    - cranberry sau
+    - sourdock
+    - celtuce
+    - mushrooms
+    - goat
+    - green giant
+    - vinegar
+    - carrots
+    - meat drippings (lard
+    - bear
+    - milk
+    - pizza
+    - cls
+    - wheat germ
+    - chicken nuggets
+    - peanut flour
+    - cream puffs
+    - tomato juc
+    - chrysanthemum
+    - cinnamon swirl french toast w
+    - tree fern
+    - salt
+    - potato puffs
+    - cashew nuts
+    - kraft
+    - breakfast burrito
+    - company
+    - goose
+    - morningstar farms grillers vegan
+    - sandwiches&burgers
+    - betty crocker
+    - honey roll sausage
+    - acorn flour
+    - limeade
+    - nestle
+    - willow
+    - octopus
+    - dessert topping
+    - pizza hut 12" pepperoni pizza
+    - worthington frichik
+    - supper bakes meal kits
+    - dates
+    - chia seeds
+    - silk lt choc
+    - blackberry juc
+    - leeks
+    - crayfish
+    - soybean
+    - jute
+    - pomegranate juc
+    - imitation chs
+    - artificial blueberry muffin mix
+    - jerusalem
+    - breadnuttree seeds
+    - cloudberries
+    - worthington choplets
+    - syrups
+    - smoked link sausage
+    - peppers
+    - beerwurst
+    - wine
+    - puff pastry
+    - chicken patty
+    - turkey bacon
+    - amaranth grain
+    - sandwich sprd
+    - frijoles rojos volteados (refried bns
+    - rice flour
+    - papa john's 14" pepperoni pizza
+    - form bar
+    - chrysanthemum leaves
+    - kellogg's pop
+    - morningstar farms meatfree buffalo wings
+    - sugars
+    - hc salbry stk w
+    - inf for nutr
+    - caribou
+    - chokecherries
+    - campbell soups
+    - morningstar farms vegan burger made w
+    - snail
+    - worthington veg skallops
+    - gefiltefish
+    - wheat
+    - entrees
+    - tangerines
+    - potato
+    - oil
+    - savory
+    - frybread
+    - lasagna w
+    - succotash
+    - yardlong bean
+    - popcorn
+    - chard
+    - cheese product
+    - triticale flr
+    - duck
+    - sapodilla
+    - new england brand sausage
+    - raisins
+    - sesame flr
+    - little caesars 14" original rnd meat & veg pizza
+    - arrowhead
+    - loma linda redi
+    - cranberry juc
+    - cookies
+    - eggplant
+    - jellies
+    - watercress
+    - watermelon sd krnls
+    - bread
+    - roselle
+    - morningstar farms grillers original
+    - java
+    - sisymbrium sp. seeds
+    - lemons
+    - loma linda tender bits
+    - rosemary
+    - tomatillos
+    - sapotes
+    - rowal
+    - turnip greens
+    - nalley chili con carne w
+    - oscar mayer
+    - hormel spam
+    - lotus root
+    - morningstar farms tomato & basil pizza burger
+    - whipped crm sub
+    - bulgur
+    - pear nectar
+    - beets
+    - formulated bar
+    - vegetables
+    - stouffer's lasagna w
+    - wheat flour
+    - amaranth
+    - quinoa
+    - stouffer's ln cuisine swedish meatballs w
+    - wheat flours
+    - turtle
+    - dairy drk mix
+    - pie fillings
+    - coriander leaf
+    - martha white foods
+    - campbell's sel soup
+    - stagg dynamite chili w
+    - guava nectar
+    - emu
+    - pumpkin&squash sd krnls
+    - prk
+    - worthington lofat fri chik
+    - fst foods
+    - cornsalad
+    - cereals rte
+    - hormel corned bf hash
+    - semolina
+    - wheat flr
+    - corn
+    - vegetable juc cocktail
+    - nabisco
+    - fast fd
+    - campbell's red&white
+    - tuna
+    - chili con carne w
+    - loma linda fried chik'n w
+    - breakfast bar
+    - doo dads snack mix
+    - mothbeans
+    - bread stuffing
+    - pumpkin leaves
+    - morningstar farms veggie sausage patties
+    - cottonseed krnls
+    - frozen novl
+    - braunschweiger (a liver sausage)
+    - purslane
+    - dove
+    - noodles
+    - pork sausage
+    - turkey patties
+    - healthy choic bf macaroni
+    - tomato&veg juc
+    - guanabana nectar
+    - bratwurst
+    - worthington prime stakes
+    - sablefish
+    - tilefish
+    - mutton
+    - lemon juice
+    - owl
+    - artichokes
+    - mung bns
+    - hormel chili
+    - campbell supper bakes meal kits
+    - bamboo shoots
+    - cheese sau
+    - kumquats
+    - leavening agents
+    - broadbeans (fava bns)
+    - campbell company
+    - campbell's chnky
+    - burdock root
+    - winged bean tuber
+    - campbell's sel microwaveable bowls
+    - milkfish
+    - stouffer's ln cuisine hs stuff cab w
+    - olive loaf
+    - huckleberries
+    - lobster
+    - peanut butter
+    - corn cakes
+    - morningstar farms italian herb chik patties
+    - cress
+    - blackberries
+    - pecans
+    - edamame
+    - lupins
+    - taro shoots
+    - pillsbury grands
+    - usda cmdty pears
+    - fish portions&stks
+    - mango nectar
+    - stagg silverado chili w
+    - marjoram
+    - pears
+    - morningstar farms rstd herb chik'n w
+    - pepperidge farm crusty italian bread
+    - olives
+    - cereals
+    - croaker
+    - bacon
+    - baking choc
+    - sesame flour
+    - banquet hearty one stk din
+    - loma linda swiss stake w
+    - mulberries
+    - macadamia nuts
+    - allspice
+    - fungi
+    - lingcod
+    - carp
+    - cereal wafer straws
+    - kiwi fruit
+    - caviar
+    - cheesecake prep from mix
+    - stouffer's ln cuisine hs bf pot rst w
+    - mission foods
+    - fish sticks
+    - gourd
+    - candies
+    - papa john's 14" the works pizza
+    - stouffer's homestyle salisbury steak in gravy & mac& chs
+    - pepperidge farm classic style croutons
+    - mangosteen
+    - pumpkin&squash seeds
+    - pilinuts
+    - campbell
+    - fiddlehead ferns
+    - corn flr
+    - beef sausage
+    - bf
+    - healthy choic chick teriyaki w
+    - luxury loaf
+    - toaster pastries
+    - sugar
+    - carbonated bev
+    - morningstar farms veggie bites country scramble
+    - butterbur
+    - frostings
+    - coffee
+    - hominy
+    - rye flour
+    - chickpeas 
+    - tortilla chips
+    - milk substitutes
+    - grape juc
+    - flan
+    - potato chips
+    - campbell's soup at hand
+    - banquet gry & salury stk w
+    - cockles
+    - radishes
+    - poultry fd products
+    - domino's 14" cheese pizza
+    - morningstar farms mushroom lover's burger
+    - maraschino cherries
+    - falafel
+    - beverage
+    - hot pockets ham 'n chs stuffed sndwch
+    - loganberries
+    - lasagna
+    - cranberry juc cocktail
+    - chickpeas (garbanzo bns
+    - alfalfa seeds
+    - parsley
+    - usda commodity
+    - cocoa mix
+    - coffee&cocoa (mocha) pdr
+    - child formula
+    - sunflower sd flr
+    - morningstar farms veggie cakes ginger teriyaki
+    - no category
+    - pretzels
+    - loma linda tender rounds w
+    - fennel
+    - couscous
+    - waffles
+    - eggs
+    - hyacinth
+    - rennin
+    - barley
+    - fast foods
+    - oat bran
+    - campbell 
+    - litchis
+    - tempeh
+    - worthington meatless corned bf
+    - loma linda big franks
+    - tamarind nectar
+    - mountain yam
+    - chili with beans
+    - split pea soup
+    - luncheon meat
+    - chicken
+    - apricots
+    - buffalo
+    - grapes
+    - smelt
+    - egg
+    - salad dressing
+    - pork sausage rice links
+    - waxgourd
+    - lamb
+    - mashu roots
+    - puddings
+    - breakfast bars
+    - english muffins
+    - pickle relish
+    - ft fds
+    - tamarinds
+    - moose
+    - waffle
+    - split pea w
+    - silk chai
+    - clementines
+    - sausage
+    - morningstar farms chik patties original
+    - shortening frying (reg)
+    - eclairs
+    - sauerkraut
+    - turkey breast
+    - trout
+    - morningstar farms asian veggie patties
+    - ensure plus
+    - carrot
+    - cheese fd
+    - ham
+    - sesame meal
+    - wheat bran
+    - marie callender's chick pot pie
+    - groundcherries
+    - cisco
+    - haddock
+    - soy prot conc
+    - jimmy dean
+    - chick
+    - breakfast type drk
+    - wendy's
+    - turbot
+    - morningstar farms cheddar burger
+    - pectin
+    - sweeteners
+    - yogurt
+    - banquet slced bf w
+    - morningstar farms meal starters chik'n strips
+    - cuttlefish
+    - morningstar farms veggie bites spinach artichoke
+    - polish sausage
+    - clam
+    - plums
+    - rice noodles
+    - marmalade
+    - little caesars 14" original rnd chs pizza
+    - chickpeas
+    - soup company
+    - hormel chili w
+    - spiny lobster
+    - breadfruit
+    - durian
+    - louis rich
+    - pheasant
+    - picnic loaf
+    - malted drk mix
+    - beef
+    - monkfish
+    - liver cheese
+    - walnuts
+    - quaker oats
+    - peppermint
+    - hc tradition mt lf w
+    - cucumber
+    - seaweed
+    - papayas
+    - corn w
+    - lotus seeds
+    - engy drk
+    - whitefish
+    - pancakes
+    - mace
+    - pate
+    - jellyfish
+    - cod
+    - sheepshead
+    - yam
+    - usda cmdty chick
+    - kamut
+    - infant formula
+    - abalone
+    - pillsbury golden layer bttrmlk biscuit
+    - veal
+    - morningstar farms america's original veggie dog
+    - pillsbury
+    - egg substitute
+    - rice bowl w
+    - frankfurter
+    - pork
+    - parsnips
+    - borage
+    - soy sau made from soy&wheat (shoyu)
+    - mayonnaise drsng
+    - tomato sau
+    - custard
+    - lipton
+    - sunfish
+    - carl buddig. ckd smoked bf pastrami
+    - lambs quarters
+    - soy prot isolate
+    - mullet
+    - shortening industrial
+    - brotwurst
+    - safflower sd meal
+    - cassava
+    - fruit punch drk
+    - morningstar farms garden veggie patties
+    - milk dssrt
+    - coleslaw
+    - pineapple
+    - soy flr
+    - rice bran
+    - mackerel
+    - pizza hut 14" super supreme pizza
+    - morningstar farms sausage style recipe crumbles
+    - sweet potato leaves
+    - squid
+    - guinea hen
+    - pigeonpeas
+    - pasta
+    - silk coffee
+    - water w
+    - quail
+    - fruit cocktail
+    - sour cream
+    - new zealand spinach
+    - pepperidge farm appl turnovers
+    - prickly pears
+    - macaroni and cheese
+    - chef boyardee beefaroni
+    - tangerine juc
+    - pancakes plain
+    - lemon grass (citronella)
+    - cheese puffs&twists
+    - worthington vegetarian burger
+    - lime juc
+    - carob
+    - oat flr
+    - beet greens
+    - margarine sprd
+    - popeyes
+    - longans
+    - laundry detergent
+    - flour
+    - soap
+    - aluminum foil
+    - mixes
+    - shampoo
+    - lunch meat
+    - dinner rolls
+    - sandwich bags
+    - ice cream
+    - soda
+    - hand soap
+    - cheeses
+    - toilet paper
+    - dishwashing liquid
+    - individual meals
+    - spaghetti sauce
+    - sandwich loaves
+    - ketchup
+    - paper towels
+    - fruits
+    - potatoes 
+    - sole 
+    - island oasis 
+    - bread 
+    - lettuce 
+    - cream 
+    - flour pastry super fine
+    - plastic arrow stir stick
+    - creme de cacao mcguines
+    - arctic char 
+    - soap 
+    - pesto 
+    - pineapple 
+    - pepper 
+    - tandoori curry paste
+    - wine 
+    - clams 
+    - cake 
+    - eggplant oriental
+    - crackers 
+    - pop shoppe cream soda
+    - red snapper 
+    - sprouts dikon
+    - roe 
+    - truffle paste
+    - salt and pepper mix 
+    - kirsch 
+    - nescafe 
+    - creme de cacao white
+    - ranchero 
+    - waffle stix
+    - salmon 
+    - sloe gin 
+    - table cloth 54x72 colour
+    - basil 
+    - plate pie foil
+    - sansho powder
+    - flower 
+    - tea 
+    - marzipan 50
+    - coffee 
+    - cod 
+    - remy red
+    - longos 
+    - chinese foods 
+    - beets 
+    - juice 
+    - cucumber 
+    - dip 
+    - broom 
+    - tofu 
+    - turkey 
+    - sage 
+    - isomalt
+    - coffee cup 16oz foam
+    - banana 
+    - lamb 
+    - beer 
+    - gherkin
+    - apple 
+    - sherry 
+    - grapes 
+    - langers 
+    - asparagus 
+    - tart shells 
+    - liqueur banana
+    - peas 
+    - cognac 
+    - puree 
+    - poppy seed
+    - pasta 
+    - muffin hinge 
+    - truffle shells 
+    - curry paste 
+    - container clear 8 oz
+    - cheese 
+    - napkin 
+    - plasticspoonblack
+    - beef 
+    - tray 
+    - bread crumbs 
+    - yoplait 
+    - ginsing 
+    - shrimp 
+    - nantucket 
+    - chives 
+    - ham 
+    - pie filling 
+    - butter sweet
+    - sun 
+    - mousse 
+    - tuna 
+    - herb du provence 
+    - goat 
+    - flour 
+    - scallops 60
+    - flounder 
+    - carbonated water 
+    - oneshot automatic soap system
+    - sausage 
+    - chilli paste
+    - creamers 
+    - the pop shoppe 
+    - trueblue 
+    - chicken 
+    - veal 
+    - soup 
+    - lid 
+    - remy red berry infusion
+    - eel 
+    - water 
+    - quail 
+    - beans 
+    - cornish hen
+    - pork ham prager
+    - pork 
+    - cinnamon rolls
+    - trout 
+    - danishes 
+    - cocktail napkin blue
+    - sauce 
+    - chevril
+    - crush 
+    - apples 
+    - dried figs
+    - flavouring 
+    - oil 
+    - temperature recording station
+    - syrup 
+    - table cloth 120 round white
+    - appetizer 
+    - tarts assorted
+    - fish 
+    - chicken giblets
+    - yeast 
+    - crab 
+    - scrubbie 
+    - marjoram 
+    - lobster 
+    - wasabi paste
+    - sugar 
+    - hummus 
+    - vinegar 
+    - cookie dough 
+    - breakfast quesadillas
+    - plaintain
+    - pepsi 
+    - spice 
+    - mince meat 
+    - oregano 
+    - ocean spray 
+    - vaccum bag 
+    - milk 
+    - bay leaf ground
+    - v8 
+    - grapefruit 
+    - garam marsala
+    - bowl 12 oz 
+    - oats large flake
+    - foie gras
+    - wood chips 
+    - table cloth 62x120 white
+    - beef ground medium
+    - chocolate 
+    - chestnuts 
+    - clementine
+    - catfish 
+    - whmis 
+    - doilies 
+    - chivas regal 
+    - soda water 
+    - plate 
+    - onions 
+    - muffin mix 
+    - pork loin bine 
+    - nantucket orange juice
+    - clam nectar
+    - foil 
+    - sobe 
+    - brandy apricot
+    - bagel 
+    - higashimaru usukuchi soy
+    - thyme 
+    - milkettes 
+    - glucose
+    - eggplant italian
+    - jolt cola 
+    - bacardi raspberry
+    - chef hat 25cm
+    - cranberries 
+    - loquat
+    - cocoa powder 
+    - kiwi gold zespri
+    - ecolab 
+    - raisin 
+    - buffalo 
+    - white fish 
+    - pate 
+    - chips potato reg 43g
+    - grenadillo
+    - dooleys toffee
+    - muffin batt 
+    - mushroom morel fresh
+    - coriander 
+    - macaroons 
+    - papadam
+    - steampan lid
+    - cheese cloth
+    - bandage 
+    - cranberry foccacia
+    - cookies oatmeal raisin
+    - bar 
+    - flavouring vanilla artificial
+    - cookie 
+    - muffin 
+    - pears 
+    - cloves 
+    - noodles 
+    - radish 
+    - table cloth 53x69 white
+    - cup translucent 9 oz
+    - coconut 
+    - extract 
+    - soup campbells turkey veg.
+    - toamtoes 6x7 select
+    - artichokes 
+    - sauce tomato pouch
+    - external supplier
+    - mustard prepared
+    - easy off oven cleaner
+    - neckerchief blck
+    - glove 
+    - spinach 
+    - mini 
+    - chocolate liqueur 
+    - jam 
+    - foam dinner plate
+    - devonshire cream
+    - bacardi breezer 
+    - foil cont round
+    - smirnoff green apple twist
+    - cup 
+    - ice cream 
+    - tabasco sauce
+    - crab meat claw pasteurise
+    - canadian emmenthal
+    - vaccum bag 10x13
+    - ice cream bar 
+    - passion fruit
+    - rice paper
+    - muffins 
+    - truffle cups 
+    - port 
+    - coffee swiss choc almond
+    - cookie trail mix
+    - energy drink bawls
+    - chicken breast wing on
+    - muffin hinge container 6
+    - chips 
+    - goulash seasoning
+    - mudslide
+    - chocolate bar 
+    - sea bass 
+    - godiva white chocolate
+    - calypso 
+    - paper towel touchless
+    - pastry 
+    - gatorade 
+    - chef hat 20cm
+    - olives 
+    - parasol pick stir stick
+    - curry powder
+    - puff pastry 
+    - praline paste
+    - steampan 
+    - ezy change mophandle
+    - rum 
+    - tequila 
+    - sherbet 
+    - sour puss raspberry
+    - sponge cake mix 
+    - fudge 
+    - mushroom 
+    - spaghetti squash
+    - hickory smoke
+    - table cloth 
+    - turnip 
+    - fennel 
+    - red currants
+    - anisette 
+    - hog 
+    - swordfish loin portions
+    - vodka 
+    - fib n9 
+    - propel sport drink
+    - energy drink 
+    - plate foam laminated 9in blk
+    - horseradish 
+    - mcguinness 
+    - corn 
+    - sprouts 
+    - smoked paprika
+    - daves island stinger
+    - potato 
+    - teriyaki sauce
+    - kaffir lime leaves
+    - rice 
+    - eggplant 
+    - sweet pea sprouts
+    - steamers white
+    - stock 
+    - gelatine leaves 
+    - bread cranberry foccacia
+    - cape capensis 
+    - beef cheek fresh
+    - jerusalem artichoke
+    - yogurt 
+    - dill 
+    - food colouring
+    - split peas 
+    - onions granulated
+    - mushrooms 
+    - nut 
+    - drambuie
+    - white baguette
+    - lid coffee cup 8oz blk
+    - onion 
+    - french kiss vanilla
+    - glass 
+    - tamarillo
+    - kumquat
+    - lemonade 
+    - pie shells 10
+    - rolled oats
+    - alize red passion
+    - sparkling wine 
+    - fork 
+    - rice pilaf
+    - nantuket peach orange
+    - straws 
+    - dikon
+    - compound 
+    - soup campbells mexicali tortilla
+    - barley 
+    - halibut 
+    - butter balls salted
+    - monkfish fresh 
+    - v8 splash strawberry banana
+    - absolut citron
+    - beef flat iron steak
+    - rabbit 
+    - capers 
+    - extract vanilla pure
+    - cookies 
+    - tortillas 
+    - garlic powder
+    - guava
+    - brandy cherry 
+    - egg 
+    - mix 
+    - rosemary 
+    - oysters 
+    - vacuum bags 12x16
+    - leeks 
+    - wasabi powder
+    - seaweed green sheets
+    - butter ripple 
+    - caviar 
+    - juice peach nectar
+    - crawfish
+    - kellogs special k cereal
+    - cabbage 
+    - instant coffee
+    - pail 
+    - red cod fillets 
+    - peppercorns 
+    - tea peppermint
+    - energy drink
+    - cookie double choco
+    - southern comfort
+    - water chestnut 
+    - sesame seed black
+    - nantucket cranberry juice
+    - banana turning
+    - sprite 
+    - pear 
+    - pickle 
+    - bar bran honey nut
+    - napkin white 
+    - butter 
+    - skirt 
+    - dried cherries
+    - pails with lids
+    - cheese cloth no 60
+    - veal inside 
+    - shiratamako 
+    - radish
+    - pepper squash
+    - spic and span
+    - glass clear 8 oz
+    - steel wool s.o.s
+    - slt 
+    - paste 
+    - table cloth 54x72 white
+    - dr. pepper 
+    - dc 
+    - transfer sheets
+    - chutney sauce
+    - sword pick asst
+    - zucchini 
+    - glycerine
+    - kippers 
+    - kellogs cereal in a cup
+    - dragon fruit
+    - lumpfish black
+    - snapple 
+    - alize gold passion
+    - bread base 
+    - onion powder
+    - vermouth 
+    - banana
+    - brandy 
+    - tomatoes 
+    - gelatine powder
+    - hot choc vending
+    - bread roll foccacia
+    - swiss chard 
+    - hersey shakes
+    - tomatoes tear drop
+    - rye special old
+    - madeira
+    - gingerale 
+    - creme de menthe green
+    - pants custom dry clean
+    - cheese cheddar processed
+    - table cloth 53x53 white
+    - huck towels white
+    - orange roughy 4
     - tropical fruit
     - whole milk
     - pip fruit
     - other vegetables
-    - rolls/buns
     - pot plants
     - citrus fruit
-    - beef
-    - frankfurter
-    - chicken
-    - butter
-    - fruit/vegetable juice
-    - packaged fruit/vegetables
-    - chocolate
+    - packaged fruit
     - specialty bar
     - butter milk
     - bottled water
-    - yogurt
-    - sausage
     - brown bread
     - hamburger meat
     - root vegetables
-    - pork
     - pastry
     - canned beer
     - berries
-    - coffee
     - misc. beverages
-    - ham
-    - turkey
     - curd cheese
-    - red/blush wine
+    - red
     - frozen potato products
-    - flour
-    - sugar
     - frozen meals
     - herbs
-    - soda
     - detergent
-    - grapes
     - processed cheese
-    - fish
     - sparkling wine
     - newspapers
     - curd
-    - pasta
-    - popcorn
     - finished products
     - beverages
     - bottled beer
@@ -60,52 +1643,43 @@ nlu:
     - cleaner
     - white wine
     - meat
-    - ice cream
     - hard cheese
     - cream cheese 
     - liquor
     - pickled vegetables
     - liquor (appetizer)
-    - UHT-milk
+    - uht  milk
     - candy
-    - onions
     - hair spray
-    - photo/film
+    - photo
     - domestic eggs
-    - margarine
     - shopping bags
-    - salt
-    - oil
-    - whipped/sour cream
+    - whipped
     - frozen vegetables
     - sliced cheese
     - dish cleaner
     - baking powder
     - specialty cheese
     - salty snack
-    - Instant food products
+    - instant food products
     - pet care
     - white bread
     - female sanitary products
-    - cling film/bags
-    - soap
+    - cling film
     - frozen chicken
     - house keeping products
     - spread cheese
     - decalcifier
     - frozen dessert
-    - vinegar
-    - nuts/prunes
     - potato products
     - frozen fish
     - hygiene articles
     - artif. sweetener
     - light bulbs
     - canned vegetables
-    - chewing gum
     - canned fish
     - cookware
-    - semi-finished bread
+    - semi  finished bread
     - cat food
     - bathroom cleaner
     - prosecco
@@ -115,9 +1689,7 @@ nlu:
     - frozen fruits
     - brandy
     - baby cosmetics
-    - spices
     - napkins
-    - waffles
     - sauces
     - rum
     - chocolate marshmallow
@@ -125,18 +1697,14 @@ nlu:
     - bags
     - sweet spreads
     - soups
-    - mustard
     - specialty fat
-    - instant coffee
     - snack products
     - organic sausage
     - soft cheese
-    - mayonnaise
     - dental care
     - roll products 
     - kitchen towels
-    - flower soil/fertilizer
-    - cereals
+    - flower soil
     - meat spreads
     - dishes
     - male cosmetics
@@ -148,8 +1716,6 @@ nlu:
     - liqueur
     - abrasive cleaner
     - syrup
-    - ketchup
-    - cream
     - skin care
     - rubbing alcohol
     - nut snack
@@ -161,12 +1727,1136 @@ nlu:
     - jam
     - kitchen utensil
     - flower (seeds)
-    - rice
-    - tea
-    - salad dressing
     - specialty vegetables
     - pudding powder
     - ready soups
     - make up remover
     - toilet cleaner
     - preservation products
+    - baked beans
+    - creamed corn
+    - kumara
+    - beetroot
+    - parsnip
+    - pet food
+    - oven cleaner
+    - furniture polish
+    - washing powder
+    - janola
+    - jif
+    - dishwash liquid
+    - disinfectant
+    - pot scourers
+    - sink sponge
+    - dishcloth
+    - pegs
+    - tv
+    - phone
+    - mobile phone
+    - computer
+    - laptop
+    - tablet
+    - chair
+    - table
+    - armchair
+    - shirt
+    - sweater
+    - hat
+    - shoe
+    - shoes
+    - socks
+    - sunglasses
+    - eyeglasses
+    - cigarettes
+    - cigarette
+    - belt
+    - laces
+    - headphones
+    - mouse
+    - coat
+    - toothbrush
+    - toothpaste
+    - slips
+    - trousers
+    - charger
+    - clock
+    - jeans
+    - console
+    - cable
+    - ball
+    - bag
+    - bra
+    - heels
+    - jacket
+    - pants
+    - hoodie
+    - polo shirt
+    - loafers
+    - rollneck
+    - shorts
+    - joggers
+    - slippers
+    - boots
+    - suit
+    - backpack
+    - trainers
+    - gloves
+    - glove
+    - tie
+    - scarf
+    - suitcase
+    - underwear
+    - t
+    - tracksuit
+    - vest
+    - pajamas
+    - raincoat
+    - tanktop
+    - swimsuit
+    - skirt
+    - dress
+    - blouse
+    - panties
+    - stockings
+    - bow
+    - briefss
+    - sun hat
+    - wool hat
+    - glasses
+    - bagpack
+    - earrings
+    - bracelet
+    - handkerchief
+    - necklace
+    - purse
+    - wallet
+    - cap
+    - ring
+    - watch
+    - shawl
+    - luggage  
+    - plant
+    - paint
+    - pen 
+    - strawberry
+    - yautia
+    - yambean
+    - hummu
+    - meal
+    - coconut cream
+    - nuggets
+    - sunflower
+    - sandwich
+    - parsley
+    - chik patties
+    - gin tonic
+    - gin lemon
+    - iphone
+    - mac
+    - abacus
+    - acoustic guitar
+    - acrylic paint
+    - activity book
+    - activity cube
+    - adapter
+    - adjustable wrench
+    - after sun lotion
+    - air conditioner
+    - air freshener
+    - air purifier
+    - alarm clock
+    - aluminium foil
+    - angle grinder
+    - ankle boot
+    - ankle sock
+    - answering machine
+    - antiseptic cream
+    - apple corer
+    - apron
+    - ashtray
+    - asparagus steamer
+    - atlas
+    - audio cassette
+    - avocado tool
+    - baby bath
+    - baby bottle
+    - baby bouncer
+    - baby car seat
+    - baby carrier
+    - baby feeding chair
+    - baby food maker
+    - baby formula
+    - baby gym
+    - baby hammock
+    - baby monitor
+    - baby quilt
+    - baby rattle
+    - baby sleepbag
+    - baby slide
+    - baby spoon
+    - baby swing
+    - baby walker
+    - back scrubber
+    - bag sealer
+    - baking tray
+    - ballet shoe
+    - balloon
+    - ballpoint pen
+    - banana box
+    - bandage
+    - bandana
+    - barbecue grill
+    - barstool
+    - basketball hoop
+    - basketball shoe
+    - bass guitar
+    - bath bomb
+    - bath book
+    - bath brush
+    - bath salt
+    - bath towel
+    - bath toy
+    - bathing hat
+    - bathrobe
+    - bathroom cabinet
+    - bathroom scales
+    - bathroom sink
+    - bathtub
+    - battery
+    - battery charger
+    - bauble
+    - bead
+    - bead maze
+    - beanie
+    - bed
+    - bed sheet
+    - bedside lamp
+    - bedside table
+    - beer glass
+    - bento box
+    - beret
+    - bermuda shorts
+    - beverage center
+    - bib
+    - bible
+    - bicycle
+    - bicycle helmet
+    - bicycle lock
+    - bicycle pump
+    - bikini
+    - bin
+    - bin bag
+    - binder clip
+    - binoculars
+    - birdcage
+    - biscuit cutters
+    - blackboard
+    - blanket
+    - blazer
+    - bleach
+    - blender
+    - board game
+    - bobbin of thread
+    - bobby pin
+    - body brush
+    - body lotion
+    - body scrub
+    - bodysuit
+    - bonsai tree
+    - book
+    - book case
+    - bookend
+    - booster seat
+    - bottle
+    - bottle cap
+    - bottle opener
+    - bottle sterilizer
+    - bottle stopper
+    - bottle warmer
+    - bow tie
+    - bowl
+    - boxer shorts
+    - bread basket
+    - bread bin
+    - bread knife
+    - bread machine
+    - bread proofing basket
+    - breakfast tray
+    - breast pump
+    - breastfeeding pillow
+    - briefcase
+    - briefs
+    - brogues
+    - broom
+    - brow brush
+    - brush head
+    - bucket
+    - butter curler
+    - butter dish
+    - butter knife
+    - cactus
+    - cake shovel
+    - cake tin
+    - calculator
+    - calendar
+    - calligraphy brush
+    - calligraphy paper
+    - camera
+    - camisole
+    - can opener
+    - candle
+    - candlestick holder
+    - canopy
+    - canvas
+    - car key
+    - carafe
+    - card game
+    - cardboard
+    - cardigan
+    - carrycot
+    - carving fork
+    - carving knife
+    - casserole
+    - cassette player
+    - cat toy
+    - cat tree
+    - cd player
+    - ceiling fan
+    - cell phone
+    - cello
+    - centerpiece
+    - chainsaw
+    - chalk
+    - champagne glass
+    - chandelier
+    - changing table
+    - charcoal bbq
+    - charcoal stick
+    - cheese grater
+    - cheese knife
+    - chefs hat
+    - chess set
+    - chinese yoyo
+    - chisel
+    - chopsticks
+    - christmas garland
+    - christmas light
+    - christmas stocking
+    - christmas tree
+    - christmas wreath
+    - circular needle
+    - circular saw
+    - clarinet
+    - cleaning caddy
+    - cleaning product
+    - cleaver
+    - clipboard
+    - clog
+    - clothes button
+    - clothes dryer
+    - clothes hanger
+    - clothes iron
+    - clothes peg
+    - clothes rack
+    - clutch
+    - coat rack
+    - cocktail jigger
+    - cocktail spoon
+    - cocktail stick
+    - coconut scaper
+    - coffee capsule
+    - coffee filter
+    - coffee grinder
+    - coffee maker
+    - coffee pot
+    - coffee table
+    - coffee tamper
+    - coin purse
+    - colander
+    - colored pencil
+    - coloring book
+    - combination lock
+    - comforter
+    - compass
+    - compost bin
+    - computer mouse
+    - concealer
+    - condom
+    - contact lens
+    - contact lens case
+    - contact lens solution
+    - convection oven
+    - cooking range
+    - cork
+    - corkscrew
+    - correction fluid
+    - correction tape
+    - corrosion spray
+    - corset
+    - cot mobile
+    - cotton ball
+    - cotton candy machine
+    - cotton round
+    - cotton swab
+    - cough medicine
+    - couscous kettle
+    - cowboy boot
+    - craft stick
+    - crayon
+    - cream jug
+    - crepe pan
+    - crib
+    - crochet hook
+    - crop top
+    - crucifix
+    - cue stick
+    - cup
+    - cupboard
+    - cupcake tray
+    - curling iron
+    - curtains
+    - cut throat razor
+    - cuticle nipper
+    - cuticle pusher
+    - cutlery
+    - cutting board
+    - cycling shoe
+    - dart
+    - dartboard
+    - date stamper
+    - decanter
+    - deck chair
+    - decorative tape
+    - deep fryer
+    - dehumidifier
+    - dental floss
+    - deodorant
+    - desk
+    - desk lamp
+    - detergent scoop
+    - diaper
+    - diaper changing pad
+    - diaper pail
+    - dibber
+    - dice
+    - dictionary
+    - digital thermometer
+    - dish dryer
+    - dish scourer
+    - dish towel
+    - dishwasher
+    - dishwasher tablet
+    - disposable coffee cup
+    - disposable razor
+    - diving mask
+    - dog ball launcher
+    - dog bed
+    - dog collar
+    - dog harness
+    - dog house
+    - dog leash
+    - dog shampoo
+    - dog toy
+    - doll
+    - dollhouse
+    - domino
+    - door
+    - door handle
+    - door knob
+    - doorbell
+    - doormat
+    - doorstop
+    - dough scraper
+    - drawer
+    - drawing mannequin
+    - dress form
+    - dress shirt
+    - dress shoe
+    - dressing gown
+    - dressmaking scissors
+    - drill
+    - drinking bowl
+    - drinking glass
+    - drum set
+    - drum sticks
+    - drying rack
+    - dustcloth
+    - duster
+    - dustpan
+    - dustpan and brush set
+    - dutch hoe
+    - duvet
+    - dvd player
+    - earbud
+    - earmuffs
+    - earplug
+    - earring
+    - easel
+    - egg beater
+    - egg box
+    - egg cooker
+    - egg cup
+    - egg slicer
+    - egg timer
+    - egg yolk separator
+    - elastic band
+    - electric fan
+    - electric guitar
+    - electric kitchen knife
+    - electric massager
+    - electric screwdriver
+    - electric shaver
+    - electric toothbrush
+    - embroidery hoop
+    - engagement ring
+    - envelope
+    - epilator
+    - eraser
+    - eraser sponge
+    - espadrille
+    - espresso maker
+    - extension cord
+    - eye drops
+    - eyebrow pencil
+    - eyelash comb
+    - eyelash curler
+    - eyeliner
+    - eyeshadow
+    - face mask
+    - facial steamer
+    - fan
+    - fan brush
+    - fax machine
+    - fidget spinner
+    - filing cabinet
+    - fire alarm
+    - fire extinguisher
+    - fire pit
+    - fire poker
+    - fireplace
+    - fish bowl
+    - fish knife
+    - fish tank
+    - flashlight
+    - flat iron
+    - flatscreen television
+    - flip flop shoe
+    - floor scrubber
+    - floor wiper
+    - flosser
+    - flour dredger
+    - flower vase
+    - flute
+    - folding chair
+    - fondue set
+    - food container
+    - food dispenser
+    - food mill
+    - food processor
+    - food torch
+    - food trolley
+    - foosball table
+    - foot bath
+    - foot file
+    - foot pumice stone
+    - footstool
+    - fork
+    - foundation
+    - fountain pen
+    - freezer
+    - french press
+    - funnel
+    - garage door
+    - garden hose
+    - garden shears
+    - garden spade
+    - garden sprinkler
+    - gardening fork
+    - gardening glove
+    - garlic presser
+    - garment steamer
+    - gas lighter
+    - glasses case
+    - glue
+    - glue gun
+    - glue stick
+    - golf shoe
+    - gps
+    - grass trimmer
+    - gravy boat
+    - greenhouse
+    - griddle
+    - grooming glove
+    - hair bow
+    - hair clipper
+    - hair comb
+    - hair dryer
+    - hair pick
+    - hair roller
+    - hair styling gel
+    - hair tie
+    - hair trimmer
+    - hair turban
+    - scissors
+    - hairband
+    - hairbrush
+    - hairpin
+    - hamburger box
+    - hammer
+    - hamper
+    - hand brush
+    - hand mirror
+    - hand sanitizer
+    - hand towel
+    - hand vacuum cleaner
+    - handbag
+    - handsaw
+    - heater
+    - heating pad
+    - hedge trimmer
+    - herb knife
+    - highheeled shoe
+    - highlighter
+    - hijab
+    - hiking boot
+    - hobby horse
+    - hoe
+    - hole punch
+    - honey dipper
+    - hood
+    - horse riding boot
+    - horseshoe
+    - hot plate
+    - hot pot
+    - hot water bottle
+    - hourglass
+    - houseplant
+    - humidifier
+    - ice bucket
+    - ice cream maker
+    - ice cream scoop
+    - ice cube tray
+    - ice maker
+    - ice scraper
+    - ice skate
+    - icing syringe
+    - immersion blender
+    - incense
+    - index card
+    - infant car seat
+    - inflatable pool
+    - infrared thermometer
+    - inline skate
+    - ironing board
+    - jar
+    - jigsaw puzzle
+    - jug
+    - juicer
+    - jumpsuit
+    - kettle
+    - key
+    - key chain
+    - keyboard
+    - kick scooter
+    - kilt
+    - kimono
+    - kitchen chair
+    - kitchen roll
+    - kitchen scale
+    - kitchen sink
+    - kitchen table
+    - kitchen tap
+    - knee pad
+    - knife
+    - knife block
+    - knife rest
+    - knife sharpener
+    - knitting needle
+    - ladder
+    - ladle
+    - lamp
+    - lantern
+    - laundry bag
+    - laundry basket
+    - laundry bin
+    - laundry pod
+    - laundry powder
+    - lawn mower
+    - lawn tractor
+    - leaf blower
+    - leg warmer
+    - lemon squeezer
+    - leotard
+    - level
+    - lid
+    - lighter
+    - lint roller
+    - lip balm
+    - lip brush
+    - lip liner
+    - lipstick
+    - loofah sponge
+    - lucky cat
+    - luggage scale
+    - lunch box
+    - magazine
+    - magic set
+    - magnet
+    - magnifying glass
+    - mailbox
+    - makeup mirror
+    - mandoline slicer
+    - marble
+    - marinade needle
+    - marker
+    - mascara
+    - masher
+    - masking tape
+    - mason jar
+    - massage pillow
+    - matchstick
+    - maternity wear
+    - matryoshka doll
+    - mattress
+    - measuring glass
+    - measuring spoon
+    - meat baster
+    - meat hammer
+    - meat spit
+    - meat thermometer
+    - mechanical pencil sharpener
+    - medical tape
+    - medicine cabinet
+    - melon baller
+    - menorah
+    - menu card
+    - metal nail
+    - metal wire basket
+    - metronome
+    - microwave food cover
+    - microwave oven
+    - milk frother
+    - mincer
+    - mini skirt
+    - mirror
+    - mixer
+    - mocha coffee maker
+    - modeling clay
+    - mop
+    - mortar and pestle
+    - mousepad
+    - mousetrap
+    - mouthwash
+    - mug
+    - mules
+    - mushroom brush
+    - music sheet
+    - music stand
+    - musical toy
+    - mussel pot
+    - nail brush
+    - nail clipper
+    - nail file
+    - nail polish
+    - nail scissors
+    - napkin
+    - napkin holder
+    - napkin ring
+    - nasal aspirator
+    - newspaper
+    - night bonnet
+    - night gown
+    - nightlight
+    - notepad
+    - nutcracker
+    - nutmeg grater
+    - office chair
+    - oil paint
+    - ointment
+    - olive oil dispenser
+    - onesie
+    - ottoman
+    - oven mitten
+    - oven scraper
+    - oxford shoe
+    - oyster shucking knife
+    - pacifier
+    - packing tape
+    - padlock
+    - painkiller
+    - paint brush
+    - painting
+    - pair of jeans
+    - pair of leggings
+    - pair of overalls
+    - pair of shorts
+    - pair of socks
+    - pair of stockings
+    - pair of sweatpants
+    - pair of swimshorts
+    - pair of tights
+    - palette
+    - pantyhose
+    - paper
+    - paper bag
+    - paper clip
+    - paper food basket
+    - parasol
+    - paring knife
+    - pasta machine
+    - pasta pot
+    - pasta spoon
+    - pastry bag
+    - pastry brush
+    - pastry nozzle
+    - pastry wheel
+    - patio heater
+    - pawn
+    - pedal bin
+    - peeler
+    - pen cartridge
+    - pen ink
+    - pencil
+    - pencil case
+    - pencil sharpener
+    - pepper mill
+    - percolator
+    - perfume
+    - pet food bowl
+    - pet grooming brush
+    - pet travel carrier
+    - piano
+    - picnic blanket
+    - picture book
+    - picture frame
+    - piggy bank
+    - pill
+    - pillow
+    - pincushion
+    - pinking scissors
+    - pipe
+    - pitchfork
+    - place card
+    - placemat
+    - plant pot
+    - plastic bag
+    - plate
+    - platform shoe
+    - platter
+    - play mat
+    - playard
+    - playing card
+    - pliers
+    - plunger
+    - poncho
+    - popcorn bucket
+    - popcorn popper
+    - portafilter
+    - postage stamp
+    - pot holder
+    - poultry shears
+    - powder blusher
+    - powder brush
+    - powder puff
+    - power plug
+    - power socket
+    - pramsuit
+    - prayer rug
+    - pregnancy pillow
+    - pressure cooker
+    - pressure washer
+    - printer
+    - printer cartridge
+    - printer paper
+    - printer table
+    - pruning shears
+    - puffer jacket
+    - pullover
+    - pushpin
+    - putty knife
+    - quesadilla maker
+    - quiche tin
+    - quill pen
+    - quran
+    - radiator
+    - radio
+    - rake
+    - ramekin
+    - reamer
+    - recipe book
+    - recorder
+    - refrigerator
+    - remote control
+    - rice cooker
+    - ring binder
+    - robot vacuum
+    - rocking chair
+    - rocking horse
+    - roller blinds
+    - roller shades
+    - roller skate
+    - rolling pin
+    - romper
+    - room diffuser
+    - rosary
+    - router
+    - rubber boot
+    - rubiks cube
+    - rug
+    - ruler
+    - running shoes
+    - safety deposit box
+    - safety gloves
+    - safety goggles
+    - safety pin
+    - safety scissors
+    - salad bowl
+    - salad spinner
+    - salt shaker
+    - samovar
+    - sandal
+    - sander
+    - sandpape
+    - sanitary pad
+    - saucepan
+    - saucer
+    - saxophone
+    - scanner
+    - scarecrow
+    - scoop
+    - scratching post
+    - screw
+    - screwdriver
+    - scrunchie
+    - sculpture
+    - scythe
+    - seam ripper
+    - seesaw
+    - serving dish
+    - serving tray
+    - sewing machine
+    - sewing needle
+    - sewing pin
+    - shapewear
+    - shaving brush
+    - shoe brush
+    - shoe horn
+    - shoe polish
+    - shoe rack
+    - shopping list
+    - shovel
+    - shower
+    - shower cap
+    - shower curtain
+    - shower gel
+    - shower mitt
+    - side table
+    - sieve
+    - sifter
+    - sink strainer
+    - skateboard
+    - sketchbook
+    - skewer
+    - skillet
+    - skimmer
+    - skipping rope
+    - sledge
+    - sleep mask
+    - sleeping bag
+    - slotted spatula
+    - slow cooker
+    - smoke detector
+    - snail dish
+    - snail tongs
+    - sneaker
+    - snooker table
+    - snorkel
+    - snow boot
+    - snow globe
+    - snow shovel
+    - soap bar
+    - soap dish
+    - soccer cleat
+    - soda maker
+    - sofa
+    - soft pastel
+    - soft toy
+    - solo tennis trainer
+    - spatula
+    - spinning top
+    - spiralizer
+    - sponge
+    - spoon
+    - spork
+    - sports bra
+    - spray bottle
+    - squeegee
+    - squeeze pouch
+    - stacking toy
+    - stair gate
+    - staircase
+    - staple
+    - staple gun
+    - staple remover
+    - stapler
+    - steam generator iron
+    - steamer
+    - steamer basket
+    - step ladder
+    - step stool
+    - sterile gauze
+    - sterile glove
+    - sticky tape
+    - stiletto shoe
+    - stoner
+    - storage container
+    - straw
+    - straw cleaning brush
+    - string bag
+    - stroller
+    - stroller organizer
+    - stylus
+    - succulent
+    - sugar dispenser
+    - sugar pot
+    - sunscreen
+    - suspenders
+    - swaddle wrap
+    - sweatshirt
+    - swim cap
+    - swim fin
+    - swimming float
+    - swimming goggles
+    - swimming trunks
+    - swing
+    - swing bench
+    - swiss knife
+    - swivel chair
+    - synthesizer
+    - syringe
+    - table cloth
+    - table runner
+    - tablespoon
+    - tagine
+    - tail comb
+    - talcum powder
+    - tampon
+    - tank top
+    - tape measure
+    - tea bag
+    - tea chest
+    - tea kettle
+    - tea maker
+    - tea strainer
+    - teapot
+    - teaspoon
+    - teddy bear
+    - teether
+    - telescope
+    - television
+    - tennis shoe
+    - terrarium
+    - terrestrial globe
+    - thermometer
+    - thermos
+    - thimble
+    - thumb tack
+    - tick remover
+    - timer
+    - tin
+    - tissue
+    - tissue box
+    - toaster
+    - toddler cup
+    - toilet
+    - toilet brush
+    - toilet training seat
+    - toiletry bag
+    - tongs
+    - tool trolley
+    - toolbelt
+    - toolbox
+    - toothbrush holder
+    - toothpick
+    - tote bag
+    - towel rack
+    - toy block
+    - toy car
+    - toy figurine
+    - toy robot
+    - toy shelf
+    - toy train
+    - toy wagon
+    - training toilet
+    - trampoline
+    - travel mug
+    - tricycle
+    - trivet
+    - trowel
+    - trumpet
+    - tumbler
+    - turntable
+    - turtleneck jumper
+    - tweezers
+    - twist mop
+    - umbrella
+    - undershirt
+    - usb stick
+    - vacuum cleaner
+    - vanity table
+    - vaporizer
+    - vcr player
+    - vegetable brush
+    - vegetable chopper
+    - video game
+    - vinyl record
+    - violin
+    - violin bow
+    - waffle iron
+    - wardrobe
+    - washcloth
+    - washing machine
+    - water bottle
+    - watercolor paint
+    - watering can
+    - wave setting clip
+    - weck jar
+    - wedding ring
+    - wet wipe
+    - wetsuit
+    - wheelbarrow
+    - whisk
+    - whisky glass
+    - wind spinner
+    - window
+    - window cleaning cloth
+    - window spray
+    - wine glass
+    - wok
+    - wooden shoe
+    - wool sock
+    - workbench
+    - wrench
+    - yarn
+    - yoyo
+    - zester
+    - zipper
+    - pc
+    - bike
+    - glass
+    - monitor
+    - car
+    - airplane
+    - rollerblade
+    - scooter
+    - motorbike
+    - screwer
+    - wood
+    - racket
+    - field
+    - photocamera
+    - videocamera
+    - pen
+    - notebook
+    - gum
+    - chewingum 
